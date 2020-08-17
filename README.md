@@ -15,3 +15,20 @@
    - Set "Solution Platforms" to "Win32"
    - Compile "Xface" project in "Release" version
    - Compile "Xface" project in "Debug" version
+
+3. Compile TTVS
+   - Open "TTVSTest.sln" solution in "TTVSTest" directory
+   - Set "TTVSTest" project as "Startup Project"
+   - Set "Solution Platforms" to "Win32"
+   - Compile "TTVS" and "TTVSTest" project in "Release" version
+   - Compile "TTVS" and "TTVSTest" project in "Debug" version
+
+### Runing the demo
+
+To run the demo
+   - Go to "binary/win32" directory
+   - Go to "release" or "debug" directory
+   - Run TTVSTest.exe
+   - Select menu "File/Open" to open the "fdp" file in "data/talkinghead/Song/song.fdp"
+   - Select menu "TTVS/Mandarin", "TTVS/Cantonese", "TTVS/English" to switch between different langauges.
+   - Select menu "TTVS/Screen Animation" for demo animation.
