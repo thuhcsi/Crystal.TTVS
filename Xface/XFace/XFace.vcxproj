@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{69660D7C-0FC5-4CC1-86B9-BED0C4F57200}</ProjectGuid>
+    <RootNamespace>XFace</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../binary/$(Platform)/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../binary/object/$(Platform)/$(Configuration)/$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../binary/$(Platform)/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../binary/object/$(Platform)/$(Configuration)/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./include;../../TinyXML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./include;../../TinyXML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\XEngine\BmpFile.cpp" />
+    <ClCompile Include="src\XEngine\DeformableGeometry.cpp" />
+    <ClCompile Include="src\XEngine\Geometry.cpp" />
+    <ClCompile Include="src\XEngine\IndexedFaceSet.cpp" />
+    <ClCompile Include="src\XEngine\MeshManager.cpp" />
+    <ClCompile Include="src\XEngine\ModelFileFactory.cpp" />
+    <ClCompile Include="src\XEngine\OBJLoader.cpp" />
+    <ClCompile Include="src\XEngine\RendererGL.cpp" />
+    <ClCompile Include="src\XEngine\RenderList.cpp" />
+    <ClCompile Include="src\XEngine\TextureLoaderGL.cpp" />
+    <ClCompile Include="src\XEngine\TextureManager.cpp" />
+    <ClCompile Include="src\XEngine\TgaFile.cpp" />
+    <ClCompile Include="src\XEngine\TgaImg.cpp" />
+    <ClCompile Include="src\XEngine\Transform.cpp" />
+    <ClCompile Include="src\XEngine\VRML1Loader.cpp" />
+    <ClCompile Include="src\XEngine\VRML97Loader.cpp" />
+    <ClCompile Include="src\XEngine\VRML97Regularizer.cpp" />
+    <ClCompile Include="src\XFace\FaceBase.cpp" />
+    <ClCompile Include="src\XFace\FapFile.cpp" />
+    <ClCompile Include="src\XFace\FDP.cpp" />
+    <ClCompile Include="src\XFace\FDPFile.cpp" />
+    <ClCompile Include="src\XFace\FDPItem.cpp" />
+    <ClCompile Include="src\XFace\InfluenceCalculatorMaker.cpp" />
+    <ClCompile Include="src\XFace\RaisedCosInfluence.cpp" />
+    <ClCompile Include="src\XFaceApp\ApplicationBase.cpp" />
+    <ClCompile Include="src\XFaceApp\ModelCamera.cpp" />
+    <ClCompile Include="src\XFaceApp\Notification.cpp" />
+    <ClCompile Include="src\XFaceApp\Task.cpp" />
+    <ClCompile Include="src\XFaceApp\TaskHandlerBase.cpp" />
+    <ClCompile Include="src\XFaceApp\XMLUtils.cpp" />
+    <ClCompile Include="src\XMath\Matrix4.cpp" />
+    <ClCompile Include="src\XMath\Quaternion.cpp" />
+    <ClCompile Include="src\XMath\raytri.cpp" />
+    <ClCompile Include="src\XMath\XMath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\XEngine\BmpFile.h" />
+    <ClInclude Include="include\XEngine\Buffer.h" />
+    <ClInclude Include="include\XEngine\DeformableGeometry.h" />
+    <ClInclude Include="include\XEngine\Drawable.h" />
+    <ClInclude Include="include\XEngine\Geometry.h" />
+    <ClInclude Include="include\XEngine\IndexedFaceSet.h" />
+    <ClInclude Include="include\XEngine\IRenderer.h" />
+    <ClInclude Include="include\XEngine\ISceneLoader.h" />
+    <ClInclude Include="include\XEngine\ITexture.h" />
+    <ClInclude Include="include\XEngine\ITextureFile.h" />
+    <ClInclude Include="include\XEngine\ITextureLoader.h" />
+    <ClInclude Include="include\XEngine\MeshManager.h" />
+    <ClInclude Include="include\XEngine\ModelFileFactory.h" />
+    <ClInclude Include="include\XEngine\NamedObj.h" />
+    <ClInclude Include="include\XEngine\Node.h" />
+    <ClInclude Include="include\XEngine\OBJLoader.h" />
+    <ClInclude Include="include\XEngine\RendererGL.h" />
+    <ClInclude Include="include\XEngine\RenderList.h" />
+    <ClInclude Include="include\XEngine\Texture2D.h" />
+    <ClInclude Include="include\XEngine\TextureLoaderGL.h" />
+    <ClInclude Include="include\XEngine\TextureManager.h" />
+    <ClInclude Include="include\XEngine\TgaFile.h" />
+    <ClInclude Include="include\XEngine\TgaImg.h" />
+    <ClInclude Include="include\XEngine\Transform.h" />
+    <ClInclude Include="include\XEngine\VertexStruct.h" />
+    <ClInclude Include="include\XEngine\VRML1Loader.h" />
+    <ClInclude Include="include\XEngine\VRML97Loader.h" />
+    <ClInclude Include="include\XEngine\VRML97Regularizer.h" />
+    <ClInclude Include="include\XFace\FaceBase.h" />
+    <ClInclude Include="include\XFace\FapFile.h" />
+    <ClInclude Include="include\XFace\FDP.h" />
+    <ClInclude Include="include\XFace\FDPFile.h" />
+    <ClInclude Include="include\XFace\FDPItem.h" />
+    <ClInclude Include="include\XFace\IFapStream.h" />
+    <ClInclude Include="include\XFace\IInfluenceCalculator.h" />
+    <ClInclude Include="include\XFace\InfluenceCalculatorMaker.h" />
+    <ClInclude Include="include\XFace\RaisedCosInfluence.h" />
+    <ClInclude Include="include\XFaceApp\ApplicationBase.h" />
+    <ClInclude Include="include\XFaceApp\IApmlProcessor.h" />
+    <ClInclude Include="include\XFaceApp\ISound.h" />
+    <ClInclude Include="include\XFaceApp\ITimer.h" />
+    <ClInclude Include="include\XFaceApp\ModelCamera.h" />
+    <ClInclude Include="include\XFaceApp\Notification.h" />
+    <ClInclude Include="include\XFaceApp\Task.h" />
+    <ClInclude Include="include\XFaceApp\TaskHandlerBase.h" />
+    <ClInclude Include="include\XFaceApp\XMLUtils.h" />
+    <ClInclude Include="include\XMath\AxisAngle.h" />
+    <ClInclude Include="include\XMath\Matrix4.h" />
+    <ClInclude Include="include\XMath\Quaternion.h" />
+    <ClInclude Include="include\XMath\Ray3.h" />
+    <ClInclude Include="include\XMath\Rectangle.h" />
+    <ClInclude Include="include\XMath\Vector3.h" />
+    <ClInclude Include="include\XMath\XLineSegment.h" />
+    <ClInclude Include="include\XMath\XMath.h" />
+    <ClInclude Include="include\XMath\XTriangle.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

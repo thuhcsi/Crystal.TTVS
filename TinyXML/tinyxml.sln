@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyxmlSTL", "tinyxmlSTL.vcxproj", "{0AE41B72-7C40-4B45-9AD0-CD5935AE3104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AE41B72-7C40-4B45-9AD0-CD5935AE3104}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0AE41B72-7C40-4B45-9AD0-CD5935AE3104}.Debug|Win32.Build.0 = Debug|Win32
+		{0AE41B72-7C40-4B45-9AD0-CD5935AE3104}.Release|Win32.ActiveCfg = Release|Win32
+		{0AE41B72-7C40-4B45-9AD0-CD5935AE3104}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\XEngine">
+      <UniqueIdentifier>{cc2e8e33-dd55-4344-8a6e-d581f99f70b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XFace">
+      <UniqueIdentifier>{02d1033b-7d07-4a70-bda7-731b004b2bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XFaceApp">
+      <UniqueIdentifier>{a5942dae-e230-4c45-9bc8-76fa27889a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XMath">
+      <UniqueIdentifier>{51a3fec3-6d65-49b1-a2c2-f1b99cb3ddd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\XEngine">
+      <UniqueIdentifier>{dfed3aae-e137-442d-9764-6bd55a47a794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XFace">
+      <UniqueIdentifier>{58f32a9b-22d7-42f4-a38c-8c1da709343f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XFaceApp">
+      <UniqueIdentifier>{63110c5b-e2c8-4f6b-8560-973cb821d55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XMath">
+      <UniqueIdentifier>{0f8cef33-5668-43b5-854c-51852eeb98f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\XEngine\BmpFile.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\DeformableGeometry.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\Geometry.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\IndexedFaceSet.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\MeshManager.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\ModelFileFactory.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\OBJLoader.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\RendererGL.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\RenderList.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\TextureLoaderGL.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\TextureManager.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\TgaFile.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\TgaImg.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\Transform.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\VRML1Loader.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\VRML97Loader.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFace\FaceBase.cpp">
+      <Filter>Source Files\XFace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFace\FapFile.cpp">
+      <Filter>Source Files\XFace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFace\FDP.cpp">
+      <Filter>Source Files\XFace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFace\FDPFile.cpp">
+      <Filter>Source Files\XFace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFace\FDPItem.cpp">
+      <Filter>Source Files\XFace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFace\InfluenceCalculatorMaker.cpp">
+      <Filter>Source Files\XFace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFace\RaisedCosInfluence.cpp">
+      <Filter>Source Files\XFace</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFaceApp\ApplicationBase.cpp">
+      <Filter>Source Files\XFaceApp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFaceApp\ModelCamera.cpp">
+      <Filter>Source Files\XFaceApp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFaceApp\Notification.cpp">
+      <Filter>Source Files\XFaceApp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFaceApp\Task.cpp">
+      <Filter>Source Files\XFaceApp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFaceApp\TaskHandlerBase.cpp">
+      <Filter>Source Files\XFaceApp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XFaceApp\XMLUtils.cpp">
+      <Filter>Source Files\XFaceApp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMath\Matrix4.cpp">
+      <Filter>Source Files\XMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMath\Quaternion.cpp">
+      <Filter>Source Files\XMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMath\raytri.cpp">
+      <Filter>Source Files\XMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMath\XMath.cpp">
+      <Filter>Source Files\XMath</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XEngine\VRML97Regularizer.cpp">
+      <Filter>Source Files\XEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\XEngine\BmpFile.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\Buffer.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\DeformableGeometry.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\Drawable.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\Geometry.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\IndexedFaceSet.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\IRenderer.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\ISceneLoader.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\ITexture.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\ITextureFile.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\ITextureLoader.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\MeshManager.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\ModelFileFactory.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\NamedObj.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\Node.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\OBJLoader.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\RendererGL.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\RenderList.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\Texture2D.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\TextureLoaderGL.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\TextureManager.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\TgaFile.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\TgaImg.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\Transform.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\VertexStruct.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\VRML1Loader.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\VRML97Loader.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\FaceBase.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\FapFile.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\FDP.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\FDPFile.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\FDPItem.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\IFapStream.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\IInfluenceCalculator.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\InfluenceCalculatorMaker.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFace\RaisedCosInfluence.h">
+      <Filter>Header Files\XFace</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\ApplicationBase.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\IApmlProcessor.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\ISound.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\ITimer.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\ModelCamera.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\Notification.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\Task.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\TaskHandlerBase.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XFaceApp\XMLUtils.h">
+      <Filter>Header Files\XFaceApp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\AxisAngle.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\Matrix4.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\Quaternion.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\Ray3.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\Rectangle.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\Vector3.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\XLineSegment.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\XMath.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XMath\XTriangle.h">
+      <Filter>Header Files\XMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\XEngine\VRML97Regularizer.h">
+      <Filter>Header Files\XEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
