@@ -46,7 +46,7 @@ It is also possible to run the TTVS engine on different platforms, as the follow
 Six basic expressions of the 3D avatar:
 
 <p align="center">
-  <img src="./TTVS/docs/expressions.jpg"/>
+  <img width="500" src="./TTVS/docs/expressions.jpg"/>
 </p>
 
 Head movement on the 3D avatar:
