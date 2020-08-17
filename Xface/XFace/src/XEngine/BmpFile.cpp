@@ -31,7 +31,7 @@
 #   include <GLES/gl.h>
 #else
 #   include <direct.h> // not sure if os independent (not think so)
-#   include <GL/glaux.h>
+#   include "glaux.h"
 #   ifdef WIN32
 #       pragma message("		Adding GLaux lib...")
 #       pragma comment( lib, "glaux.lib"	 )
