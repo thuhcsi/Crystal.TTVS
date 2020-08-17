@@ -1,0 +1,28 @@
+Viseme list based on Chinese Putonghua
+
+0: NA
+1: d1,t1,n1
+2: d2,t2,n2
+3: l1
+4: l2
+5: g1,k1,h1
+6: g2,k2,h2
+7: j,q,x1
+8: j,q,x2
+9: zh,ch,sh,r1
+10: zh,ch,sh,r2
+11: z,c,s1
+12: z,c,s2
+13: b1,p1,m1//a,u
+14: f
+15: a ,ang
+16: ai,an
+17: ao
+18: o
+19: ou
+20: e
+21: ei,en,eng
+22: er
+23: i
+24: u
+25: จน
