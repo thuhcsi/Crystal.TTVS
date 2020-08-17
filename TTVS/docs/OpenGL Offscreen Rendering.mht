@@ -1,0 +1,3265 @@
+From: "Saved by Windows Internet Explorer 7"
+Subject: lilin/swig-glBmpContext - Woodpecker.org.cn Wiki for CPUG
+Date: Tue, 1 Jul 2008 14:06:31 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C8DB83.A98CB9F0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6001.18000
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\zywu\Desktop\Offscreen Rendering-glBmpContext.htm
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>lilin/swig-glBmpContext - Woodpecker.org.cn Wiki for =
+CPUG</TITLE>
+<META http-equiv=3DContent-Type content=3Dtext/html;charset=3Dutf-8>
+<META content=3Dindex,nofollow name=3Drobots>
+<SCRIPT=20
+src=3D"file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_f=
+iles/common.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>
+<!--// common functions
+
+// We keep here the state of the search box
+searchIsDisabled =3D false;
+
+function searchChange(e) {
+    // Update search buttons status according to search box content.
+    // Ignore empty or whitespace search term.
+    var value =3D e.value.replace(/\s+/, '');
+    if (value =3D=3D '' || searchIsDisabled) {=20
+        searchSetDisabled(true);
+    } else {
+        searchSetDisabled(false);
+    }
+}
+
+function searchSetDisabled(flag) {
+    // Enable or disable search
+    document.getElementById('fullsearch').disabled =3D flag;
+    document.getElementById('titlesearch').disabled =3D flag;
+}
+
+function searchFocus(e) {
+    // Update search input content on focus
+    if (e.value =3D=3D 'Search') {
+        e.value =3D '';
+        e.className =3D '';
+        searchIsDisabled =3D false;
+    }
+}
+
+function searchBlur(e) {
+    // Update search input content on blur
+    if (e.value =3D=3D '') {
+        e.value =3D 'Search';
+        e.className =3D 'disabled';
+        searchIsDisabled =3D true;
+    }
+}
+
+function actionsMenuInit(title) {
+    // Initialize action menu
+    for (i =3D 0; i < document.forms.length; i++) {
+        var form =3D document.forms[i];
+        if (form.className =3D=3D 'actionsmenu') {
+            // Check if this form needs update
+            var div =3D form.getElementsByTagName('div')[0];
+            var label =3D div.getElementsByTagName('label')[0];
+            if (label) {
+                // This is the first time: remove label and do buton.
+                div.removeChild(label);
+                var dobutton =3D div.getElementsByTagName('input')[0];
+                div.removeChild(dobutton);
+                // and add menu title
+                var select =3D div.getElementsByTagName('select')[0];
+                var item =3D document.createElement('option');
+                item.appendChild(document.createTextNode(title));
+                item.value =3D 'show';
+                select.insertBefore(item, select.options[0]);
+                select.selectedIndex =3D 0;
+            }
+        }
+    }
+}
+//-->
+</SCRIPT>
+<LINK media=3Dall=20
+href=3D"file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_=
+files/common.css"=20
+type=3Dtext/css charset=3Dutf-8 rel=3Dstylesheet><LINK media=3Dscreen=20
+href=3D"file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_=
+files/screen.css"=20
+type=3Dtext/css charset=3Dutf-8 rel=3Dstylesheet><LINK media=3Dprint=20
+href=3D"file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_=
+files/print.css"=20
+type=3Dtext/css charset=3Dutf-8 rel=3Dstylesheet><LINK =
+media=3Dprojection=20
+href=3D"file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_=
+files/projection.css"=20
+type=3Dtext/css charset=3Dutf-8 rel=3Dstylesheet><!-- css only for MSIE =
+browsers --><!--[if IE]><LINK media=3Dall=20
+href=3D"/htdocs/woodpecker/css/msie.css" type=3Dtext/css charset=3Dutf-8 =
+
+rel=3Dstylesheet><![endif]--><LINK=20
+href=3D"http://wiki.woodpecker.org.cn/moin/FrontPage" rel=3DStart><LINK=20
+title=3D"Wiki Markup"=20
+href=3D"http://wiki.woodpecker.org.cn/moin/lilin/swig-glBmpContext?action=
+=3Draw"=20
+rel=3DAlternate><LINK title=3D"Print View" media=3Dprint=20
+href=3D"http://wiki.woodpecker.org.cn/moin/lilin/swig-glBmpContext?action=
+=3Dprint"=20
+rel=3DAlternate><LINK href=3D"http://wiki.woodpecker.org.cn/moin/lilin" =
+rel=3DUp><LINK=20
+href=3D"http://wiki.woodpecker.org.cn/moin/FindPage" rel=3DSearch><LINK=20
+href=3D"http://wiki.woodpecker.org.cn/moin/TitleIndex" rel=3DIndex><LINK =
+
+href=3D"http://wiki.woodpecker.org.cn/moin/WordIndex" =
+rel=3DGlossary><LINK=20
+href=3D"http://wiki.woodpecker.org.cn/moin/HelpOnFormatting" rel=3DHelp>
+<META content=3D"MSHTML 6.00.6001.18000" name=3DGENERATOR></HEAD>
+<BODY lang=3Den dir=3Dltr>
+<DIV id=3Dmastwrap>
+<DIV id=3Dmasthead>
+<DIV id=3Dlogo><A =
+href=3D"http://wiki.woodpecker.org.cn/moin/FrontPage"><IMG=20
+alt=3D"Woodpecker.org.cn Wiki for CPUG"=20
+src=3D"file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_f=
+iles/headerlogo.gif">=20
+<SPAN id=3Dsitetit></SPAN>
+<SCRIPT=20
+src=3D"file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_f=
+iles/urchin.js"=20
+type=3Dtext/javascript>
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>
+_uacct =3D "UA-314272-3";
+urchinTracker();
+</SCRIPT>
+</A></DIV>
+<FORM id=3Dsearchform action=3D"" method=3Dget>
+<DIV><INPUT type=3Dhidden value=3Dfullsearch name=3Daction> <INPUT =
+type=3Dhidden=20
+value=3D180 name=3Dcontext> <LABEL style=3D"DISPLAY: none"=20
+for=3Dsearchinput>Search:</LABEL> <INPUT class=3Ddisabled =
+id=3Dsearchinput=20
+onblur=3DsearchBlur(this) onkeyup=3DsearchChange(this) =
+onfocus=3DsearchFocus(this)=20
+alt=3DSearch onchange=3DsearchChange(this) name=3Dvalue> <INPUT =
+id=3Dtitlesearch disabled type=3Dsubmit alt=3D"Search Titles" =
+value=3DTitles name=3Dtitlesearch>=20
+<INPUT id=3Dfullsearch disabled type=3Dsubmit alt=3D"Search Full Text" =
+value=3DText name=3Dfullsearch>=20
+</DIV></FORM>
+<SCRIPT type=3Dtext/javascript>
+<!--// Initialize search form
+var f =3D document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display =3D 'none';
+var e =3D document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</SCRIPT>
+
+<DIV id=3Dlocationline>
+<UL id=3Dpagelocation>
+  <LI><A href=3D"http://wiki.woodpecker.org.cn/moin/lilin">lilin</A>
+  <LI><A class=3Dbacklink title=3D"Click to do a full-text search for =
+this title"=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/lilin/swig-glBmpContext?action=
+=3Dfullsearch&amp;value=3Dlinkto%3A%22lilin/swig-glBmpContext%22&amp;cont=
+ext=3D180">swig-glBmpContext</A>=20
+  </LI></UL></DIV><!-- 4 locationline -->
+<DIV id=3Dpagetrail></DIV><!-- 4 pagetrail -->
+<UL id=3Dnavibar>
+  <LI class=3Dwikilink><A=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/%E9%A6%96%E9%A1%B5">=E9=A6=96=E9=
+=A1=B5</A>
+  <LI class=3Dwikilink><A =
+href=3D"http://wiki.woodpecker.org.cn/moin/CPUG">CPUG</A>
+  <LI class=3Dwikilink><A=20
+  href=3D"http://wiki.woodpecker.org.cn/moin/OBP">OpenBookProject</A>
+  <LI class=3Dwikilink><A=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/WoodpeckerHackers">=E8=A1=8C=E8=
+=80=85=E5=A0=82</A>
+  <LI class=3Dwikilink><A=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/RecentChanges">=E6=9B=B4=E6=96=
+=B0</A>
+  <LI class=3Dwikilink><A=20
+href=3D"http://wiki.woodpecker.org.cn/moin/FindPage">=E6=90=9C=E7=B4=A2</=
+A>
+  <LI class=3Dwikilink><A=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/HelpContent">=E5=B8=AE=E5=8A=A9=
+</A>
+  <LI class=3Dcurrent><A=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/lilin/swig-glBmpContext">lilin=
+/swig-glBmpContext</A>=20
+  </LI></UL></DIV><!-- of masthead --></DIV><!-- of mastwrap -->
+<DIV id=3Deditbar>
+<UL id=3Dusername>
+  <LI><A =
+href=3D"http://wiki.woodpecker.org.cn/moin/UserPreferences">Create=20
+  Profile</A>=20
+  <LI><A id=3Dlogin=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/lilin/swig-glBmpContext?action=
+=3Dlogin">Login</A>=20
+  </LI></UL>
+<UL class=3Deditbar>
+  <LI><SPAN class=3Ddisabled>Immutable Page</SPAN>
+  <LI><A=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/lilin/swig-glBmpContext?action=
+=3Dinfo">Info</A>
+  <LI><A=20
+  =
+href=3D"http://wiki.woodpecker.org.cn/moin/lilin/swig-glBmpContext?action=
+=3DAttachFile">Attachments</A>
+  <LI>
+  <FORM class=3Dactionsmenu action=3D"" method=3Dget>
+  <DIV><SELECT=20
+  onchange=3D"if ((this.selectedIndex !=3D 0) &amp;&amp;&#10;            =
+          (this.options[this.selectedIndex].disabled =3D=3D false)) =
+{&#10;                this.form.submit();&#10;            }&#10;         =
+   this.selectedIndex =3D 0;"=20
+  name=3Daction> <OPTION value=3Dshow selected>More =
+Actions:</OPTION><OPTION=20
+    value=3Draw>Raw Text</OPTION> <OPTION value=3Dprint>Print =
+View</OPTION> <OPTION=20
+    value=3DRenderAsDocbook>Render as Docbook</OPTION> <OPTION=20
+    value=3Drefresh>Delete Cache</OPTION> <OPTION class=3Ddisabled =
+disabled=20
+    value=3Dshow>------------</OPTION> <OPTION value=3DSpellCheck>Check=20
+    Spelling</OPTION> <OPTION value=3DLikePages>Like Pages</OPTION> =
+<OPTION=20
+    value=3DLocalSiteMap>Local Site Map</OPTION> <OPTION =
+class=3Ddisabled disabled=20
+    value=3Dshow>------------</OPTION> <OPTION class=3Ddisabled disabled =
+
+    value=3DRenamePage>Rename Page</OPTION> <OPTION class=3Ddisabled =
+disabled=20
+    value=3DDeletePage>Delete Page</OPTION> <OPTION class=3Ddisabled =
+disabled=20
+    value=3Dshow>------------</OPTION> <OPTION value=3DMyPages>My =
+Pages</OPTION>=20
+    <OPTION value=3DSubscribeUser>Subscribe User</OPTION> <OPTION =
+class=3Ddisabled=20
+    disabled value=3Dshow>------------</OPTION> <OPTION =
+value=3DDespam>Remove=20
+    Spam</OPTION> <OPTION value=3DPackagePages>Package Pages</OPTION> =
+<OPTION=20
+    class=3Ddisabled disabled value=3Dshow>------------</OPTION> <OPTION =
+
+    value=3DVisualSiteMap>Visual Site Map</OPTION></SELECT> </DIV>
+  <SCRIPT type=3Dtext/javascript>
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</SCRIPT>
+  </FORM></LI></UL></DIV>
+<DIV id=3DouterColumnContainer>
+<DIV id=3DinnerColumnContainer>
+<DIV id=3DcontentColumn>
+<DIV class=3Dinside>
+<DIV lang=3Den id=3Dcontent dir=3Dltr><SPAN class=3Danchor =
+id=3Dtop></SPAN><SPAN=20
+class=3Danchor id=3Dline-1></SPAN>
+<P class=3Dline867></P>
+<H1 id=3Dhead-5ce106f4c2a14338e671652bca4296884567c573>1. =
+=E5=BC=80=E5=A7=8B=E6=88=91=E7=9A=84GL=E7=A6=BB=E5=B1=8F=E6=B8=B2=E6=9F=93=
+=E7=BB=91=E5=AE=9A</H1><SPAN=20
+class=3Danchor id=3Dline-2></SPAN>
+<P =
+class=3Dline874>=E5=91=B5=E5=91=B5=EF=BC=8C=E6=9C=89=E4=BA=86=E7=AC=AC=E4=
+=B8=80=E6=AC=A1=E7=9A=84=E7=BB=8F=E9=AA=8C=EF=BC=8C=E6=88=91=E4=BB=AC=E5=B0=
+=B1=E8=A6=81=E5=BC=80=E5=A7=8B=E6=88=91=E4=BB=AC=E7=9A=84GL=E7=A6=BB=E5=B1=
+=8F=E6=B8=B2=E6=9F=93=E7=9A=84=E7=BB=91=E5=AE=9A=E4=BA=86=E3=80=82 <SPAN =
+class=3Danchor=20
+id=3Dline-3></SPAN><SPAN class=3Danchor id=3Dline-4></SPAN></P>
+<P=20
+class=3Dline862>=E5=85=B3=E4=BA=8EOpenGL=E7=9A=84=E7=A6=BB=E5=B1=8F=E6=B8=
+=B2=E6=9F=93=EF=BC=8C=E5=89=8D=E9=9D=A2=E5=B7=B2=E7=BB=8F=E6=9C=89=E4=B8=80=
+=E4=BA=9B=E6=B6=89=E5=8F=8A=E4=BA=86=E3=80=82=E5=86=8D=E8=AF=B4=E4=B8=80=E4=
+=B8=8B=E5=90=A7=EF=BC=8COpenGL=E6=9C=89=E4=B8=A4=E7=A7=8D=E6=B8=B2=E6=9F=93=
+=E6=96=B9=E5=BC=8F=EF=BC=9A=E4=B8=80=E7=A7=8D=E6=98=AF=E9=80=9A=E8=BF=87=E6=
+=93=8D=E4=BD=9C=E7=B3=BB=E7=BB=9F=E6=89=93=E5=BC=80=E7=AA=97=E5=8F=A3=E8=BF=
+=9B=E8=A1=8C=E6=B8=B2=E6=9F=93=EF=BC=8C=E7=84=B6=E5=90=8E=E5=8F=AF=E4=BB=A5=
+=E7=9B=B4=E6=8E=A5=E5=9C=A8=E5=B1=8F=E5=B9=95=E4=B8=8A=E6=98=BE=E7=A4=BA=EF=
+=BC=8C=E8=BF=99=E7=A7=8D=E6=B8=B2=E6=9F=93=E6=96=B9=E5=BC=8F=E5=8F=AB=E5=81=
+=9A=E5=B1=8F=E5=B9=95=E6=B8=B2=E6=9F=93=E3=80=82=E4=B8=80=E7=A7=8D=E9=80=9A=
+=E8=BF=87=E5=9C=A8=E5=86=85=E5=AD=98=E4=B8=AD=E4=B8=80=E5=9D=97=E4=BD=8D=E5=
+=9B=BE=E5=8C=BA=E5=9F=9F=E5=86=85=E6=B8=B2=E6=9F=93=EF=BC=8C=E8=BF=99=E7=A7=
+=8D=E6=B8=B2=E6=9F=93=E6=96=B9=E5=BC=8F=E5=9C=A8=E6=B2=A1=E6=9C=89=E9=80=9A=
+=E8=BF=87SwapBuffer=E6=96=B9=E5=BC=8F=E5=89=8D=E4=B8=8D=E5=8F=AF=E4=BB=A5=
+=E5=9C=A8=E5=B1=8F=E5=B9=95=E4=B8=8A=E6=98=BE=E7=A4=BA=EF=BC=8C=E6=89=80=E4=
+=BB=A5=E8=BF=99=E7=A7=8D=E6=96=B9=E6=B3=95=E5=8F=AB=E7=A6=BB=E5=B1=8F=E6=B8=
+=B2=E6=9F=93=E3=80=82=E4=B8=80=E8=88=AC=E6=9D=A5=E8=AF=B4=EF=BC=8COpenGL=E9=
+=80=9A=E8=BF=87=E5=B1=8F=E5=B9=95=E6=98=BE=E7=A4=BA=E6=96=B9=E5=BC=8F=E5=B1=
+=95=E7=A4=BA=E5=AE=83=E7=9A=84=E9=AD=85=E5=8A=9B=EF=BC=8C=E5=B1=8F=E5=B9=95=
+=E6=B8=B2=E6=9F=93=E6=96=B9=E5=BC=8F=E6=98=AF=E5=A4=A7=E5=A4=9A=E6=95=B0=E6=
+=83=85=E5=86=B5=E4=B8=8B=E7=9A=84=E9=A6=96=E9=80=89=E3=80=82=E8=80=8C=E4=B8=
+=94=E5=BE=88=E5=A4=9A=E7=AA=97=E5=8F=A3=E7=B3=BB=E7=BB=9F=E9=83=BD=E6=9C=89=
+=E5=AE=9E=E7=8E=B0OpenGL=E7=9A=84=E5=B1=8F=E5=B9=95=E6=B8=B2=E6=9F=93=E6=96=
+=B9=E5=BC=8F=E3=80=82=E6=AF=94=E5=A6=82glut=EF=BC=8Cwxwidgets=EF=BC=8CQT=EF=
+=BC=8Cgtk=E3=80=82=E4=BD=86=E6=98=AF=E6=9C=89=E4=BA=9B=E6=97=B6=E5=80=99=E6=
+=88=91=E4=BB=AC=E4=B8=8D=E9=9C=80=E8=A6=81=E5=B1=8F=E5=B9=95=E6=98=BE=E7=A4=
+=BA=E3=80=82=E5=8F=AA=E6=98=AF=E6=83=B3=E6=8A=8A=E5=AE=83=E4=BF=9D=E5=AD=98=
+=E6=88=90=E4=B8=80=E4=B8=AA=E5=9B=BE=E5=83=8F=E6=96=87=E4=BB=B6=E5=B0=B1=E5=
+=A5=BD=E3=80=82=E8=80=8C=E4=B8=94=E6=88=91=E4=BB=AC=E5=B0=B1=E6=98=AF=E4=B8=
+=8D=E6=83=B3=E6=89=93=E5=BC=80=E4=B8=80=E4=B8=AA=E7=AA=97=E5=8F=A3=E3=80=82=
+=E8=BF=99=E6=A0=B7=E5=B0=B1=E9=9C=80=E8=A6=81=E7=94=A8=E7=A6=BB=E5=B1=8F=E6=
+=B8=B2=E6=9F=93=E7=9A=84=E6=96=B9=E6=B3=95=E3=80=82=E5=9C=A8=E5=86=85=E5=AD=
+=98=E4=B8=AD=E7=94=BB=EF=BC=8C=E6=9C=80=E5=90=8E=E4=BF=9D=E5=AD=98=E6=88=90=
+=E5=9B=BE=E5=83=8F=E3=80=82=20
+<SPAN class=3Danchor id=3Dline-5></SPAN><SPAN class=3Danchor =
+id=3Dline-6></SPAN></P>
+<P=20
+class=3Dline874>=E5=8F=AF=E6=83=9C=E7=9A=84=E6=98=AFOpenGL=E6=B2=A1=E6=9C=
+=89=E7=BB=9F=E4=B8=80=E7=9A=84=E7=A6=BB=E5=B1=8F=E6=B8=B2=E6=9F=93=E6=93=8D=
+=E4=BD=9CAPI=E3=80=82GL=E6=8A=8A=E8=BF=99=E4=BA=9B=E4=BA=8B=E6=83=85=E5=85=
+=A8=E9=83=A8=E4=BA=A4=E7=BB=99=E7=B3=BB=E7=BB=9F=E3=80=82=E8=BF=99=E6=A0=B7=
+=E5=B0=B1=E5=AF=BC=E8=87=B4=E5=90=84=E4=B8=AA=E7=B3=BB=E7=BB=9F=E7=9A=84=E7=
+=A6=BB=E5=B1=8F=E6=B8=B2=E6=9F=93=E9=83=BD=E6=9C=89=E5=90=84=E8=87=AA=E7=9A=
+=84API=EF=BC=8CWindows=EF=BC=8CX=EF=BC=8C=20
+Apple=EF=BC=8CSGI=EF=BC=8COS2=E9=83=BD=E6=9C=89=E8=87=AA=E5=B7=B1=E7=9A=84=
+=E7=A6=BB=E5=B1=8FRC=E4=B8=8A=E4=B8=8B=E6=96=87=E6=9E=84=E5=BB=BA=E6=96=B9=
+=E6=B3=95=EF=BC=8C=E6=AF=8F=E5=A5=97API=E9=83=BD=E4=B8=8D=E5=90=8C=E3=80=82=
+=E5=9C=A8=E7=BC=BA=E5=B0=91=E4=BA=86=E6=A6=9C=E6=A0=B7=E7=9A=84=E5=8A=9B=E9=
+=87=8F=E5=90=8E=EF=BC=8C=E5=90=84=E4=B8=AA=E7=B3=BB=E7=BB=9F=E5=B0=B1=E7=BA=
+=B7=E7=BA=B7=E5=BC=80=E5=A7=8B=E8=AF=B8=E4=BE=AF=E5=89=B2=E6=8D=AE=E4=BA=86=
+=EF=BC=8C=E5=B0=B1=E9=80=A0=E6=88=90=E5=A4=A9=E4=B8=8B=E5=A4=A7=E4=B9=B1=E7=
+=9A=84=E5=B1=80=E5=8A=BF=E3=80=82=E8=BF=99=E6=A0=B7=E7=A1=AE=E5=AE=9E=E4=B8=
+=8D=E5=A4=AA=E5=A5=BD=E3=80=82=E4=B8=8D=E8=BF=87=E7=8E=B0=E5=9C=A8=E4=B9=B1=
+=E4=BA=86=E5=B0=B1=E8=AE=A9=E5=AE=83=E4=B9=B1=E5=90=A7=EF=BC=8C=E8=B0=81=E5=
+=8F=AB=E6=88=91=E4=BB=AC=E6=98=AF=E2=80=9C=E5=B0=8F=E7=A8=8B=E5=BA=8F=E5=91=
+=98=E2=80=9D=EF=BC=9F=E5=A4=A9=E4=B8=8B=E5=A4=A7=E5=8A=BF=E5=B0=B1=E8=BF=99=
+=E6=A0=B7=EF=BC=8C=E4=BD=A0=E8=A6=81=E6=80=8E=E4=B9=88=E7=9D=80=E5=90=A7-=
+_-!=20
+=E6=B2=A1=E5=8A=9E=E6=B3=95=E3=80=82=E5=AE=9E=E5=9C=A8=E6=98=AF=E6=B2=A1=E5=
+=8A=9E=E6=B3=95=EF=BD=9E=EF=BD=9E=EF=BD=9E=E5=A6=82=E4=BB=8A=E7=9A=84=E4=B8=
+=96=E7=95=8C=E5=A4=AA=E7=96=AF=E7=8B=82=E2=80=A6=E2=80=A6 =
+=E5=A6=82=E4=BB=8A=E7=9A=84=E4=B8=96=E7=95=8C=E5=8F=98=E5=8C=96=E5=BF=AB=E2=
+=80=A6=E2=80=A6 <SPAN class=3Danchor id=3Dline-7></SPAN><SPAN=20
+class=3Danchor id=3Dline-8></SPAN></P>
+<P=20
+class=3Dline874>=E6=88=91=E8=BF=98=E6=98=AF=E9=9D=99=E4=B8=8B=E5=BF=83=E6=
+=9D=A5=E7=9C=8B=E7=9C=8B=E8=BF=99=E4=B9=88=E5=9C=A8=E5=90=84=E4=B8=AA=E7=B3=
+=BB=E7=BB=9F=E4=B8=8A=E5=AE=9E=E7=8E=B0=E7=A6=BB=E5=B1=8F=E6=B8=B2=E6=9F=93=
+=E5=90=A7=E3=80=82OS2=E5=A4=A7=E6=A6=82=E5=85=AB=E8=BE=88=E5=AD=90=E7=94=A8=
+=E4=B8=8D=E5=88=B0=E4=BA=86=E5=90=A7=EF=BC=8CApple=E6=98=AF=E9=AB=98=E9=AB=
+=98=E5=9C=A8=E4=B8=8A=E7=9A=84=E8=B4=B5=E6=97=8F=E4=BB=AC=E7=9A=84=E4=B8=9C=
+=E8=A5=BF=E3=80=82=E5=92=B1=E4=BB=AC=E8=80=81=E7=99=BE=E5=A7=93=E2=80=A6=E2=
+=80=A6=E8=BF=98=E6=98=AF=E7=AE=97=E4=BA=86=E5=90=A7=E3=80=82=E8=80=81=E8=80=
+=81=E5=AE=9E=E5=AE=9E=E7=A0=94=E7=A9=B6=E4=B8=80=E4=B8=8BWindows=E5=92=8C=
+X=E5=90=A7=E3=80=82=E4=BA=8E=E6=98=AF=E5=85=88=E5=BC=80=E5=A7=8B=E7=A0=94=
+=E7=A9=B6WGL=E3=80=82=20
+<SPAN class=3Danchor id=3Dline-9></SPAN><SPAN class=3Danchor =
+id=3Dline-10></SPAN></P>
+<P =
+class=3Dline862>WGL=E8=A6=81=E5=BB=BA=E7=AB=8B=E7=A6=BB=E5=B1=8F=E6=B8=B2=
+=E6=9F=93=EF=BC=8C=E5=8F=AF=E4=BB=A5=E5=8F=82=E7=9C=8B<A class=3Dhttp=20
+href=3D"http://msdn.microsoft.com/library/default.asp?url=3D/library/en-u=
+s/dnopen/html/msdn_gl6.asp">=E5=AE=98=E6=96=B9=E8=A7=A3=E9=87=8A</A>=EF=BC=
+=8C=E4=B8=8D=E8=BF=87=E5=A4=AA=E5=A4=9A=EF=BC=8C=E5=A4=AA=E4=B9=B1=E4=BA=86=
+=EF=BC=8C<A=20
+class=3Dhttp =
+href=3D"http://glprogramming.com/red/appendixc.html">=E7=BA=A2=E5=AE=9D=E4=
+=B9=A6</A>=E4=B8=AD=E7=9A=84=E8=A7=A3=E9=87=8A=E6=AF=94=E8=BE=83=E6=B5=85=
+=E6=98=BE=E3=80=82<A=20
+class=3Dhttp=20
+href=3D"http://www.mesa3d.org/brianp/sig97/offscrn.htm">=E8=BF=99=E9=87=8C=
+</A>=E4=B9=9F=E6=9C=89=E4=B8=A4=E5=8F=A5=E8=A7=A3=E9=87=8A=EF=BC=88=E4=B8=
+=8D=E8=BF=87=E8=BF=99=E9=87=8C=E4=B8=BB=E8=A6=81=E6=98=AFSIG=E7=9A=84=E8=A7=
+=A3=E9=87=8A=EF=BC=8CX=E7=9A=84=E8=A7=A3=E9=87=8A=E4=B9=9F=E6=AF=94=E8=BE=
+=83=E8=AF=A6=E7=BB=86=EF=BC=89=E3=80=82=E6=9C=80=E4=BB=A4=E4=BA=BA=E6=BF=80=
+=E5=8A=A8=E7=9A=84=E6=98=AF<A=20
+class=3Dhttp=20
+href=3D"http://www.siont.com/Rendering-to-bitmap-6277692x638.htm">=E8=BF=99=
+=E9=87=8C</A>=E6=9C=89win32=E4=B8=8A=E7=9A=84=E5=AE=8C=E6=95=B4=E4=BE=8B=E5=
+=AD=90=E3=80=82=20
+<SPAN class=3Danchor id=3Dline-11></SPAN><SPAN class=3Danchor =
+id=3Dline-12></SPAN></P>
+<P =
+class=3Dline874>=E7=AE=80=E5=8D=95=E5=BE=97=E8=AF=B4=E5=90=A7=EF=BC=8C=E8=
+=A6=81=E8=BF=9B=E8=A1=8C=E7=A6=BB=E5=B1=8F=E6=B8=B2=E6=9F=93=EF=BC=8Cwin3=
+2=E4=B8=8B=E9=9C=80=E8=A6=81=E5=81=9A=E4=B8=8B=E9=9D=A2=E7=9A=84=E5=87=A0=
+=E4=B8=AA=E6=AD=A5=E9=AA=A4=EF=BC=9A <SPAN class=3Danchor=20
+id=3Dline-13></SPAN></P>
+<OL type=3D1>
+  <LI>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E5=86=85=E5=AD=98 DC <SPAN =
+class=3Danchor id=3Dline-14></SPAN>
+  <LI>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E4=BD=8D=E5=9B=BE <SPAN =
+class=3Danchor id=3Dline-15></SPAN>
+  <LI>=E6=8A=8A=E4=BD=8D=E5=9B=BE=E9=80=89=E5=85=A5DC <SPAN =
+class=3Danchor id=3Dline-16></SPAN>
+  <LI>=E8=AE=BE=E7=BD=AEDC=E7=9A=84=E5=83=8F=E5=85=83=E6=A0=BC=E5=BC=8F =
+<SPAN class=3Danchor id=3Dline-17></SPAN>
+  =
+<LI>=E9=80=9A=E8=BF=87DC=E5=88=9B=E5=BB=BAOpenGL=E7=9A=84=E6=B8=B2=E6=9F=93=
+=E4=B8=8A=E4=B8=8B=E6=96=87RC <SPAN class=3Danchor id=3Dline-18></SPAN>
+  <LI>=E5=BC=80=E5=A7=8B=E6=B8=B2=E6=9F=93. <SPAN class=3Danchor =
+id=3Dline-19></SPAN><SPAN class=3Danchor=20
+  id=3Dline-20></SPAN></LI></OL>
+<P =
+class=3Dline874>=E5=A5=BD=E4=BA=86=EF=BC=8C=E5=8F=AF=E7=94=A8=E7=9A=84=E6=
+=B8=B2=E6=9F=93=E8=BF=87=E7=A8=8B=E5=A6=82=E4=B8=8B=EF=BC=9A <SPAN =
+class=3Danchor id=3Dline-21></SPAN><SPAN=20
+class=3Danchor id=3Dline-22></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-23></SPAN></P><PRE>#include "stdafx.h"
+<SPAN class=3Danchor id=3Dline-24></SPAN>#include &lt;windows.h&gt;
+<SPAN class=3Danchor id=3Dline-25></SPAN>#include &lt;iostream&gt;
+<SPAN class=3Danchor id=3Dline-26></SPAN>#include &lt;commctrl.h&gt;
+<SPAN class=3Danchor id=3Dline-27></SPAN>#include &lt;gl/gl.h&gt;
+<SPAN class=3Danchor id=3Dline-28></SPAN>#include &lt;gl/glu.h&gt;
+<SPAN class=3Danchor id=3Dline-29></SPAN>#include &lt;string&gt;
+<SPAN class=3Danchor id=3Dline-30></SPAN>
+<SPAN class=3Danchor id=3Dline-31></SPAN>using namespace std;
+<SPAN class=3Danchor id=3Dline-32></SPAN>
+<SPAN class=3Danchor id=3Dline-33></SPAN>BOOL SaveBmp(HBITMAP hBitmap, =
+string FileName)
+<SPAN class=3Danchor id=3Dline-34></SPAN>{
+<SPAN class=3Danchor id=3Dline-35></SPAN>        HDC hDC;
+<SPAN class=3Danchor id=3Dline-36></SPAN>        =
+//=E5=BD=93=E5=89=8D=E5=88=86=E8=BE=A8=E7=8E=87=E4=B8=8B=E6=AF=8F=E8=B1=A1=
+=E7=B4=A0=E6=89=80=E5=8D=A0=E5=AD=97=E8=8A=82=E6=95=B0
+<SPAN class=3Danchor id=3Dline-37></SPAN>        int iBits;
+<SPAN class=3Danchor id=3Dline-38></SPAN>        =
+//=E4=BD=8D=E5=9B=BE=E4=B8=AD=E6=AF=8F=E8=B1=A1=E7=B4=A0=E6=89=80=E5=8D=A0=
+=E5=AD=97=E8=8A=82=E6=95=B0
+<SPAN class=3Danchor id=3Dline-39></SPAN>        WORD wBitCount;
+<SPAN class=3Danchor id=3Dline-40></SPAN>        =
+//=E5=AE=9A=E4=B9=89=E8=B0=83=E8=89=B2=E6=9D=BF=E5=A4=A7=E5=B0=8F=EF=BC=8C=
+ =
+=E4=BD=8D=E5=9B=BE=E4=B8=AD=E5=83=8F=E7=B4=A0=E5=AD=97=E8=8A=82=E5=A4=A7=E5=
+=B0=8F =EF=BC=8C=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=A4=A7=E5=B0=8F =
+=EF=BC=8C =
+=E5=86=99=E5=85=A5=E6=96=87=E4=BB=B6=E5=AD=97=E8=8A=82=E6=95=B0
+<SPAN class=3Danchor id=3Dline-41></SPAN>        DWORD =
+dwPaletteSize=3D0, dwBmBitsSize=3D0, dwDIBSize=3D0, dwWritten=3D0;
+<SPAN class=3Danchor id=3Dline-42></SPAN>        =
+//=E4=BD=8D=E5=9B=BE=E5=B1=9E=E6=80=A7=E7=BB=93=E6=9E=84
+<SPAN class=3Danchor id=3Dline-43></SPAN>        BITMAP Bitmap;
+<SPAN class=3Danchor id=3Dline-44></SPAN>        =
+//=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=A4=B4=E7=BB=93=E6=9E=84
+<SPAN class=3Danchor id=3Dline-45></SPAN>        BITMAPFILEHEADER =
+bmfHdr;
+<SPAN class=3Danchor id=3Dline-46></SPAN>        =
+//=E4=BD=8D=E5=9B=BE=E4=BF=A1=E6=81=AF=E5=A4=B4=E7=BB=93=E6=9E=84
+<SPAN class=3Danchor id=3Dline-47></SPAN>        BITMAPINFOHEADER bi;
+<SPAN class=3Danchor id=3Dline-48></SPAN>        =
+//=E6=8C=87=E5=90=91=E4=BD=8D=E5=9B=BE=E4=BF=A1=E6=81=AF=E5=A4=B4=E7=BB=93=
+=E6=9E=84
+<SPAN class=3Danchor id=3Dline-49></SPAN>        LPBITMAPINFOHEADER =
+lpbi;
+<SPAN class=3Danchor id=3Dline-50></SPAN>        =
+//=E5=AE=9A=E4=B9=89=E6=96=87=E4=BB=B6=EF=BC=8C=E5=88=86=E9=85=8D=E5=86=85=
+=E5=AD=98=E5=8F=A5=E6=9F=84=EF=BC=8C=E8=B0=83=E8=89=B2=E6=9D=BF=E5=8F=A5=E6=
+=9F=84
+<SPAN class=3Danchor id=3Dline-51></SPAN>        HANDLE fh, hDib, =
+hPal,hOldPal=3DNULL;
+<SPAN class=3Danchor id=3Dline-52></SPAN>
+<SPAN class=3Danchor id=3Dline-53></SPAN>        =
+//=E8=AE=A1=E7=AE=97=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E6=AF=8F=E4=B8=AA=
+=E5=83=8F=E7=B4=A0=E6=89=80=E5=8D=A0=E5=AD=97=E8=8A=82=E6=95=B0
+<SPAN class=3Danchor id=3Dline-54></SPAN>        hDC =3D =
+CreateDC("DISPLAY", NULL, NULL, NULL);
+<SPAN class=3Danchor id=3Dline-55></SPAN>        iBits =3D =
+GetDeviceCaps(hDC, BITSPIXEL) * GetDeviceCaps(hDC, PLANES);
+<SPAN class=3Danchor id=3Dline-56></SPAN>        DeleteDC(hDC);
+<SPAN class=3Danchor id=3Dline-57></SPAN>        if (iBits &lt;=3D 1) =
+wBitCount =3D 1;
+<SPAN class=3Danchor id=3Dline-58></SPAN>        else if (iBits &lt;=3D =
+4) wBitCount =3D 4;
+<SPAN class=3Danchor id=3Dline-59></SPAN>        else if (iBits &lt;=3D =
+8) wBitCount =3D 8;
+<SPAN class=3Danchor id=3Dline-60></SPAN>        else wBitCount =3D 24;
+<SPAN class=3Danchor id=3Dline-61></SPAN>
+<SPAN class=3Danchor id=3Dline-62></SPAN>        GetObject(hBitmap, =
+sizeof(Bitmap), (LPSTR)&amp;Bitmap);
+<SPAN class=3Danchor id=3Dline-63></SPAN>        bi.biSize =3D =
+sizeof(BITMAPINFOHEADER);
+<SPAN class=3Danchor id=3Dline-64></SPAN>        bi.biWidth =3D =
+Bitmap.bmWidth;
+<SPAN class=3Danchor id=3Dline-65></SPAN>        bi.biHeight =3D =
+Bitmap.bmHeight;
+<SPAN class=3Danchor id=3Dline-66></SPAN>        bi.biPlanes =3D 1;
+<SPAN class=3Danchor id=3Dline-67></SPAN>        bi.biBitCount =3D =
+wBitCount;
+<SPAN class=3Danchor id=3Dline-68></SPAN>        bi.biCompression =3D =
+BI_RGB;
+<SPAN class=3Danchor id=3Dline-69></SPAN>        bi.biSizeImage =3D 0;
+<SPAN class=3Danchor id=3Dline-70></SPAN>        bi.biXPelsPerMeter =3D =
+0;
+<SPAN class=3Danchor id=3Dline-71></SPAN>        bi.biYPelsPerMeter =3D =
+0;
+<SPAN class=3Danchor id=3Dline-72></SPAN>        bi.biClrImportant =3D =
+0;
+<SPAN class=3Danchor id=3Dline-73></SPAN>        bi.biClrUsed =3D 0;
+<SPAN class=3Danchor id=3Dline-74></SPAN>
+<SPAN class=3Danchor id=3Dline-75></SPAN>        dwBmBitsSize =3D =
+((Bitmap.bmWidth * wBitCount + 31) / 32) * 4 * Bitmap.bmHeight;
+<SPAN class=3Danchor id=3Dline-76></SPAN>
+<SPAN class=3Danchor id=3Dline-77></SPAN>        =
+//=E4=B8=BA=E4=BD=8D=E5=9B=BE=E5=86=85=E5=AE=B9=E5=88=86=E9=85=8D=E5=86=85=
+=E5=AD=98
+<SPAN class=3Danchor id=3Dline-78></SPAN>        hDib =3D =
+GlobalAlloc(GHND,dwBmBitsSize + dwPaletteSize + =
+sizeof(BITMAPINFOHEADER));
+<SPAN class=3Danchor id=3Dline-79></SPAN>        lpbi =3D =
+(LPBITMAPINFOHEADER)GlobalLock(hDib);
+<SPAN class=3Danchor id=3Dline-80></SPAN>        *lpbi =3D bi;
+<SPAN class=3Danchor id=3Dline-81></SPAN>
+<SPAN class=3Danchor id=3Dline-82></SPAN>        // =
+=E5=A4=84=E7=90=86=E8=B0=83=E8=89=B2=E6=9D=BF
+<SPAN class=3Danchor id=3Dline-83></SPAN>        hPal =3D =
+GetStockObject(DEFAULT_PALETTE);
+<SPAN class=3Danchor id=3Dline-84></SPAN>        if (hPal)
+<SPAN class=3Danchor id=3Dline-85></SPAN>        {
+<SPAN class=3Danchor id=3Dline-86></SPAN>                hDC =3D =
+::GetDC(NULL);
+<SPAN class=3Danchor id=3Dline-87></SPAN>                hOldPal =3D =
+::SelectPalette(hDC, (HPALETTE)hPal, FALSE);
+<SPAN class=3Danchor id=3Dline-88></SPAN>                =
+RealizePalette(hDC);
+<SPAN class=3Danchor id=3Dline-89></SPAN>        }
+<SPAN class=3Danchor id=3Dline-90></SPAN>
+<SPAN class=3Danchor id=3Dline-91></SPAN>        // =
+=E8=8E=B7=E5=8F=96=E8=AF=A5=E8=B0=83=E8=89=B2=E6=9D=BF=E4=B8=8B=E6=96=B0=E7=
+=9A=84=E5=83=8F=E7=B4=A0=E5=80=BC
+<SPAN class=3Danchor id=3Dline-92></SPAN>        GetDIBits(hDC, hBitmap, =
+0, (UINT) Bitmap.bmHeight, (LPSTR)lpbi + sizeof(BITMAPINFOHEADER)
+<SPAN class=3Danchor id=3Dline-93></SPAN>                +dwPaletteSize, =
+(BITMAPINFO *)lpbi, DIB_RGB_COLORS);
+<SPAN class=3Danchor id=3Dline-94></SPAN>
+<SPAN class=3Danchor id=3Dline-95></SPAN>        =
+//=E6=81=A2=E5=A4=8D=E8=B0=83=E8=89=B2=E6=9D=BF
+<SPAN class=3Danchor id=3Dline-96></SPAN>        if (hOldPal)
+<SPAN class=3Danchor id=3Dline-97></SPAN>        {
+<SPAN class=3Danchor id=3Dline-98></SPAN>                =
+::SelectPalette(hDC, (HPALETTE)hOldPal, TRUE);
+<SPAN class=3Danchor id=3Dline-99></SPAN>                =
+RealizePalette(hDC);
+<SPAN class=3Danchor id=3Dline-100></SPAN>                =
+::ReleaseDC(NULL, hDC);
+<SPAN class=3Danchor id=3Dline-101></SPAN>        }
+<SPAN class=3Danchor id=3Dline-102></SPAN>
+<SPAN class=3Danchor id=3Dline-103></SPAN>        =
+//=E5=88=9B=E5=BB=BA=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6
+<SPAN class=3Danchor id=3Dline-104></SPAN>        fh =3D =
+CreateFile(FileName.c_str(), GENERIC_WRITE,0, NULL, CREATE_ALWAYS,
+<SPAN class=3Danchor id=3Dline-105></SPAN>                =
+FILE_ATTRIBUTE_NORMAL | FILE_FLAG_SEQUENTIAL_SCAN, NULL);
+<SPAN class=3Danchor id=3Dline-106></SPAN>
+<SPAN class=3Danchor id=3Dline-107></SPAN>
+<SPAN class=3Danchor id=3Dline-108></SPAN>        if (fh =3D=3D =
+INVALID_HANDLE_VALUE) return FALSE;
+<SPAN class=3Danchor id=3Dline-109></SPAN>
+<SPAN class=3Danchor id=3Dline-110></SPAN>        // =
+=E8=AE=BE=E7=BD=AE=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=A4=B4
+<SPAN class=3Danchor id=3Dline-111></SPAN>        bmfHdr.bfType =3D =
+0x4D42; // "BM"
+<SPAN class=3Danchor id=3Dline-112></SPAN>        dwDIBSize =3D =
+sizeof(BITMAPFILEHEADER) + sizeof(BITMAPINFOHEADER) + dwPaletteSize + =
+dwBmBitsSize;
+<SPAN class=3Danchor id=3Dline-113></SPAN>        bmfHdr.bfSize =3D =
+dwDIBSize;
+<SPAN class=3Danchor id=3Dline-114></SPAN>        bmfHdr.bfReserved1 =3D =
+0;
+<SPAN class=3Danchor id=3Dline-115></SPAN>        bmfHdr.bfReserved2 =3D =
+0;
+<SPAN class=3Danchor id=3Dline-116></SPAN>        bmfHdr.bfOffBits =3D =
+(DWORD)sizeof(BITMAPFILEHEADER) + (DWORD)sizeof(BITMAPINFOHEADER) + =
+dwPaletteSize;
+<SPAN class=3Danchor id=3Dline-117></SPAN>        // =
+=E5=86=99=E5=85=A5=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=A4=B4
+<SPAN class=3Danchor id=3Dline-118></SPAN>        WriteFile(fh, =
+(LPSTR)&amp;bmfHdr, sizeof(BITMAPFILEHEADER), &amp;dwWritten, NULL);
+<SPAN class=3Danchor id=3Dline-119></SPAN>        // =
+=E5=86=99=E5=85=A5=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=85=B6=E4=BD=99=E5=
+=86=85=E5=AE=B9
+<SPAN class=3Danchor id=3Dline-120></SPAN>        WriteFile(fh, =
+(LPSTR)lpbi, dwDIBSize, &amp;dwWritten, NULL);
+<SPAN class=3Danchor id=3Dline-121></SPAN>        //=E6=B8=85=E9=99=A4
+<SPAN class=3Danchor id=3Dline-122></SPAN>        GlobalUnlock(hDib);
+<SPAN class=3Danchor id=3Dline-123></SPAN>        GlobalFree(hDib);
+<SPAN class=3Danchor id=3Dline-124></SPAN>        CloseHandle(fh);
+<SPAN class=3Danchor id=3Dline-125></SPAN>
+<SPAN class=3Danchor id=3Dline-126></SPAN>        return TRUE;
+<SPAN class=3Danchor id=3Dline-127></SPAN>}
+<SPAN class=3Danchor id=3Dline-128></SPAN>
+<SPAN class=3Danchor id=3Dline-129></SPAN>void mGLRender()
+<SPAN class=3Danchor id=3Dline-130></SPAN>{
+<SPAN class=3Danchor id=3Dline-131></SPAN>        =
+glClearColor(0.9f,0.9f,0.3f,1.0f);
+<SPAN class=3Danchor id=3Dline-132></SPAN>        =
+glClear(GL_COLOR_BUFFER_BIT);
+<SPAN class=3Danchor id=3Dline-133></SPAN>        =
+glMatrixMode(GL_PROJECTION);
+<SPAN class=3Danchor id=3Dline-134></SPAN>        gluPerspective(30.0, =
+1.0, 1.0, 10.0);
+<SPAN class=3Danchor id=3Dline-135></SPAN>        =
+glMatrixMode(GL_MODELVIEW);
+<SPAN class=3Danchor id=3Dline-136></SPAN>        gluLookAt(0, 0, -5, 0, =
+0, 0, 0, 1, 0);
+<SPAN class=3Danchor id=3Dline-137></SPAN>        glBegin(GL_TRIANGLES);
+<SPAN class=3Danchor id=3Dline-138></SPAN>        glColor3d(1, 0, 0);
+<SPAN class=3Danchor id=3Dline-139></SPAN>        glVertex3d(0, 1, 0);
+<SPAN class=3Danchor id=3Dline-140></SPAN>        glColor3d(0, 1, 0);
+<SPAN class=3Danchor id=3Dline-141></SPAN>        glVertex3d(-1, -1, 0);
+<SPAN class=3Danchor id=3Dline-142></SPAN>        glColor3d(0, 0, 1);
+<SPAN class=3Danchor id=3Dline-143></SPAN>        glVertex3d(1, -1, 0);
+<SPAN class=3Danchor id=3Dline-144></SPAN>        glEnd();
+<SPAN class=3Danchor id=3Dline-145></SPAN>        glFlush(); // remember =
+to flush GL output!
+<SPAN class=3Danchor id=3Dline-146></SPAN>}
+<SPAN class=3Danchor id=3Dline-147></SPAN>
+<SPAN class=3Danchor id=3Dline-148></SPAN>int _tmain(int argc, _TCHAR* =
+argv[])
+<SPAN class=3Danchor id=3Dline-149></SPAN>{
+<SPAN class=3Danchor id=3Dline-150></SPAN>        const int WIDTH =3D =
+500;
+<SPAN class=3Danchor id=3Dline-151></SPAN>        const int HEIGHT =3D =
+500;
+<SPAN class=3Danchor id=3Dline-152></SPAN>
+<SPAN class=3Danchor id=3Dline-153></SPAN>        // Create a memory DC =
+compatible with the screen
+<SPAN class=3Danchor id=3Dline-154></SPAN>        HDC hdc =3D =
+CreateCompatibleDC(0);
+<SPAN class=3Danchor id=3Dline-155></SPAN>        if (hdc =3D=3D 0) =
+cout&lt;&lt;"Could not create memory device context";
+<SPAN class=3Danchor id=3Dline-156></SPAN>
+<SPAN class=3Danchor id=3Dline-157></SPAN>        // Create a bitmap =
+compatible with the DC
+<SPAN class=3Danchor id=3Dline-158></SPAN>        // must use =
+CreateDIBSection(), and this means all pixel ops must be synchronised
+<SPAN class=3Danchor id=3Dline-159></SPAN>        // using calls to =
+GdiFlush() (see CreateDIBSection() docs)
+<SPAN class=3Danchor id=3Dline-160></SPAN>        BITMAPINFO bmi =3D {
+<SPAN class=3Danchor id=3Dline-161></SPAN>                { =
+sizeof(BITMAPINFOHEADER), WIDTH, HEIGHT, 1, 32, BI_RGB, 0, 0, 0, 0, 0 },
+<SPAN class=3Danchor id=3Dline-162></SPAN>                { 0 }
+<SPAN class=3Danchor id=3Dline-163></SPAN>        };
+<SPAN class=3Danchor id=3Dline-164></SPAN>        DWORD *pbits; // =
+pointer to bitmap bits
+<SPAN class=3Danchor id=3Dline-165></SPAN>        HBITMAP hbm =3D =
+CreateDIBSection(hdc, &amp;bmi, DIB_RGB_COLORS, (void **) &amp;pbits,
+<SPAN class=3Danchor id=3Dline-166></SPAN>                0, 0);
+<SPAN class=3Danchor id=3Dline-167></SPAN>        if (hbm =3D=3D 0) =
+cout&lt;&lt;"Could not create bitmap";
+<SPAN class=3Danchor id=3Dline-168></SPAN>
+<SPAN class=3Danchor id=3Dline-169></SPAN>        //HDC hdcScreen =3D =
+GetDC(0);
+<SPAN class=3Danchor id=3Dline-170></SPAN>        //HBITMAP hbm =3D =
+CreateCompatibleBitmap(hdcScreen,WIDTH,HEIGHT);
+<SPAN class=3Danchor id=3Dline-171></SPAN>
+<SPAN class=3Danchor id=3Dline-172></SPAN>        // Select the bitmap =
+into the DC
+<SPAN class=3Danchor id=3Dline-173></SPAN>        HGDIOBJ r =3D =
+SelectObject(hdc, hbm);
+<SPAN class=3Danchor id=3Dline-174></SPAN>        if (r =3D=3D 0) =
+cout&lt;&lt;"Could not select bitmap into DC";
+<SPAN class=3Danchor id=3Dline-175></SPAN>
+<SPAN class=3Danchor id=3Dline-176></SPAN>        // Choose the pixel =
+format
+<SPAN class=3Danchor id=3Dline-177></SPAN>        PIXELFORMATDESCRIPTOR =
+pfd =3D {
+<SPAN class=3Danchor id=3Dline-178></SPAN>                sizeof =
+(PIXELFORMATDESCRIPTOR), // struct size
+<SPAN class=3Danchor id=3Dline-179></SPAN>                        1, // =
+Version number
+<SPAN class=3Danchor id=3Dline-180></SPAN>                        =
+PFD_DRAW_TO_BITMAP | PFD_SUPPORT_OPENGL, // use OpenGL drawing to BM
+<SPAN class=3Danchor id=3Dline-181></SPAN>                        =
+PFD_TYPE_RGBA, // RGBA pixel values
+<SPAN class=3Danchor id=3Dline-182></SPAN>                        32, // =
+color bits
+<SPAN class=3Danchor id=3Dline-183></SPAN>                        0, 0, =
+0, // RGB bits shift sizes...
+<SPAN class=3Danchor id=3Dline-184></SPAN>                        0, 0, =
+0, // Don't care about them
+<SPAN class=3Danchor id=3Dline-185></SPAN>                        0, 0, =
+// No alpha buffer info
+<SPAN class=3Danchor id=3Dline-186></SPAN>                        0, 0, =
+0, 0, 0, // No accumulation buffer
+<SPAN class=3Danchor id=3Dline-187></SPAN>                        32, // =
+depth buffer bits
+<SPAN class=3Danchor id=3Dline-188></SPAN>                        0, // =
+No stencil buffer
+<SPAN class=3Danchor id=3Dline-189></SPAN>                        0, // =
+No auxiliary buffers
+<SPAN class=3Danchor id=3Dline-190></SPAN>                        =
+PFD_MAIN_PLANE, // Layer type
+<SPAN class=3Danchor id=3Dline-191></SPAN>                        0, // =
+Reserved (must be 0)
+<SPAN class=3Danchor id=3Dline-192></SPAN>                        0, // =
+No layer mask
+<SPAN class=3Danchor id=3Dline-193></SPAN>                        0, // =
+No visible mask
+<SPAN class=3Danchor id=3Dline-194></SPAN>                        0 // =
+No damage mask
+<SPAN class=3Danchor id=3Dline-195></SPAN>        };
+<SPAN class=3Danchor id=3Dline-196></SPAN>        int pfid =3D =
+ChoosePixelFormat(hdc, &amp;pfd);
+<SPAN class=3Danchor id=3Dline-197></SPAN>        if (pfid =3D=3D 0) =
+cout&lt;&lt;"Pixel format selection failed";
+<SPAN class=3Danchor id=3Dline-198></SPAN>
+<SPAN class=3Danchor id=3Dline-199></SPAN>        // Set the pixel =
+format
+<SPAN class=3Danchor id=3Dline-200></SPAN>        // - must be done =
+*after* the bitmap is selected into DC
+<SPAN class=3Danchor id=3Dline-201></SPAN>        BOOL b =3D =
+SetPixelFormat(hdc, pfid, &amp;pfd);
+<SPAN class=3Danchor id=3Dline-202></SPAN>        if (!b) =
+cout&lt;&lt;"Pixel format set failed";
+<SPAN class=3Danchor id=3Dline-203></SPAN>
+<SPAN class=3Danchor id=3Dline-204></SPAN>        // Create the OpenGL =
+resource context (RC) and make it current to the thread
+<SPAN class=3Danchor id=3Dline-205></SPAN>        HGLRC hglrc =3D =
+wglCreateContext(hdc);
+<SPAN class=3Danchor id=3Dline-206></SPAN>        if (hglrc =3D=3D 0) =
+cout&lt;&lt;"OpenGL resource context creation failed";
+<SPAN class=3Danchor id=3Dline-207></SPAN>        wglMakeCurrent(hdc, =
+hglrc);
+<SPAN class=3Danchor id=3Dline-208></SPAN>
+<SPAN class=3Danchor id=3Dline-209></SPAN>        // Draw using GL - =
+remember to sync with GdiFlush()
+<SPAN class=3Danchor id=3Dline-210></SPAN>        GdiFlush();
+<SPAN class=3Danchor id=3Dline-211></SPAN>        mGLRender();
+<SPAN class=3Danchor id=3Dline-212></SPAN>
+<SPAN class=3Danchor id=3Dline-213></SPAN>        =
+SaveBmp(hbm,"output.bmp");
+<SPAN class=3Danchor id=3Dline-214></SPAN>        /*
+<SPAN class=3Danchor id=3Dline-215></SPAN>        Examining the bitmap =
+bits (pbits) at this point with a debugger will reveal
+<SPAN class=3Danchor id=3Dline-216></SPAN>        that the colored =
+triangle has been drawn.
+<SPAN class=3Danchor id=3Dline-217></SPAN>        */
+<SPAN class=3Danchor id=3Dline-218></SPAN>
+<SPAN class=3Danchor id=3Dline-219></SPAN>        // Clean up
+<SPAN class=3Danchor id=3Dline-220></SPAN>        =
+wglDeleteContext(hglrc); // Delete RC
+<SPAN class=3Danchor id=3Dline-221></SPAN>        SelectObject(hdc, r); =
+// Remove bitmap from DC
+<SPAN class=3Danchor id=3Dline-222></SPAN>        DeleteObject(hbm); // =
+Delete bitmap
+<SPAN class=3Danchor id=3Dline-223></SPAN>        DeleteDC(hdc); // =
+Delete DC
+<SPAN class=3Danchor id=3Dline-224></SPAN>
+<SPAN class=3Danchor id=3Dline-225></SPAN>        return 0;
+<SPAN class=3Danchor id=3Dline-226></SPAN>}
+<SPAN class=3Danchor id=3Dline-227></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-228></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor=20
+id=3Dline-229></SPAN>=E5=A5=BD=E4=BA=86=EF=BC=8C=E7=BC=96=E8=AF=91=E6=88=90=
+=E5=8A=9F=EF=BC=8C=E8=BF=90=E8=A1=8C=EF=BC=8C=E7=A1=AE=E5=AE=9E=E6=98=AF=E5=
+=8F=AF=E4=BB=A5=E5=95=8A=EF=BC=81=E7=9C=8B=E7=9C=8B=E6=AD=A5=E9=AA=A4=E6=98=
+=AF=E4=BB=80=E4=B9=88=E6=A0=B7=E7=9A=84=EF=BC=9A <SPAN class=3Danchor=20
+id=3Dline-230></SPAN></P>
+<DIV>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD>
+      <P class=3Dline862>CreateCompatibleDC </P></TD>
+    <TD>
+      <P class=3Dline862>=E5=88=9B=E5=BB=BAdc </P></TD></TR>
+  <TR>
+    <TD><SPAN class=3Danchor id=3Dline-231></SPAN>
+      <P class=3Dline862>CreateDIBSection </P></TD>
+    <TD>
+      <P class=3Dline862>=E5=88=9B=E5=BB=BA=E5=9B=BE=E5=83=8F =
+</P></TD></TR>
+  <TR>
+    <TD><SPAN class=3Danchor id=3Dline-232></SPAN>
+      <P class=3Dline891>SelectObject </P></TD>
+    <TD>
+      <P class=3Dline862>=E5=9B=BE=E5=83=8F=E9=80=89=E5=85=A5DC =
+</P></TD></TR>
+  <TR>
+    <TD><SPAN class=3Danchor id=3Dline-233></SPAN>
+      <P class=3Dline891>SetPixelFormat </P></TD>
+    <TD>
+      <P =
+class=3Dline862>=E8=AE=BE=E7=BD=AE=E5=83=8F=E5=85=83=E6=A0=BC=E5=BC=8F =
+</P></TD></TR>
+  <TR>
+    <TD><SPAN class=3Danchor id=3Dline-234></SPAN>
+      <P class=3Dline862>wglCreateContext </P></TD>
+    <TD>
+      <P class=3Dline862>=E5=88=9B=E5=BB=BARC </P></TD></TR>
+  <TR>
+    <TD><SPAN class=3Danchor id=3Dline-235></SPAN>
+      <P class=3Dline862>wglMakeCurrent </P></TD>
+    <TD>
+      <P class=3Dline862>=E9=80=89=E6=8B=A9RC </P></TD></TR>
+  <TR>
+    <TD><SPAN class=3Danchor id=3Dline-236></SPAN>
+      <P class=3Dline862>mGLRender </P></TD>
+    <TD>
+      <P class=3Dline862>=E5=BC=80=E5=A7=8B=E6=B8=B2=E6=9F=93 =
+</P></TD></TR>
+  <TR>
+    <TD><SPAN class=3Danchor id=3Dline-237></SPAN>
+      <P class=3Dline891>SaveBmp </P></TD>
+    <TD>
+      <P =
+class=3Dline862>=E4=BF=9D=E5=AD=98=E5=9B=BE=E5=83=8F=EF=BC=88=E8=BF=99=E6=
+=AE=B5=E6=98=AF=E6=88=91=E4=BB=8E=E7=BD=91=E4=B8=8A=E9=9A=8F=E4=BE=BF=E6=91=
+=98=E4=B8=8B=E6=9D=A5=E7=9A=84=EF=BC=89 </P></TD></TR>
+  <TR>
+    <TD><SPAN class=3Danchor id=3Dline-238></SPAN>
+      <P class=3Dline862>... </P></TD>
+    <TD>
+      <P class=3Dline862>=E6=B8=85=E7=90=86 =
+</P></TD></TR></TBODY></TABLE></DIV><SPAN class=3Danchor=20
+id=3Dline-239></SPAN><SPAN class=3Danchor id=3Dline-240></SPAN><SPAN =
+class=3Danchor=20
+id=3Dline-241></SPAN>
+<P =
+class=3Dline874>=E5=A5=BD=E7=9A=84=EF=BC=8C=E6=97=A2=E7=84=B6C++=E5=8F=AF=
+=E4=BB=A5=EF=BC=8C=E9=82=A3=E4=B9=88Python=E2=80=A6=E2=80=A6 <SPAN =
+class=3Danchor=20
+id=3Dline-242></SPAN><SPAN class=3Danchor id=3Dline-243></SPAN></P>
+<P =
+class=3Dline874>=E7=AD=89=E7=AD=89=EF=BC=8CPython=E5=A5=BD=E5=83=8F=E4=B8=
+=8D=E8=A1=8C=EF=BC=81 <SPAN class=3Danchor id=3Dline-244></SPAN><SPAN=20
+class=3Danchor id=3Dline-245></SPAN></P>
+<P=20
+class=3Dline862>=E5=8D=95=E5=8D=95=E6=98=AFOpenGL=E7=9A=84=E4=B8=96=E7=95=
+=8C=E4=B9=B1=E4=BA=86=EF=BC=8C=E4=B9=9F=E5=B0=B1=E7=AE=97=E4=BA=86=EF=BC=8C=
+=E5=81=8F=E5=81=8FPython=E4=B9=9F=E6=9D=A5=E5=87=91=E7=83=AD=E9=97=B9=E3=80=
+=82PyWin32=E9=87=8C=E6=88=91=E6=AD=BB=E6=B4=BB=E6=89=BE=E4=B8=8D=E5=88=B0=
+CreateDIBSection=E3=80=82=E5=A5=BD=E5=90=A7=EF=BC=8C=20
+PyWin32=E6=89=BE=E4=B8=8D=E5=88=B0=EF=BC=8C=E9=82=A3=E4=B9=88=E6=88=91=E8=
+=BF=98=E6=9C=89PIL=E3=80=82=E9=87=8C=E9=9D=A2=E6=9C=89=E4=B8=AAImageWin.D=
+ib=EF=BC=8C=E6=88=91=E8=AF=95=E8=BF=87=EF=BC=8C=E4=B8=8D=E8=A1=8C=E3=80=82=
+=E6=80=BB=E6=98=AF=E5=9C=A8SetPixelFormat=E4=B8=AD=E5=87=BA=E7=8E=B0=E9=97=
+=AE=E9=A2=98=E3=80=82=E5=90=8E=E6=9D=A5=E6=88=91=E6=8A=8A=20
+CreateDIBSection=E7=9A=84=E9=83=A8=E5=88=86=E6=95=B4=E4=B8=AA=E6=B3=A8=E9=
+=87=8A=E6=8E=89=E6=94=B9=E6=88=90=E7=B1=BB=E4=BC=BC=EF=BC=9A <SPAN =
+class=3Danchor id=3Dline-246></SPAN><SPAN=20
+class=3Danchor id=3Dline-247></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-248></SPAN></P><PRE>HDC hdcScreen =3D GetDC(0);
+<SPAN class=3Danchor id=3Dline-249></SPAN>HBITMAP hbm =3D =
+CreateCompatibleBitmap(hdcScreen,WIDTH,HEIGHT);
+<SPAN class=3Danchor id=3Dline-250></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-251></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor=20
+id=3Dline-252></SPAN>=E7=9A=84=E4=BB=A3=E7=A0=81=E3=80=82=E5=BD=93=E7=84=B6=
+=E8=BF=99=E6=98=AFC++=E7=9A=84=E6=94=B9=E5=8A=A8=EF=BC=8Cpython=E6=94=B9=E5=
+=8A=A8=E4=B9=9F=E7=B1=BB=E4=BC=BC=E3=80=82=E5=9B=A0=E4=B8=BA=E8=BF=99=E4=B8=
+=A4=E4=B8=AA=E5=87=BD=E6=95=B0PyWin32=E9=87=8C=E6=9C=89=EF=BC=8C=E7=8E=B0=
+=E5=9C=A8=E9=80=9A=E8=BF=87=E4=BA=86=E3=80=82=E5=B9=B6=E4=B8=94=E8=BF=90=E8=
+=A1=8C=E5=88=B0=E4=BA=86wglCreateContext=E7=9A=84=E6=AD=A5=E9=AA=A4=E3=80=
+=82=E7=AD=89=E7=AD=89=EF=BC=8C=E6=8F=90=E7=A4=BA=E7=A9=BA=E9=97=B4=E4=B8=8D=
+=E5=A4=9F=EF=BC=9F=E4=BB=80=E4=B9=88=E7=A9=BA=E9=97=B4=E4=B8=8D=E5=A4=9F=EF=
+=BC=9F=E6=88=91=E5=9C=A8C++=E4=B8=AD=E9=83=BD=E8=BF=90=E8=A1=8C=E5=A5=BD=E5=
+=A5=BD=E7=9A=84=E3=80=82=E5=AF=B9=E6=AF=94=E4=B8=A4=E4=B8=AA=E8=AF=AD=E8=A8=
+=80=E7=9A=84=E4=B8=A4=E6=AE=B5=E4=BB=A3=E7=A0=81=EF=BC=8C=E5=AE=8C=E5=85=A8=
+=E4=B8=80=E6=A0=B7=E7=9A=84=E6=AD=A5=E9=AA=A4=EF=BC=8C=E5=B1=85=E7=84=B6=E4=
+=B8=80=E4=B8=AA=E5=8F=AF=E4=BB=A5=E4=B8=80=E4=B8=AA=E5=B0=B1=E6=98=AF=E4=B8=
+=8D=E8=A1=8C=EF=BC=81=E5=8F=91=E4=B8=AA=E9=82=AE=E4=BB=B6=E7=BB=99=20
+pyopengl=E7=9A=84=E9=82=AE=E4=BB=B6=E5=88=97=E8=A1=A8=E5=90=A7=EF=BC=8C=E5=
+=87=A0=E5=A4=A9=E6=B2=A1=E5=9B=9E=E5=BA=94=E2=80=A6=E2=80=A6=E7=9C=9F=E7=9A=
+=84=E6=99=95=E4=BA=86=E3=80=82 <SPAN class=3Danchor =
+id=3Dline-253></SPAN><SPAN=20
+class=3Danchor id=3Dline-254></SPAN></P>
+<P=20
+class=3Dline862>=E5=A4=A7=E6=A6=82=E5=8F=AF=E8=83=BD=E6=98=AF=E6=88=91=E4=
+=B8=8D=E6=87=82=E6=80=8E=E4=B9=88=E7=8E=A9PyWin32=E6=88=96=E8=80=85PyOpen=
+GL=EF=BC=8C=E6=88=96=E8=80=85PIL=E7=9A=84Dib=E7=B1=BB=E6=88=91=E7=94=A8=E5=
+=BE=97=E4=B8=8D=E5=AF=B9=EF=BC=8C=E4=BD=86=E6=98=AF=E6=88=91=E5=9C=A8=E6=B3=
+=A1=E4=BA=86=E4=B8=89=E5=A4=A9=E7=9A=84google=E5=90=8E=EF=BC=8C=E6=88=91=E6=
+=94=BE=E5=BC=83=E4=BA=86=E3=80=82=E4=B8=8E=E5=85=B6=E5=9C=A8=E8=BF=99=E4=B8=
+=AA=E9=97=AE=E9=A2=98=E4=B8=8A=E6=8B=96=E5=BB=B6=E6=97=B6=E9=97=B4=EF=BC=8C=
+=E4=B8=8D=E5=A6=82=E5=8F=A6=E8=BE=9F=E8=B9=8A=E5=BE=84=E3=80=82=EF=BC=88=E5=
+=A6=82=E6=9E=9C=E4=BD=A0=E6=88=90=E5=8A=9F=E5=BE=97=E5=9C=A8Python=E4=B8=8B=
+=E7=A6=BB=E5=B1=8F=E6=B8=B2=E6=9F=93=E4=BA=86=EF=BC=8C=E4=B8=80=E5=AE=9A=E8=
+=A6=81=E5=91=8A=E8=AF=89=E6=88=91=E5=93=A6=EF=BC=81=EF=BC=89=20
+<SPAN class=3Danchor id=3Dline-255></SPAN><SPAN class=3Danchor =
+id=3Dline-256></SPAN></P>
+<P=20
+class=3Dline874>=E6=97=A2=E7=84=B6C++=E5=8F=AF=E4=BB=A5=EF=BC=8C=E4=B8=BA=
+=E4=BB=80=E4=B9=88=E4=B8=8D=E7=94=A8C++=E6=9D=A5=E5=81=9A=EF=BC=9F=E7=84=B6=
+=E5=90=8E=E7=94=A8Swig=E6=9D=A5=E7=BB=91=E5=AE=9A=EF=BC=9F=E4=B8=8D=E5=B0=
+=B1=E6=98=AF=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E7=8E=AF=E5=A2=83=E5=90=97=
+=EF=BC=9F=E6=88=91=E5=9C=A8C++=E4=B8=AD=E5=88=9B=E5=BB=BA=E5=A5=BD=EF=BC=8C=
+=E7=84=B6=E5=90=8E=E5=9C=A8Python=E4=B8=AD=E6=B8=B2=E6=9F=93=EF=BC=8C=E7=84=
+=B6=E5=90=8E=E5=9C=A8C++=E4=B8=AD=E5=85=B3=E9=97=AD=E7=8E=AF=E5=A2=83=E3=80=
+=82=E5=8F=8D=E6=AD=A3=E7=8E=AF=E5=A2=83=E5=9C=A8=E5=93=AA=E9=87=8C=E4=B8=8D=
+=E6=98=AF=E4=B8=80=E6=A0=B7=E5=88=9B=E5=BB=BA=EF=BC=81=20
+<SPAN class=3Danchor id=3Dline-257></SPAN><SPAN class=3Danchor =
+id=3Dline-258></SPAN></P>
+<P class=3Dline867></P>
+<H1 id=3Dhead-d1c02696cb5c952c531b180e42279896095de908>2. =
+=E6=9D=A5=E5=90=A7</H1><SPAN=20
+class=3Danchor id=3Dline-259></SPAN>
+<P=20
+class=3Dline862>=E7=8E=B0=E5=9C=A8=E6=88=91=E7=9A=84=E6=80=9D=E8=B7=AF=E5=
+=B0=B1=E5=AE=9A=E4=B8=8B=E6=9D=A5=EF=BC=8C=E7=94=A8C++=E5=86=99=E4=B8=A4=E4=
+=B8=AA=E5=87=BD=E6=95=B0=EF=BC=8C=E7=94=A8=E6=9D=A5=E5=88=9B=E5=BB=BA=E7=A6=
+=BB=E5=B1=8FRC=E7=8E=AF=E5=A2=83=E5=92=8C=E5=85=B3=E9=97=AD=E7=8E=AF=E5=A2=
+=83=E3=80=82=E5=90=8D=E5=AD=97=E5=B0=B1=E5=8F=ABStartBmpContext=E5=92=8CE=
+ndBmpContext=E3=80=82=20
+<SPAN class=3Danchor id=3Dline-260></SPAN><SPAN class=3Danchor =
+id=3Dline-261></SPAN></P>
+<P =
+class=3Dline874>=E5=88=9B=E5=BB=BA=E4=B8=80=E4=B8=AA=E5=B7=A5=E7=A8=8B=E3=
+=80=82=E5=8F=ABglBmpContext=E3=80=82=E7=84=B6=E5=90=8E=E5=81=9A=E4=B8=80=E4=
+=BA=9B=E4=BB=80=E4=B9=88=E5=8F=96=E6=B6=88stdafx=EF=BC=8C=E6=B8=85=E7=A9=BA=
+=E7=AD=89=E5=96=84=E5=89=8D=E5=B7=A5=E4=BD=9C=E3=80=82=E7=84=B6=E5=90=8E=E5=
+=86=99=E5=85=A5=E5=86=85=E5=AE=B9=E3=80=82 <SPAN=20
+class=3Danchor id=3Dline-262></SPAN><SPAN class=3Danchor =
+id=3Dline-263></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-264></SPAN></P><PRE>#include &lt;windows.h&gt;
+<SPAN class=3Danchor id=3Dline-265></SPAN>#include &lt;iostream&gt;
+<SPAN class=3Danchor id=3Dline-266></SPAN>#include &lt;commctrl.h&gt;
+<SPAN class=3Danchor id=3Dline-267></SPAN>#include &lt;gl/gl.h&gt;
+<SPAN class=3Danchor id=3Dline-268></SPAN>#include &lt;gl/glu.h&gt;
+<SPAN class=3Danchor id=3Dline-269></SPAN>using namespace std;
+<SPAN class=3Danchor id=3Dline-270></SPAN>
+<SPAN class=3Danchor id=3Dline-271></SPAN>static HDC hdc;
+<SPAN class=3Danchor id=3Dline-272></SPAN>static HBITMAP hbm;
+<SPAN class=3Danchor id=3Dline-273></SPAN>static HGDIOBJ r;
+<SPAN class=3Danchor id=3Dline-274></SPAN>static HGLRC hglrc;
+<SPAN class=3Danchor id=3Dline-275></SPAN>static DWORD *pbits;// pointer =
+to bitmap bits
+<SPAN class=3Danchor id=3Dline-276></SPAN>
+<SPAN class=3Danchor id=3Dline-277></SPAN>static int WIDTH =3D 120;
+<SPAN class=3Danchor id=3Dline-278></SPAN>static int HEIGHT =3D 90;
+<SPAN class=3Danchor id=3Dline-279></SPAN>
+<SPAN class=3Danchor id=3Dline-280></SPAN>__declspec(dllexport) void =
+StartBmpContext(int width,int height)
+<SPAN class=3Danchor id=3Dline-281></SPAN>{
+<SPAN class=3Danchor id=3Dline-282></SPAN>        WIDTH =3D width;
+<SPAN class=3Danchor id=3Dline-283></SPAN>        HEIGHT =3D height;
+<SPAN class=3Danchor id=3Dline-284></SPAN>
+<SPAN class=3Danchor id=3Dline-285></SPAN>        // Create a memory DC =
+compatible with the screen
+<SPAN class=3Danchor id=3Dline-286></SPAN>        hdc =3D =
+CreateCompatibleDC(0);
+<SPAN class=3Danchor id=3Dline-287></SPAN>        if (hdc =3D=3D 0) =
+cout&lt;&lt;"Could not create memory device context";
+<SPAN class=3Danchor id=3Dline-288></SPAN>
+<SPAN class=3Danchor id=3Dline-289></SPAN>        // Create a bitmap =
+compatible with the DC
+<SPAN class=3Danchor id=3Dline-290></SPAN>        // must use =
+CreateDIBSection(), and this means all pixel ops must be synchronised
+<SPAN class=3Danchor id=3Dline-291></SPAN>        // using calls to =
+GdiFlush() (see CreateDIBSection() docs)
+<SPAN class=3Danchor id=3Dline-292></SPAN>        BITMAPINFO bmi =3D {
+<SPAN class=3Danchor id=3Dline-293></SPAN>                { =
+sizeof(BITMAPINFOHEADER), WIDTH, HEIGHT, 1, 32, BI_RGB, 0, 0, 0, 0, 0 },
+<SPAN class=3Danchor id=3Dline-294></SPAN>                { 0 }
+<SPAN class=3Danchor id=3Dline-295></SPAN>        };
+<SPAN class=3Danchor id=3Dline-296></SPAN>
+<SPAN class=3Danchor id=3Dline-297></SPAN>        hbm =3D =
+CreateDIBSection(hdc, &amp;bmi, DIB_RGB_COLORS, (void **) &amp;pbits,
+<SPAN class=3Danchor id=3Dline-298></SPAN>                0, 0);
+<SPAN class=3Danchor id=3Dline-299></SPAN>        /*HBITMAP hbm =3D =
+CreateCompatibleBitmap(hdc,WIDTH,HEIGHT);*/
+<SPAN class=3Danchor id=3Dline-300></SPAN>        if (hbm =3D=3D 0) =
+cout&lt;&lt;"Could not create bitmap";
+<SPAN class=3Danchor id=3Dline-301></SPAN>
+<SPAN class=3Danchor id=3Dline-302></SPAN>        // Select the bitmap =
+into the DC
+<SPAN class=3Danchor id=3Dline-303></SPAN>        r =3D =
+SelectObject(hdc, hbm);
+<SPAN class=3Danchor id=3Dline-304></SPAN>        if (r =3D=3D 0) =
+cout&lt;&lt;"Could not select bitmap into DC";
+<SPAN class=3Danchor id=3Dline-305></SPAN>
+<SPAN class=3Danchor id=3Dline-306></SPAN>        // Choose the pixel =
+format
+<SPAN class=3Danchor id=3Dline-307></SPAN>        PIXELFORMATDESCRIPTOR =
+pfd =3D {
+<SPAN class=3Danchor id=3Dline-308></SPAN>                sizeof =
+(PIXELFORMATDESCRIPTOR), // struct size
+<SPAN class=3Danchor id=3Dline-309></SPAN>                        1, // =
+Version number
+<SPAN class=3Danchor id=3Dline-310></SPAN>                        =
+PFD_DRAW_TO_BITMAP | PFD_SUPPORT_OPENGL, // use OpenGL drawing to BM
+<SPAN class=3Danchor id=3Dline-311></SPAN>                        =
+PFD_TYPE_RGBA, // RGBA pixel values
+<SPAN class=3Danchor id=3Dline-312></SPAN>                        32, // =
+color bits
+<SPAN class=3Danchor id=3Dline-313></SPAN>                        0, 0, =
+0, // RGB bits shift sizes...
+<SPAN class=3Danchor id=3Dline-314></SPAN>                        0, 0, =
+0, // Don't care about them
+<SPAN class=3Danchor id=3Dline-315></SPAN>                        0, 0, =
+// No alpha buffer info
+<SPAN class=3Danchor id=3Dline-316></SPAN>                        0, 0, =
+0, 0, 0, // No accumulation buffer
+<SPAN class=3Danchor id=3Dline-317></SPAN>                        32, // =
+depth buffer bits
+<SPAN class=3Danchor id=3Dline-318></SPAN>                        0, // =
+No stencil buffer
+<SPAN class=3Danchor id=3Dline-319></SPAN>                        0, // =
+No auxiliary buffers
+<SPAN class=3Danchor id=3Dline-320></SPAN>                        =
+PFD_MAIN_PLANE, // Layer type
+<SPAN class=3Danchor id=3Dline-321></SPAN>                        0, // =
+Reserved (must be 0)
+<SPAN class=3Danchor id=3Dline-322></SPAN>                        0, // =
+No layer mask
+<SPAN class=3Danchor id=3Dline-323></SPAN>                        0, // =
+No visible mask
+<SPAN class=3Danchor id=3Dline-324></SPAN>                        0 // =
+No damage mask
+<SPAN class=3Danchor id=3Dline-325></SPAN>        };
+<SPAN class=3Danchor id=3Dline-326></SPAN>        int pfid =3D =
+ChoosePixelFormat(hdc, &amp;pfd);
+<SPAN class=3Danchor id=3Dline-327></SPAN>        =
+cout&lt;&lt;pfid&lt;&lt;endl;
+<SPAN class=3Danchor id=3Dline-328></SPAN>        if (pfid =3D=3D 0) =
+cout&lt;&lt;"Pixel format selection failed";
+<SPAN class=3Danchor id=3Dline-329></SPAN>
+<SPAN class=3Danchor id=3Dline-330></SPAN>        // Set the pixel =
+format
+<SPAN class=3Danchor id=3Dline-331></SPAN>        // - must be done =
+*after* the bitmap is selected into DC
+<SPAN class=3Danchor id=3Dline-332></SPAN>        BOOL b =3D =
+SetPixelFormat(hdc, pfid, &amp;pfd);
+<SPAN class=3Danchor id=3Dline-333></SPAN>        if (!b) =
+cout&lt;&lt;"Pixel format set failed";
+<SPAN class=3Danchor id=3Dline-334></SPAN>
+<SPAN class=3Danchor id=3Dline-335></SPAN>        // Create the OpenGL =
+resource context (RC) and make it current to the thread
+<SPAN class=3Danchor id=3Dline-336></SPAN>        hglrc =3D =
+wglCreateContext(hdc);
+<SPAN class=3Danchor id=3Dline-337></SPAN>        if (hglrc =3D=3D 0) =
+cout&lt;&lt;"OpenGL resource context creation failed";
+<SPAN class=3Danchor id=3Dline-338></SPAN>        wglMakeCurrent(hdc, =
+hglrc);
+<SPAN class=3Danchor id=3Dline-339></SPAN>
+<SPAN class=3Danchor id=3Dline-340></SPAN>}
+<SPAN class=3Danchor id=3Dline-341></SPAN>
+<SPAN class=3Danchor id=3Dline-342></SPAN>int SaveBmp(HBITMAP hBitmap, =
+char* FileName)
+<SPAN class=3Danchor id=3Dline-343></SPAN>{
+<SPAN class=3Danchor id=3Dline-344></SPAN>        HDC hDC;
+<SPAN class=3Danchor id=3Dline-345></SPAN>        =
+//=E5=BD=93=E5=89=8D=E5=88=86=E8=BE=A8=E7=8E=87=E4=B8=8B=E6=AF=8F=E8=B1=A1=
+=E7=B4=A0=E6=89=80=E5=8D=A0=E5=AD=97=E8=8A=82=E6=95=B0
+<SPAN class=3Danchor id=3Dline-346></SPAN>        int iBits;
+<SPAN class=3Danchor id=3Dline-347></SPAN>        =
+//=E4=BD=8D=E5=9B=BE=E4=B8=AD=E6=AF=8F=E8=B1=A1=E7=B4=A0=E6=89=80=E5=8D=A0=
+=E5=AD=97=E8=8A=82=E6=95=B0
+<SPAN class=3Danchor id=3Dline-348></SPAN>        WORD wBitCount;
+<SPAN class=3Danchor id=3Dline-349></SPAN>        =
+//=E5=AE=9A=E4=B9=89=E8=B0=83=E8=89=B2=E6=9D=BF=E5=A4=A7=E5=B0=8F=EF=BC=8C=
+ =
+=E4=BD=8D=E5=9B=BE=E4=B8=AD=E5=83=8F=E7=B4=A0=E5=AD=97=E8=8A=82=E5=A4=A7=E5=
+=B0=8F =EF=BC=8C=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=A4=A7=E5=B0=8F =
+=EF=BC=8C =
+=E5=86=99=E5=85=A5=E6=96=87=E4=BB=B6=E5=AD=97=E8=8A=82=E6=95=B0
+<SPAN class=3Danchor id=3Dline-350></SPAN>        DWORD =
+dwPaletteSize=3D0, dwBmBitsSize=3D0, dwDIBSize=3D0, dwWritten=3D0;
+<SPAN class=3Danchor id=3Dline-351></SPAN>        =
+//=E4=BD=8D=E5=9B=BE=E5=B1=9E=E6=80=A7=E7=BB=93=E6=9E=84
+<SPAN class=3Danchor id=3Dline-352></SPAN>        BITMAP Bitmap;
+<SPAN class=3Danchor id=3Dline-353></SPAN>        =
+//=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=A4=B4=E7=BB=93=E6=9E=84
+<SPAN class=3Danchor id=3Dline-354></SPAN>        BITMAPFILEHEADER =
+bmfHdr;
+<SPAN class=3Danchor id=3Dline-355></SPAN>        =
+//=E4=BD=8D=E5=9B=BE=E4=BF=A1=E6=81=AF=E5=A4=B4=E7=BB=93=E6=9E=84
+<SPAN class=3Danchor id=3Dline-356></SPAN>        BITMAPINFOHEADER bi;
+<SPAN class=3Danchor id=3Dline-357></SPAN>        =
+//=E6=8C=87=E5=90=91=E4=BD=8D=E5=9B=BE=E4=BF=A1=E6=81=AF=E5=A4=B4=E7=BB=93=
+=E6=9E=84
+<SPAN class=3Danchor id=3Dline-358></SPAN>        LPBITMAPINFOHEADER =
+lpbi;
+<SPAN class=3Danchor id=3Dline-359></SPAN>        =
+//=E5=AE=9A=E4=B9=89=E6=96=87=E4=BB=B6=EF=BC=8C=E5=88=86=E9=85=8D=E5=86=85=
+=E5=AD=98=E5=8F=A5=E6=9F=84=EF=BC=8C=E8=B0=83=E8=89=B2=E6=9D=BF=E5=8F=A5=E6=
+=9F=84
+<SPAN class=3Danchor id=3Dline-360></SPAN>        HANDLE fh, hDib, =
+hPal,hOldPal=3DNULL;
+<SPAN class=3Danchor id=3Dline-361></SPAN>
+<SPAN class=3Danchor id=3Dline-362></SPAN>        =
+//=E8=AE=A1=E7=AE=97=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E6=AF=8F=E4=B8=AA=
+=E5=83=8F=E7=B4=A0=E6=89=80=E5=8D=A0=E5=AD=97=E8=8A=82=E6=95=B0
+<SPAN class=3Danchor id=3Dline-363></SPAN>        hDC =3D =
+CreateDC("DISPLAY", NULL, NULL, NULL);
+<SPAN class=3Danchor id=3Dline-364></SPAN>        iBits =3D =
+GetDeviceCaps(hDC, BITSPIXEL) * GetDeviceCaps(hDC, PLANES);
+<SPAN class=3Danchor id=3Dline-365></SPAN>        DeleteDC(hDC);
+<SPAN class=3Danchor id=3Dline-366></SPAN>        if (iBits &lt;=3D 1) =
+wBitCount =3D 1;
+<SPAN class=3Danchor id=3Dline-367></SPAN>        else if (iBits &lt;=3D =
+4) wBitCount =3D 4;
+<SPAN class=3Danchor id=3Dline-368></SPAN>        else if (iBits &lt;=3D =
+8) wBitCount =3D 8;
+<SPAN class=3Danchor id=3Dline-369></SPAN>        else wBitCount =3D 24;
+<SPAN class=3Danchor id=3Dline-370></SPAN>
+<SPAN class=3Danchor id=3Dline-371></SPAN>        GetObject(hBitmap, =
+sizeof(Bitmap), (LPSTR)&amp;Bitmap);
+<SPAN class=3Danchor id=3Dline-372></SPAN>        bi.biSize =3D =
+sizeof(BITMAPINFOHEADER);
+<SPAN class=3Danchor id=3Dline-373></SPAN>        bi.biWidth =3D =
+Bitmap.bmWidth;
+<SPAN class=3Danchor id=3Dline-374></SPAN>        bi.biHeight =3D =
+Bitmap.bmHeight;
+<SPAN class=3Danchor id=3Dline-375></SPAN>        bi.biPlanes =3D 1;
+<SPAN class=3Danchor id=3Dline-376></SPAN>        bi.biBitCount =3D =
+wBitCount;
+<SPAN class=3Danchor id=3Dline-377></SPAN>        bi.biCompression =3D =
+BI_RGB;
+<SPAN class=3Danchor id=3Dline-378></SPAN>        bi.biSizeImage =3D 0;
+<SPAN class=3Danchor id=3Dline-379></SPAN>        bi.biXPelsPerMeter =3D =
+0;
+<SPAN class=3Danchor id=3Dline-380></SPAN>        bi.biYPelsPerMeter =3D =
+0;
+<SPAN class=3Danchor id=3Dline-381></SPAN>        bi.biClrImportant =3D =
+0;
+<SPAN class=3Danchor id=3Dline-382></SPAN>        bi.biClrUsed =3D 0;
+<SPAN class=3Danchor id=3Dline-383></SPAN>
+<SPAN class=3Danchor id=3Dline-384></SPAN>        dwBmBitsSize =3D =
+((Bitmap.bmWidth * wBitCount + 31) / 32) * 4 * Bitmap.bmHeight;
+<SPAN class=3Danchor id=3Dline-385></SPAN>
+<SPAN class=3Danchor id=3Dline-386></SPAN>        =
+//=E4=B8=BA=E4=BD=8D=E5=9B=BE=E5=86=85=E5=AE=B9=E5=88=86=E9=85=8D=E5=86=85=
+=E5=AD=98
+<SPAN class=3Danchor id=3Dline-387></SPAN>        hDib =3D =
+GlobalAlloc(GHND,dwBmBitsSize + dwPaletteSize + =
+sizeof(BITMAPINFOHEADER));
+<SPAN class=3Danchor id=3Dline-388></SPAN>        lpbi =3D =
+(LPBITMAPINFOHEADER)GlobalLock(hDib);
+<SPAN class=3Danchor id=3Dline-389></SPAN>        *lpbi =3D bi;
+<SPAN class=3Danchor id=3Dline-390></SPAN>
+<SPAN class=3Danchor id=3Dline-391></SPAN>        // =
+=E5=A4=84=E7=90=86=E8=B0=83=E8=89=B2=E6=9D=BF
+<SPAN class=3Danchor id=3Dline-392></SPAN>        hPal =3D =
+GetStockObject(DEFAULT_PALETTE);
+<SPAN class=3Danchor id=3Dline-393></SPAN>        if (hPal)
+<SPAN class=3Danchor id=3Dline-394></SPAN>        {
+<SPAN class=3Danchor id=3Dline-395></SPAN>                hDC =3D =
+::GetDC(NULL);
+<SPAN class=3Danchor id=3Dline-396></SPAN>                hOldPal =3D =
+::SelectPalette(hDC, (HPALETTE)hPal, FALSE);
+<SPAN class=3Danchor id=3Dline-397></SPAN>                =
+RealizePalette(hDC);
+<SPAN class=3Danchor id=3Dline-398></SPAN>        }
+<SPAN class=3Danchor id=3Dline-399></SPAN>
+<SPAN class=3Danchor id=3Dline-400></SPAN>        // =
+=E8=8E=B7=E5=8F=96=E8=AF=A5=E8=B0=83=E8=89=B2=E6=9D=BF=E4=B8=8B=E6=96=B0=E7=
+=9A=84=E5=83=8F=E7=B4=A0=E5=80=BC
+<SPAN class=3Danchor id=3Dline-401></SPAN>        GetDIBits(hDC, =
+hBitmap, 0, (UINT) Bitmap.bmHeight, (LPSTR)lpbi + =
+sizeof(BITMAPINFOHEADER)
+<SPAN class=3Danchor id=3Dline-402></SPAN>                =
++dwPaletteSize, (BITMAPINFO *)lpbi, DIB_RGB_COLORS);
+<SPAN class=3Danchor id=3Dline-403></SPAN>
+<SPAN class=3Danchor id=3Dline-404></SPAN>        =
+//=E6=81=A2=E5=A4=8D=E8=B0=83=E8=89=B2=E6=9D=BF
+<SPAN class=3Danchor id=3Dline-405></SPAN>        if (hOldPal)
+<SPAN class=3Danchor id=3Dline-406></SPAN>        {
+<SPAN class=3Danchor id=3Dline-407></SPAN>                =
+::SelectPalette(hDC, (HPALETTE)hOldPal, TRUE);
+<SPAN class=3Danchor id=3Dline-408></SPAN>                =
+RealizePalette(hDC);
+<SPAN class=3Danchor id=3Dline-409></SPAN>                =
+::ReleaseDC(NULL, hDC);
+<SPAN class=3Danchor id=3Dline-410></SPAN>        }
+<SPAN class=3Danchor id=3Dline-411></SPAN>
+<SPAN class=3Danchor id=3Dline-412></SPAN>        =
+//=E5=88=9B=E5=BB=BA=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6
+<SPAN class=3Danchor id=3Dline-413></SPAN>        fh =3D =
+CreateFile(FileName, GENERIC_WRITE,0, NULL, CREATE_ALWAYS,
+<SPAN class=3Danchor id=3Dline-414></SPAN>                =
+FILE_ATTRIBUTE_NORMAL | FILE_FLAG_SEQUENTIAL_SCAN, NULL);
+<SPAN class=3Danchor id=3Dline-415></SPAN>
+<SPAN class=3Danchor id=3Dline-416></SPAN>
+<SPAN class=3Danchor id=3Dline-417></SPAN>        if (fh =3D=3D =
+INVALID_HANDLE_VALUE) return 1;
+<SPAN class=3Danchor id=3Dline-418></SPAN>
+<SPAN class=3Danchor id=3Dline-419></SPAN>        // =
+=E8=AE=BE=E7=BD=AE=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=A4=B4
+<SPAN class=3Danchor id=3Dline-420></SPAN>        bmfHdr.bfType =3D =
+0x4D42; // "BM"
+<SPAN class=3Danchor id=3Dline-421></SPAN>        dwDIBSize =3D =
+sizeof(BITMAPFILEHEADER) + sizeof(BITMAPINFOHEADER) + dwPaletteSize + =
+dwBmBitsSize;
+<SPAN class=3Danchor id=3Dline-422></SPAN>        bmfHdr.bfSize =3D =
+dwDIBSize;
+<SPAN class=3Danchor id=3Dline-423></SPAN>        bmfHdr.bfReserved1 =3D =
+0;
+<SPAN class=3Danchor id=3Dline-424></SPAN>        bmfHdr.bfReserved2 =3D =
+0;
+<SPAN class=3Danchor id=3Dline-425></SPAN>        bmfHdr.bfOffBits =3D =
+(DWORD)sizeof(BITMAPFILEHEADER) + (DWORD)sizeof(BITMAPINFOHEADER) + =
+dwPaletteSize;
+<SPAN class=3Danchor id=3Dline-426></SPAN>        // =
+=E5=86=99=E5=85=A5=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=A4=B4
+<SPAN class=3Danchor id=3Dline-427></SPAN>        WriteFile(fh, =
+(LPSTR)&amp;bmfHdr, sizeof(BITMAPFILEHEADER), &amp;dwWritten, NULL);
+<SPAN class=3Danchor id=3Dline-428></SPAN>        // =
+=E5=86=99=E5=85=A5=E4=BD=8D=E5=9B=BE=E6=96=87=E4=BB=B6=E5=85=B6=E4=BD=99=E5=
+=86=85=E5=AE=B9
+<SPAN class=3Danchor id=3Dline-429></SPAN>        WriteFile(fh, =
+(LPSTR)lpbi, dwDIBSize, &amp;dwWritten, NULL);
+<SPAN class=3Danchor id=3Dline-430></SPAN>        //=E6=B8=85=E9=99=A4
+<SPAN class=3Danchor id=3Dline-431></SPAN>        GlobalUnlock(hDib);
+<SPAN class=3Danchor id=3Dline-432></SPAN>        GlobalFree(hDib);
+<SPAN class=3Danchor id=3Dline-433></SPAN>        CloseHandle(fh);
+<SPAN class=3Danchor id=3Dline-434></SPAN>
+<SPAN class=3Danchor id=3Dline-435></SPAN>        return 0;
+<SPAN class=3Danchor id=3Dline-436></SPAN>
+<SPAN class=3Danchor id=3Dline-437></SPAN>}
+<SPAN class=3Danchor id=3Dline-438></SPAN>
+<SPAN class=3Danchor id=3Dline-439></SPAN>__declspec(dllexport) int =
+SaveBmp(char* FileName)
+<SPAN class=3Danchor id=3Dline-440></SPAN>{
+<SPAN class=3Danchor id=3Dline-441></SPAN>        return =
+SaveBmp(hbm,FileName);
+<SPAN class=3Danchor id=3Dline-442></SPAN>}
+<SPAN class=3Danchor id=3Dline-443></SPAN>
+<SPAN class=3Danchor id=3Dline-444></SPAN>__declspec(dllexport) int =
+GetWidth()
+<SPAN class=3Danchor id=3Dline-445></SPAN>{
+<SPAN class=3Danchor id=3Dline-446></SPAN>        return WIDTH;
+<SPAN class=3Danchor id=3Dline-447></SPAN>}
+<SPAN class=3Danchor id=3Dline-448></SPAN>__declspec(dllexport) int =
+GetHeight()
+<SPAN class=3Danchor id=3Dline-449></SPAN>{
+<SPAN class=3Danchor id=3Dline-450></SPAN>        return HEIGHT;
+<SPAN class=3Danchor id=3Dline-451></SPAN>}
+<SPAN class=3Danchor id=3Dline-452></SPAN>
+<SPAN class=3Danchor id=3Dline-453></SPAN>__declspec(dllexport) void =
+GetMemBmpData(char **s,int *slen)
+<SPAN class=3Danchor id=3Dline-454></SPAN>{
+<SPAN class=3Danchor id=3Dline-455></SPAN>        *s =3D (char*)pbits;
+<SPAN class=3Danchor id=3Dline-456></SPAN>        *slen =3D =
+WIDTH*HEIGHT*4;
+<SPAN class=3Danchor id=3Dline-457></SPAN>}
+<SPAN class=3Danchor id=3Dline-458></SPAN>
+<SPAN class=3Danchor id=3Dline-459></SPAN>__declspec(dllexport) void =
+EndBmpContext()
+<SPAN class=3Danchor id=3Dline-460></SPAN>{
+<SPAN class=3Danchor id=3Dline-461></SPAN>        // Clean up
+<SPAN class=3Danchor id=3Dline-462></SPAN>        =
+wglDeleteContext(hglrc); // Delete RC
+<SPAN class=3Danchor id=3Dline-463></SPAN>        SelectObject(hdc, r); =
+// Remove bitmap from DC
+<SPAN class=3Danchor id=3Dline-464></SPAN>        DeleteObject(hbm); // =
+Delete bitmap
+<SPAN class=3Danchor id=3Dline-465></SPAN>        DeleteDC(hdc); // =
+Delete DC
+<SPAN class=3Danchor id=3Dline-466></SPAN>}
+<SPAN class=3Danchor id=3Dline-467></SPAN>
+<SPAN class=3Danchor id=3Dline-468></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-469></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor=20
+id=3Dline-470></SPAN>=E5=85=B6=E5=AE=9E=E8=BF=99=E9=87=8C=E5=81=9A=E5=BE=97=
+=E4=BA=8B=E6=83=85=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=BF=99=E6=A0=B7=EF=BC=8C=E6=
+=8A=8A=E5=89=8D=E9=9D=A2=E9=82=A3=E6=AE=B5C++=E4=BB=A3=E7=A0=81=E6=8B=86=E5=
+=BC=80=EF=BC=8C=E6=8A=8A=E5=BC=80=E5=A7=8B=E6=B8=B2=E6=9F=93=E5=89=8D=E5=92=
+=8C=E6=B8=B2=E6=9F=93=E7=BB=93=E6=9D=9F=E5=90=8E=E4=B8=A4=E4=B8=AA=E9=83=A8=
+=E5=88=86=E5=8D=95=E7=8B=AC=E6=8B=86=E5=87=BA=E6=9D=A5=EF=BC=8C=E6=94=BE=E5=
+=88=B0Start=E5=92=8CEnd=E4=B8=A4=E4=B8=AA=E5=87=BD=E6=95=B0=E9=87=8C=E3=80=
+=82=E4=B8=BA=E4=BA=86=E8=83=BD=E5=9C=A8=E6=9C=80=E5=90=8E=E5=81=9A=E6=B8=85=
+=E7=90=86=E5=B7=A5=E4=BD=9C=EF=BC=8C=E6=8A=8A=E4=B8=80=E4=BA=9B=E5=8F=A5=E6=
+=9F=84=E5=81=9A=E6=88=90=E5=85=A8=E7=A8=8B=E9=9D=99=E6=80=81=E5=8F=98=E9=87=
+=8F=E3=80=82=E6=8F=90=E5=88=B0=E5=BC=80=E5=A4=B4=E8=80=8C=E5=B7=B2=E3=80=82=
+=20
+<SPAN class=3Danchor id=3Dline-471></SPAN><SPAN class=3Danchor =
+id=3Dline-472></SPAN></P>
+<P =
+class=3Dline874>=E7=AD=89=E4=B8=80=E4=B8=8B=EF=BC=8C=E5=A4=9A=E4=BA=86=E5=
+=BE=88=E5=A4=9A=E5=87=BD=E6=95=B0=E3=80=82 <SPAN class=3Danchor =
+id=3Dline-473></SPAN><SPAN=20
+class=3Danchor id=3Dline-474></SPAN></P>
+<P=20
+class=3Dline862>=E6=98=AF=E7=9A=84=E3=80=82=E8=BF=99=E9=87=8C=E5=A4=9A=E4=
+=BA=86SaveBmp=EF=BC=8C=E8=BF=99=E4=B8=AA=E6=98=AF=E4=B8=BA=E4=BA=86=E6=B5=
+=8B=E8=AF=95=E6=95=B0=E6=8D=AE=E7=9A=84=E6=AD=A3=E7=A1=AE=E6=80=A7=E3=80=82=
+=E7=94=A8vc=E7=9A=84=E6=96=B9=E6=B3=95=E4=BF=9D=E5=AD=98bmp=E5=9B=BE=E5=83=
+=8F=E3=80=82=E4=BD=86=E6=98=AF=E6=88=91=E5=B9=B6=E4=B8=8D=E6=83=B3=E5=9C=A8=
+vc=E4=B8=AD=E4=BF=9D=E5=AD=98=E5=9B=BE=E5=83=8F=E3=80=82=E5=A4=AA=E9=BA=BB=
+=E7=83=A6=E4=BA=86=E3=80=82=E6=88=91=E4=BB=AC=E6=9C=89PIL=E5=95=8A=EF=BC=81=
+=E4=BF=9D=E5=AD=98=E5=8F=AA=E8=A6=81=E4=B8=80=E5=8F=A5=E7=9A=84PIL=E5=95=8A=
+=EF=BD=9E=EF=BD=9E=EF=BD=9E=EF=BD=9E=EF=BD=9E=E6=89=80=E4=BB=A5=E6=88=91=E9=
+=9C=80=E8=A6=81=E6=9C=89=E4=B8=AA=E5=87=BD=E6=95=B0=E8=AF=BB=E5=8F=96bmp=E5=
+=9B=BE=E5=83=8F=E7=9A=84=E4=BF=A1=E6=81=AF=E3=80=82=E6=89=80=E4=BB=A5=E6=88=
+=91=E6=B7=BB=E5=8A=A0=E4=BA=86=E4=B8=AAGetMemBmpData=E5=87=BD=E6=95=B0=E3=
+=80=82=E7=94=A8=E4=BA=8E=E8=8E=B7=E5=8F=96=E5=9B=BE=E5=83=8F=E6=95=B0=E6=8D=
+=AE=E7=9A=84=E4=BA=8C=E8=BF=9B=E5=88=B6=E8=A1=A8=E7=A4=BA=E3=80=82=E5=BD=93=
+=E7=84=B6=EF=BC=8C=E6=B8=B2=E6=9F=93=E5=9B=BE=E5=83=8F=E5=A4=A7=E5=B0=8F=E4=
+=B8=8D=E5=8F=AF=E4=BB=A5=E5=AE=9A=E6=AD=BB=EF=BC=8C=E6=89=80=E4=BB=A5=E6=88=
+=91=E6=9A=B4=E9=9C=B2=E4=BA=86=E8=8E=B7=E5=8F=96=E5=9B=BE=E5=83=8F=E5=A4=A7=
+=E5=B0=8F=E7=9A=84=E5=87=BD=E6=95=B0=EF=BC=8C=E5=B9=B6=E5=9C=A8=E5=88=9D=E5=
+=A7=8B=E5=8C=96=E7=8E=AF=E5=A2=83=E7=9A=84=E6=97=B6=E5=80=99=E7=94=A8=E4=B8=
+=A4=E4=B8=AA=E5=8F=82=E6=95=B0=E5=AE=9A=E4=B9=89=E5=AE=BD=E9=AB=98=E3=80=82=
+=20
+<SPAN class=3Danchor id=3Dline-475></SPAN><SPAN class=3Danchor =
+id=3Dline-476></SPAN></P>
+<P=20
+class=3Dline862>=E5=A5=BD=E4=BA=86=EF=BC=8C=E7=BC=96=E8=AF=91=EF=BC=8C=E9=
+=93=BE=E6=8E=A5=EF=BC=8C=E6=88=90=E5=8A=9F=E3=80=82=EF=BC=88=E9=9C=80=E8=A6=
+=81=E8=AF=B4=E6=98=8E=E7=9A=84=E6=98=AF=EF=BC=8C=E8=BF=99=E9=87=8C=E7=9A=84=
+GetMemBmpData=E7=9A=84=E5=8F=82=E6=95=B0=E5=BE=88=E5=A5=87=E6=80=AA=EF=BC=
+=8C=E8=BF=99=E6=98=AF=E5=9B=A0=E4=B8=BA=E8=A6=81=E8=BF=94=E5=9B=9E=E4=BA=8C=
+=E8=BF=9B=E5=88=B6=E6=97=B6Swig=E7=9A=84=E7=89=B9=E6=AE=8A=E8=A6=81=E6=B1=
+=82=E5=86=B3=E5=AE=9A=E7=9A=84=EF=BC=89=20
+<SPAN class=3Danchor id=3Dline-477></SPAN><SPAN class=3Danchor =
+id=3Dline-478></SPAN></P>
+<P =
+class=3Dline874>=E6=88=91=E4=BB=AC=E7=8E=B0=E5=9C=A8=E6=9C=89=E4=BA=86C++=
+=E7=9A=84=E5=BA=93=E4=BA=86=E3=80=82 <SPAN class=3Danchor =
+id=3Dline-479></SPAN><SPAN=20
+class=3Danchor id=3Dline-480></SPAN></P>
+<P =
+class=3Dline874>=E5=A5=BD=EF=BC=8C=E5=BC=80=E5=A7=8B=E5=AE=9A=E4=B9=89glB=
+mpContext.i=EF=BC=8C=E8=BF=99=E6=98=AF=E9=87=8D=E7=82=B9=EF=BC=81 <SPAN =
+class=3Danchor=20
+id=3Dline-481></SPAN><SPAN class=3Danchor id=3Dline-482></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-483></SPAN></P><PRE>%module glBmpContext
+<SPAN class=3Danchor id=3Dline-484></SPAN>%include "cstring.i"
+<SPAN class=3Danchor id=3Dline-485></SPAN>
+<SPAN class=3Danchor =
+id=3Dline-486></SPAN>%cstring_output_allocate_size(char **s, int *slen, =
+free(*$1));
+<SPAN class=3Danchor id=3Dline-487></SPAN>
+<SPAN class=3Danchor id=3Dline-488></SPAN>
+<SPAN class=3Danchor id=3Dline-489></SPAN>%{
+<SPAN class=3Danchor id=3Dline-490></SPAN>#include &lt;windows.h&gt;
+<SPAN class=3Danchor id=3Dline-491></SPAN>#include &lt;iostream&gt;
+<SPAN class=3Danchor id=3Dline-492></SPAN>#include &lt;commctrl.h&gt;
+<SPAN class=3Danchor id=3Dline-493></SPAN>#include &lt;gl/gl.h&gt;
+<SPAN class=3Danchor id=3Dline-494></SPAN>#include &lt;gl/glu.h&gt;
+<SPAN class=3Danchor id=3Dline-495></SPAN>using namespace std;
+<SPAN class=3Danchor id=3Dline-496></SPAN>
+<SPAN class=3Danchor id=3Dline-497></SPAN>void StartBmpContext(int w,int =
+h);
+<SPAN class=3Danchor id=3Dline-498></SPAN>int SaveBmp( char* FileName );
+<SPAN class=3Danchor id=3Dline-499></SPAN>void GetMemBmpData(char =
+**s,int *slen);
+<SPAN class=3Danchor id=3Dline-500></SPAN>void EndBmpContext();
+<SPAN class=3Danchor id=3Dline-501></SPAN>int GetWidth();
+<SPAN class=3Danchor id=3Dline-502></SPAN>int GetHeight();
+<SPAN class=3Danchor id=3Dline-503></SPAN>%}
+<SPAN class=3Danchor id=3Dline-504></SPAN>
+<SPAN class=3Danchor id=3Dline-505></SPAN>
+<SPAN class=3Danchor id=3Dline-506></SPAN>void StartBmpContext(int w,int =
+h);
+<SPAN class=3Danchor id=3Dline-507></SPAN>int SaveBmp( char* FileName );
+<SPAN class=3Danchor id=3Dline-508></SPAN>void GetMemBmpData(char =
+**s,int *slen);
+<SPAN class=3Danchor id=3Dline-509></SPAN>void EndBmpContext();
+<SPAN class=3Danchor id=3Dline-510></SPAN>int GetWidth();
+<SPAN class=3Danchor id=3Dline-511></SPAN>int GetHeight();
+<SPAN class=3Danchor id=3Dline-512></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-513></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor=20
+id=3Dline-514></SPAN>=E9=A6=96=E5=85=88=EF=BC=8C=E6=88=91=E4=BB=AC=E5=AE=9A=
+=E4=B9=89=E6=A8=A1=E5=9D=97=E5=90=8D=E7=A7=B0=EF=BC=8C=E7=84=B6=E5=90=8E=E5=
+=BC=95=E5=85=A5=E4=B8=80=E4=B8=AA=E5=8F=ABcstring=E7=9A=84swig=E9=A2=84=E5=
+=AE=9A=E4=B9=89=E6=A8=A1=E5=9D=97=EF=BC=8C=E4=BB=A5=E5=8F=8A=E5=AE=9A=E4=B9=
+=89=E4=B8=80=E7=A7=8D=E8=BF=94=E5=9B=9E=E5=80=BC=E5=BD=A2=E5=BC=8F=E3=80=82=
+=E5=BC=95=E5=85=A5=E8=BF=99=E4=B8=AA=E6=A8=A1=E5=9D=97=E6=98=AF=E5=9B=A0=E4=
+=B8=BA=E6=88=91=E4=BB=AC=E9=9C=80=E8=A6=81=E5=9C=A8=20
+GetMemBmpData=E4=B8=AD=E8=BF=94=E5=9B=9E=E5=9B=BE=E5=83=8F=E6=A0=BC=E5=BC=
+=8F=E7=9A=84=E4=BA=8C=E8=BF=9B=E5=88=B6=E5=BD=A2=E5=BC=8F=E7=BB=99Python=EF=
+=BC=8C=E7=84=B6=E5=90=8E=E9=80=9A=E8=BF=87PIL.Image=E7=9A=84fromstring=E5=
+=87=BD=E6=95=B0=E8=BD=AC=E5=8C=96=E6=88=90=E5=9B=BE=E5=83=8F=E5=B9=B6=E5=8F=
+=AF=E4=BB=A5=E7=94=A8 save=E4=BF=9D=E5=AD=98=E3=80=82=20
+<SPAN class=3Danchor id=3Dline-515></SPAN><SPAN class=3Danchor =
+id=3Dline-516></SPAN></P>
+<P class=3Dline874>Python=20
+=E4=B8=AD=E4=B8=8D=E5=8D=95=E5=8D=95=E6=98=AFint=EF=BC=8Cdouble=EF=BC=8C=E8=
+=BF=99=E6=A0=B7=E7=9A=84=E7=AE=80=E5=8D=95=E7=B1=BB=E5=9E=8B=E3=80=82=E4=B8=
+=80=E4=BA=9B=E5=A6=82=E6=95=B0=E7=BB=84=EF=BC=8C=E6=8C=87=E9=92=88=EF=BC=8C=
+=E5=AD=97=E5=85=B8=EF=BC=8C=E7=AD=89=E7=AD=89=E5=B0=B1=E6=AF=94=E8=BE=83=E9=
+=BA=BB=E7=83=A6=E4=BA=86=E3=80=82Swig=E5=AE=9A=E4=B9=89=E4=BA=86=E5=BE=88=
+=E5=A4=9A=E9=A2=84=E5=AE=9A=E4=B9=89=E7=9A=84=E6=A8=A1=E5=9D=97=E6=9D=A5=E5=
+=A4=84=E7=90=86=E8=BF=99=E4=BA=9B=E4=B8=9C=E8=A5=BF=E3=80=82=E9=80=9A=E8=BF=
+=87% include=20
+=E6=9D=A5=E5=AE=9A=E4=B9=89=E8=BF=99=E4=BA=9B=E6=95=B0=E6=8D=AE=E6=A0=BC=E5=
+=BC=8F=E5=92=8C=E6=93=8D=E4=BD=9C=E3=80=82=E8=BF=99=E6=89=8D=E6=98=AF=E4=BB=
+=8EC++=E5=88=B0Python=E7=9A=84=E6=81=B6=E6=A2=A6=E3=80=82=E4=B9=9F=E6=98=AF=
+swig=E6=9C=80=E6=A0=B8=E5=BF=83=E7=9A=84=E4=B8=9C=E8=A5=BF=E3=80=82=E8=BF=
+=99=E4=BA=9B=E4=B8=9C=E8=A5=BF=E6=98=AF=E5=BE=88=E5=A4=9A=E7=9A=84=EF=BC=8C=
+=E9=9C=80=E8=A6=81=E6=88=91=E4=BB=AC=E6=85=A2=E6=85=A2=E5=8E=BB=E6=8E=8C=E6=
+=8F=A1=E3=80=82 <SPAN=20
+class=3Danchor id=3Dline-517></SPAN><SPAN class=3Danchor =
+id=3Dline-518></SPAN></P>
+<P=20
+class=3Dline862>=E5=85=88=E6=8E=8C=E6=8F=A1=E4=B8=A4=E4=B8=AA=E3=80=82=E4=
+=B8=80=E4=B8=AA=E6=98=AF=E5=AD=97=E7=AC=A6=E4=B8=B2=E3=80=82=E5=9C=A8Pyth=
+on=E4=B8=AD=E5=AD=97=E7=AC=A6=E4=B8=B2=E6=98=AF=E4=B8=80=E4=B8=AA=E5=BE=88=
+=E5=BC=BA=E5=A4=A7=E7=9A=84=E4=B8=9C=E8=A5=BF=EF=BC=8C=E4=BD=86=E5=9C=A8s=
+wig=E5=AE=9A=E4=B9=89=E4=B8=AD=E5=8D=B4=E7=9C=8B=E8=B5=B7=E6=9D=A5=E4=B8=8D=
+=E6=98=AF=E9=82=A3=E4=B9=88=E5=BC=BA=E5=A4=A7=E3=80=82=E5=9B=A0=E4=B8=BA=E5=
+=AE=83=E8=A2=AB=E5=AE=9A=E4=B9=89=E6=88=90c=E7=9A=84=E5=AD=97=E7=AC=A6=E4=
+=B8=B2=E5=BD=A2=E5=BC=8F=E3=80=82=E4=B8=80=E4=B8=AA=20
+char* =
+=EF=BC=81=E4=B8=8D=E9=94=99=EF=BC=8C=E6=98=AFchar*=E3=80=82=E7=9C=8BSaveB=
+mp=E7=9A=84=E5=8F=82=E6=95=B0=EF=BC=8C=E6=98=AF=E4=B8=80=E4=B8=AAchar*=E3=
+=80=82=E8=BF=99=E5=B0=B1=E6=98=AFPython=E4=B8=AD=E7=9A=84=E5=AD=97=E7=AC=A6=
+=E4=B8=B2=EF=BC=81=E5=9C=A8Python=E4=B8=AD=E8=B0=83=E7=94=A8=E5=B0=B1=E5=83=
+=8F=E8=BF=99=E6=A0=B7=EF=BC=9A <SPAN=20
+class=3Danchor id=3Dline-519></SPAN><SPAN class=3Danchor =
+id=3Dline-520></SPAN></P>
+<P class=3Dline867>SaveBmp("f:/image/img.bmp") <SPAN class=3Danchor=20
+id=3Dline-521></SPAN><SPAN class=3Danchor id=3Dline-522></SPAN></P>
+<P =
+class=3Dline862>=E5=A5=BD=E4=BA=86=EF=BC=8C=E5=86=8D=E7=9C=8B=E4=B8=80=E4=
+=B8=AA=EF=BC=8C=E8=BF=94=E5=9B=9E=E4=B8=80=E4=B8=AA=E4=BA=8C=E8=BF=9B=E5=88=
+=B6=E6=95=B0=E6=8D=AE=E5=AF=B9=E8=B1=A1=EF=BC=81=E8=BF=99=E4=B8=AA=E6=AF=94=
+=E8=BE=83=E5=A4=8D=E6=9D=82=EF=BC=8C=E5=8F=AF=E4=BB=A5=E7=9C=8B<A =
+class=3Dhttp=20
+href=3D"http://www.swig.org/Doc1.3/Library.html#Library_nn12">=E8=BF=99=E4=
+=B8=AA</A>=EF=BC=8C=E8=BF=99=E4=B8=AA=E8=A7=A3=E9=87=8A=E5=8D=81=E5=88=86=
+=E8=AF=A6=E7=BB=86=E3=80=82=E8=BF=98=E6=9C=89=E5=A5=BD=E5=87=A0=E7=A7=8D=E7=
+=B1=BB=E5=9E=8B=E3=80=82=E6=88=91=E4=BB=AC=E7=94=A8=E7=9A=84=E6=98=AF=E6=9C=
+=80=E5=90=8E=E9=82=A3=E4=B8=AA=E3=80=82=E5=9B=A0=E4=B8=BAC++/C=E4=B8=8D=E6=
+=AF=94Python=EF=BC=8C=E5=8F=AF=E4=BB=A5=E8=BF=94=E5=9B=9E=E4=B8=80=E4=B8=AA=
+=E5=88=97=E8=A1=A8=EF=BC=8C=E5=AE=83=E5=8F=AA=E8=83=BD=E8=BF=94=E5=9B=9E=E4=
+=B8=80=E4=B8=AA=E4=B8=9C=E8=A5=BF=E3=80=82=E6=89=80=E4=BB=A5=E5=9C=A8Pyth=
+on=E7=BB=91=E5=AE=9A=E5=AE=9A=E4=B9=89=E4=B8=AD=E8=A6=81=E7=94=A8=E5=8F=82=
+=E6=95=B0=E6=9D=A5=E4=BB=A3=E6=9B=BF=E8=BF=94=E5=9B=9E=E3=80=82=20
+<SPAN class=3Danchor id=3Dline-523></SPAN><SPAN class=3Danchor =
+id=3Dline-524></SPAN></P>
+<P =
+class=3Dline862>=E8=BF=98=E6=9C=89=E6=9B=B4=E5=A4=9A=E7=9A=84=E4=B8=9C=E8=
+=A5=BF=E5=8F=AF=E4=BB=A5=E7=9C=8B<A class=3Dhttp=20
+href=3D"http://www.swig.org/Doc1.3/Python.html">=E8=BF=99=E9=87=8C</A>=E3=
+=80=82 <SPAN class=3Danchor=20
+id=3Dline-525></SPAN><SPAN class=3Danchor id=3Dline-526></SPAN></P>
+<P =
+class=3Dline874>=E5=87=BD=E6=95=B0=E5=AE=9A=E4=B9=89=E5=83=8F=E8=BF=99=E6=
+=A0=B7=EF=BC=9A <SPAN class=3Danchor id=3Dline-527></SPAN><SPAN=20
+class=3Danchor id=3Dline-528></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-529></SPAN></P><PRE>void foo(char **s, int *sz) {
+<SPAN class=3Danchor id=3Dline-530></SPAN>    *s =3D (char *) =
+malloc(64);
+<SPAN class=3Danchor id=3Dline-531></SPAN>    *sz =3D 64;
+<SPAN class=3Danchor id=3Dline-532></SPAN>    // Write some binary data
+<SPAN class=3Danchor id=3Dline-533></SPAN>    ...
+<SPAN class=3Danchor id=3Dline-534></SPAN>}
+<SPAN class=3Danchor id=3Dline-535></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-536></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor =
+id=3Dline-537></SPAN>=E5=9C=A8swig=E5=AE=9A=E4=B9=89.i =
+=E6=96=87=E4=BB=B6=E4=B8=AD=E5=B0=B1=E8=A6=81=E8=BF=99=E6=A0=B7=E5=86=99=EF=
+=BC=9A <SPAN=20
+class=3Danchor id=3Dline-538></SPAN><SPAN class=3Danchor =
+id=3Dline-539></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-540></SPAN></P><PRE>%cstring_output_allocate_size(char **s, =
+int *slen, free(*$1));
+<SPAN class=3Danchor id=3Dline-541></SPAN>...
+<SPAN class=3Danchor id=3Dline-542></SPAN>void foo(char **s, int *slen);
+<SPAN class=3Danchor id=3Dline-543></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-544></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor =
+id=3Dline-545></SPAN>=E5=9C=A8Python=E4=B8=AD=E5=B0=B1=E8=A6=81=E8=BF=99=E6=
+=A0=B7=E8=B0=83=EF=BC=9A <SPAN=20
+class=3Danchor id=3Dline-546></SPAN><SPAN class=3Danchor =
+id=3Dline-547></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-548></SPAN></P><PRE>&gt;&gt;&gt; foo()
+<SPAN class=3Danchor =
+id=3Dline-549></SPAN>'\xa9Y:\xf6\xd7\xe1\x87\xdbH;y\x97\x7f\xd3\x99\x14V\=
+xec\x06\xea\xa2\x88'
+<SPAN class=3Danchor id=3Dline-550></SPAN>&gt;&gt;&gt;
+<SPAN class=3Danchor id=3Dline-551></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-552></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor =
+id=3Dline-553></SPAN>=E5=91=B5=E5=91=B5=EF=BC=8C=E5=BE=88=E5=A5=87=E5=A6=99=
+=E5=90=A7=EF=BC=81 <SPAN=20
+class=3Danchor id=3Dline-554></SPAN><SPAN class=3Danchor =
+id=3Dline-555></SPAN></P>
+<P =
+class=3Dline874>=E6=88=91=E4=B9=9F=E6=98=AF=E7=AC=AC=E4=B8=80=E6=AC=A1=E7=
+=9C=8B=E5=88=B0=E8=BF=99=E7=A7=8D=E5=81=9A=E6=B3=95=EF=BC=81 <SPAN =
+class=3Danchor id=3Dline-556></SPAN><SPAN=20
+class=3Danchor id=3Dline-557></SPAN></P>
+<P =
+class=3Dline874>=E5=85=B6=E4=BB=96=E5=BA=94=E8=AF=A5=E9=83=BD=E7=9C=8B=E5=
+=BE=97=E6=87=82=E4=BA=86=E3=80=82 <SPAN class=3Danchor =
+id=3Dline-558></SPAN><SPAN=20
+class=3Danchor id=3Dline-559></SPAN></P>
+<P =
+class=3Dline874>=E5=A5=BD=E4=BA=86=EF=BC=8C=E7=8E=B0=E5=9C=A8=E6=88=91=E4=
+=BB=AC=E5=AE=9A=E4=B9=89setup.py=EF=BC=9A <SPAN class=3Danchor =
+id=3Dline-560></SPAN><SPAN=20
+class=3Danchor id=3Dline-561></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-562></SPAN></P><PRE>from distutils.core import setup,Extension
+<SPAN class=3Danchor id=3Dline-563></SPAN>include_dirs =3D []
+<SPAN class=3Danchor id=3Dline-564></SPAN>libraries =3D =
+['glBmpContextD','opengl32','glu32']
+<SPAN class=3Danchor id=3Dline-565></SPAN>library_dirs =3D =
+['./glBmpContext/']
+<SPAN class=3Danchor id=3Dline-566></SPAN>extra_link_args =3D []
+<SPAN class=3Danchor id=3Dline-567></SPAN>
+<SPAN class=3Danchor id=3Dline-568></SPAN>glBmpContext_module =3D =
+Extension('_glBmpContext',
+<SPAN class=3Danchor id=3Dline-569></SPAN>        sources =3D =
+['glBmpContext_wrap.cpp'],
+<SPAN class=3Danchor id=3Dline-570></SPAN>        include_dirs =3D =
+include_dirs,
+<SPAN class=3Danchor id=3Dline-571></SPAN>        libraries =3D =
+libraries,
+<SPAN class=3Danchor id=3Dline-572></SPAN>        library_dirs =3D =
+library_dirs,
+<SPAN class=3Danchor id=3Dline-573></SPAN>        extra_link_args =3D =
+extra_link_args,
+<SPAN class=3Danchor id=3Dline-574></SPAN>        )
+<SPAN class=3Danchor id=3Dline-575></SPAN>setup(name=3D'glBmpContext =
+wrapper',
+<SPAN class=3Danchor id=3Dline-576></SPAN>      version=3D'1.0',
+<SPAN class=3Danchor id=3Dline-577></SPAN>      =
+py_modules=3D["glBmpContext"],
+<SPAN class=3Danchor id=3Dline-578></SPAN>      =
+ext_modules=3D[glBmpContext_module],
+<SPAN class=3Danchor id=3Dline-579></SPAN>     )
+<SPAN class=3Danchor id=3Dline-580></SPAN>
+<SPAN class=3Danchor id=3Dline-581></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-582></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor=20
+id=3Dline-583></SPAN>=E8=BF=99=E4=B8=AA=E5=92=8C=E5=89=8D=E4=B8=80=E4=B8=AA=
+=E4=BE=8B=E5=AD=90=E5=BE=88=E5=83=8F=E3=80=82=E7=89=B9=E5=88=AB=E6=B3=A8=E6=
+=84=8F=E7=9A=84=E6=98=AFLibraries=EF=BC=8C=E8=BF=99=E9=87=8C=E6=94=BE=E4=BA=
+=86opengl32 =E5=92=8Cglu32 =
+=E6=98=AF=E4=B8=BA=E4=BA=86=E8=83=BD=E9=93=BE=E6=8E=A5=E9=80=9A=E8=BF=87=E3=
+=80=82=20
+<SPAN class=3Danchor id=3Dline-584></SPAN><SPAN class=3Danchor =
+id=3Dline-585></SPAN></P>
+<P =
+class=3Dline874>=E5=A5=BD=E4=BA=86=EF=BC=8C=E5=86=99=E4=B8=AA=E8=84=9A=E6=
+=9C=AC=E6=9D=A5=E8=BF=90=E8=A1=8Cswig=E5=92=8C=E7=BC=96=E8=AF=91=E3=80=82=
+ <SPAN class=3Danchor id=3Dline-586></SPAN><SPAN=20
+class=3Danchor id=3Dline-587></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-588></SPAN></P><PRE>@echo off
+<SPAN class=3Danchor id=3Dline-589></SPAN>swig -c++ -python -modern =
+-new_repr -I. -o glBmpContext_wrap.cpp glBmpContext.i
+<SPAN class=3Danchor id=3Dline-590></SPAN>python.exe setup.py build
+<SPAN class=3Danchor id=3Dline-591></SPAN>copy .\build\lib.win32-2.4\*.* =
+.\bin\
+<SPAN class=3Danchor id=3Dline-592></SPAN>pause
+<SPAN class=3Danchor id=3Dline-593></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-594></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor=20
+id=3Dline-595></SPAN>=E5=A5=BD=E4=BA=86=EF=BC=8C=E8=BF=90=E8=A1=8C=E7=BC=96=
+=E8=AF=91=E9=80=9A=E8=BF=87=E5=90=8E=E5=B0=B1=E5=8F=AF=E4=BB=A5=E4=BA=86=E3=
+=80=82=E8=BF=99=E4=B8=AA=E8=84=9A=E6=9C=AC=E8=BF=98=E6=8A=8A=E7=94=9F=E6=88=
+=90=E7=9A=84pyd=E6=8B=B7=E8=B4=9D=E5=88=B0bin=E7=9B=AE=E5=BD=95=E4=B8=8B=E3=
+=80=82 <SPAN class=3Danchor=20
+id=3Dline-596></SPAN><SPAN class=3Danchor id=3Dline-597></SPAN></P>
+<P =
+class=3Dline874>=E5=A5=BD=E4=BA=86=EF=BC=8C=E5=9C=A8bin=E7=9B=AE=E5=BD=95=
+=E4=B8=8B=E5=BB=BA=E7=AB=8B=E4=B8=80=E4=B8=AA=E6=B5=8B=E8=AF=95=E8=84=9A=E6=
+=9C=AC <SPAN class=3Danchor id=3Dline-598></SPAN><SPAN=20
+class=3Danchor id=3Dline-599></SPAN></P>
+<P class=3Dline867><SPAN class=3Danchor =
+id=3Dline-600></SPAN></P><PRE>import _glBmpContext
+<SPAN class=3Danchor id=3Dline-601></SPAN>from OpenGL.GL import *
+<SPAN class=3Danchor id=3Dline-602></SPAN>from OpenGL.GLU import *
+<SPAN class=3Danchor id=3Dline-603></SPAN>from Numeric import *
+<SPAN class=3Danchor id=3Dline-604></SPAN>import Image
+<SPAN class=3Danchor id=3Dline-605></SPAN>w =3D 500
+<SPAN class=3Danchor id=3Dline-606></SPAN>h =3D 400
+<SPAN class=3Danchor =
+id=3Dline-607></SPAN>_glBmpContext.StartBmpContext(w,h)
+<SPAN class=3Danchor id=3Dline-608></SPAN>
+<SPAN class=3Danchor id=3Dline-609></SPAN>glMatrixMode(GL_PROJECTION);
+<SPAN class=3Danchor id=3Dline-610></SPAN>gluPerspective(30.0, w*1.0/h, =
+1.0, 10.0);
+<SPAN class=3Danchor id=3Dline-611></SPAN>glMatrixMode(GL_MODELVIEW);
+<SPAN class=3Danchor id=3Dline-612></SPAN>gluLookAt(0, 0, -5, 0, 0, 0, =
+0, 1, 0);
+<SPAN class=3Danchor id=3Dline-613></SPAN>glBegin(GL_TRIANGLES);
+<SPAN class=3Danchor id=3Dline-614></SPAN>glColor3d(1, 0, 0);
+<SPAN class=3Danchor id=3Dline-615></SPAN>glVertex3d(0, 1, 0);
+<SPAN class=3Danchor id=3Dline-616></SPAN>glColor3d(0, 1, 0);
+<SPAN class=3Danchor id=3Dline-617></SPAN>glVertex3d(-1, -1, 0);
+<SPAN class=3Danchor id=3Dline-618></SPAN>glColor3d(0, 0, 1);
+<SPAN class=3Danchor id=3Dline-619></SPAN>glVertex3d(1, -1, 0);
+<SPAN class=3Danchor id=3Dline-620></SPAN>glEnd();
+<SPAN class=3Danchor id=3Dline-621></SPAN>glFlush();
+<SPAN class=3Danchor id=3Dline-622></SPAN>
+<SPAN class=3Danchor id=3Dline-623></SPAN>data  =3D =
+_glBmpContext.GetMemBmpData()
+<SPAN class=3Danchor id=3Dline-624></SPAN>#print len(data),type(data)
+<SPAN class=3Danchor id=3Dline-625></SPAN>w =3D _glBmpContext.GetWidth()
+<SPAN class=3Danchor id=3Dline-626></SPAN>h =3D =
+_glBmpContext.GetHeight()
+<SPAN class=3Danchor id=3Dline-627></SPAN>
+<SPAN class=3Danchor id=3Dline-628></SPAN>arr =3D fromstring(data,Int8)
+<SPAN class=3Danchor id=3Dline-629></SPAN>arr.shape =3D (-1,4)
+<SPAN class=3Danchor id=3Dline-630></SPAN>arr =3D arr[:,0:3]
+<SPAN class=3Danchor id=3Dline-631></SPAN>print arr.shape
+<SPAN class=3Danchor id=3Dline-632></SPAN>
+<SPAN class=3Danchor id=3Dline-633></SPAN>img =3D =
+Image.fromstring("RGB",(w,h),arr.tostring()).transpose(Image.FLIP_TOP_BOT=
+TOM) \
+<SPAN class=3Danchor id=3Dline-634></SPAN>        =
+.save("../tt.png","png")
+<SPAN class=3Danchor id=3Dline-635></SPAN>
+<SPAN class=3Danchor =
+id=3Dline-636></SPAN>_glBmpContext.SaveBmp("hehe.bmp")
+<SPAN class=3Danchor id=3Dline-637></SPAN>
+<SPAN class=3Danchor id=3Dline-638></SPAN>_glBmpContext.EndBmpContext()
+<SPAN class=3Danchor id=3Dline-639></SPAN></PRE><SPAN class=3Danchor=20
+id=3Dline-640></SPAN>
+<P class=3Dline867></P>
+<HR>
+
+<P class=3Dline874><SPAN class=3Danchor=20
+id=3Dline-641></SPAN>=E8=BF=90=E8=A1=8C=EF=BC=8C=E5=97=AF=EF=BC=8C=E4=B8=80=
+=E5=88=87=E5=B0=BD=E5=9C=A8=E6=8E=8C=E6=8F=A1=E4=B8=AD=E3=80=82=E6=88=91=E7=
+=9A=84=E7=9B=AE=E7=9A=84=E5=AE=9E=E7=8E=B0=E4=BA=86=EF=BC=81=E5=8F=AF=E4=BB=
+=A5=E5=9C=A8StartBmpContext=E5=90=8E=E5=B0=BD=E6=83=85=E6=B8=B2=E6=9F=93=EF=
+=BC=8C=E7=84=B6=E5=90=8EGetMemBmpData=E8=8E=B7=E5=BE=97=E6=95=B0=E6=8D=AE=
+=EF=BC=8C=E7=84=B6=E5=90=8E=E7=94=A8Image=E6=93=8D=E4=BD=9C=E6=95=B0=E6=8D=
+=AE=E4=BF=9D=E5=AD=98=E6=88=90=E5=90=84=E7=A7=8D=E5=9B=BE=E7=89=87=E3=80=82=
+=E6=9C=80=E5=90=8EEndBmpContext=E5=85=B3=E9=97=AD=E7=8E=AF=E5=A2=83=E3=80=
+=82=20
+<SPAN class=3Danchor id=3Dline-642></SPAN><SPAN class=3Danchor =
+id=3Dline-643></SPAN></P>
+<P=20
+class=3Dline874>=E8=BF=99=E9=87=8C=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=8F=E7=
+=9A=84=E6=98=AF=E5=86=85=E5=AD=98=E4=B8=AD=E7=9A=84HBITMAP=E5=AD=98=E5=82=
+=A8=E7=9A=84=E5=9B=BE=E5=83=8F=E6=98=AF=E5=80=92=E7=9D=80=E7=9A=84=E3=80=82=
+=E8=A6=81=E5=9C=A8Image=E4=B8=AD=E6=89=A7=E8=A1=8Ctranspose(Image.FLIP_TO=
+P_BOTTOM)=E6=8A=8A=E5=AE=83=E8=BD=AC=E5=9B=9E=E6=9D=A5=E3=80=82=20
+<SPAN class=3Danchor id=3Dline-644></SPAN><SPAN class=3Danchor =
+id=3Dline-645></SPAN></P>
+<P=20
+class=3Dline874>=E5=BD=93=E7=84=B6=E8=BF=99=E6=A0=B7=E5=81=9A=E5=BE=88=E4=
+=B8=8D=E5=AE=89=E5=85=A8=E3=80=82=E5=8F=AF=E8=83=BD=E8=A2=AB=E6=81=B6=E6=84=
+=8F=E5=9C=B0=E9=87=8D=E5=A4=8D=E5=88=9B=E5=BB=BA=E7=8E=AF=E5=A2=83=EF=BC=8C=
+=E5=B9=B6=E4=B8=94=E4=B8=80=E6=97=A6=E5=87=BA=E9=94=99=EF=BC=8C=E7=8E=AF=E5=
+=A2=83=E5=B0=B1=E6=B2=A1=E6=B3=95=E9=87=8A=E6=94=BE=E3=80=82=E5=8F=AF=E4=BB=
+=A5=E6=8A=8A_glBmpContext=E7=9A=84=E4=B8=9C=E8=A5=BF=E5=8C=85=E8=A3=85=E6=
+=88=90=E7=B1=BB=EF=BC=8C=E9=94=80=E6=AF=81=E7=9A=84=E6=97=B6=E5=80=99=E8=87=
+=AA=E5=8A=A8=E9=87=8A=E6=94=BE=E3=80=82=20
+<SPAN class=3Danchor id=3Dline-646></SPAN><SPAN class=3Danchor=20
+id=3Dbottom></SPAN></P></DIV></DIV></DIV><!-- of contentColumn & inside =
+-->
+<DIV class=3D"clear mozclear"></DIV></DIV></DIV><!-- of =
+outerColumnContainer & innerColumnContainer -->
+<DIV class=3Dinside id=3Dfooter>
+<UL id=3Dcredits>
+  <LI><A href=3D"http://moinmoin.wikiwikiweb.de/">MoinMoin Powered</A>
+  <LI><A href=3D"http://www.python.org/">Python Powered</A>
+  <LI><A href=3D"http://validator.w3.org/check?uri=3Dreferer">Valid HTML =
+4.01</A>=20
+  =
+</LI></UL><I>=E6=8E=A8=E8=8D=90=E4=BD=BF=E7=94=A8=E6=94=AF=E6=8C=81W3C=E6=
+=A0=87=E5=87=86=E7=9A=84=E6=B5=8F=E8=A7=88=E5=99=A8=E8=BF=9B=E8=A1=8C=E9=98=
+=85=E8=AF=BB=EF=BC=8C=E8=8E=B7=E5=BE=97=E6=9C=80=E4=BD=B3=E9=A1=B5=E9=9D=A2=
+=E6=95=88=E6=9E=9C=EF=BC=8C=E8=B0=A2=E7=BB=9DIE=E7=9A=84=E6=B7=B7=E4=B9=B1=
+=E8=A7=A3=E6=9E=90=EF=BC=81</I> <!-- START CODE =0A=
+			background:#FFFFFF; =0A=
+-->
+<DIV id=3DysrchForm=20
+style=3D"BORDER-RIGHT: rgb(126,157,185) 1px solid; PADDING-RIGHT: 0px; =
+BORDER-TOP: rgb(126,157,185) 1px solid; PADDING-LEFT: 0px; =
+PADDING-BOTTOM: 0px; MARGIN: 0pt auto; BORDER-LEFT: rgb(126,157,185) 1px =
+solid; WIDTH: 350px; PADDING-TOP: 0px; BORDER-BOTTOM: rgb(126,157,185) =
+1px solid; POSITION: relative">
+<FORM id=3DsearchBoxForm_U0RNxnDNGDJdIAAEc2eOU=20
+style=3D"PADDING-RIGHT: 0pt; PADDING-LEFT: 0pt; PADDING-BOTTOM: 0pt; =
+PADDING-TOP: 0pt"=20
+action=3Dhttp://builder.search.yahoo.com/a/bouncer><INPUT type=3Dhidden=20
+value=3DU0RNxnDNGDJdIAAEc2eOU name=3Dmobid> <INPUT type=3Dhidden =
+value=3DUTF-8 name=3Dei>=20
+<INPUT type=3Dhidden value=3Dystg-c name=3Dfr>
+<DIV=20
+style=3D"PADDING-RIGHT: 30px; PADDING-LEFT: 0pt; PADDING-BOTTOM: 0pt; =
+PADDING-TOP: 0pt">Searching=20
+all CPUG sites and mailist::<BR><INPUT id=3DsearchTerm=20
+onblur=3D"if(this.value=3D=3D'')this.style.background=3D'#fff =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/sch/gr/horiz_pwrlogo_red2.gif)=
+ 3px center  no-repeat'"=20
+style=3D"BORDER-RIGHT: rgb(126,157,185) 1px solid; PADDING-RIGHT: 3px; =
+BORDER-TOP: rgb(126,157,185) 1px solid; PADDING-LEFT: 3px; BACKGROUND: =
+url(http://us.i1.yimg.com/us.yimg.com/i/us/sch/gr/horiz_pwrlogo_red2.gif)=
+ rgb(255,255,255) no-repeat 3px center; PADDING-BOTTOM: 1px; MARGIN: 1px =
+0pt; BORDER-LEFT: rgb(126,157,185) 1px solid; WIDTH: 100%; COLOR: =
+rgb(102,102,102); PADDING-TOP: 1px; BORDER-BOTTOM: rgb(126,157,185) 1px =
+solid; POSITION: relative; HEIGHT: 18px; -moz-background-clip: =
+-moz-initial; -moz-background-origin: -moz-initial; =
+-moz-background-inline-policy: -moz-initial"=20
+onfocus=3D"this.style.background=3D'#fff';" name=3Dp> <INPUT =
+id=3Dbtn_U0RNxnDNGDJdIAAEc2eOU style=3D"RIGHT: 10px; PADDING-BOTTOM: =
+2px; MARGIN: 0px; WIDTH: 65px; POSITION: absolute; TOP: 20px; HEIGHT: =
+22px" type=3Dsubmit value=3DSearch>=20
+</DIV>
+<UL=20
+style=3D"PADDING-RIGHT: 0pt; PADDING-LEFT: 0pt; PADDING-BOTTOM: 0pt; =
+MARGIN: 0pt; FONT: 11px/11px normal Arial,Helvetica,sans-serif; COLOR: =
+rgb(102,102,102); PADDING-TOP: 0pt; LIST-STYLE-TYPE: none; TEXT-ALIGN: =
+left; font-size-adjust: none; font-stretch: normal">
+  <LI style=3D"PADDING-RIGHT: 10px; DISPLAY: inline"><INPUT=20
+  id=3Dweb_U0RNxnDNGDJdIAAEc2eOU=20
+  onclick=3D'displayPopSearch("web","U0RNxnDNGDJdIAAEc2eOU");' =
+type=3Dhidden value=3D0=20
+  name=3Dmobvs> <LABEL style=3D"DISPLAY: none; VERTICAL-ALIGN: middle"=20
+  for=3Dweb_U0RNxnDNGDJdIAAEc2eOU>Web</LABEL> =
+</LI></UL></FORM></DIV><!-- END CODE --></DIV>
+<UL id=3Dtimings>
+  <LI>getACL =3D 0.014s=20
+  <LI>load_multi_cfg =3D 0.000s=20
+  <LI>run =3D 0.112s=20
+  <LI>send_page =3D 0.098s=20
+  <LI>send_page_content =3D 0.016s=20
+  <LI>total =3D 0.114s </LI></UL></BODY></HTML>
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_files/headerlogo.gif
+
+R0lGODlh2QBaAIAAAAAAAP///yH5BAUUAAEALAAAAADZAFoAAAKsjI+py+0Po5y02ouz3rz7D4bi
+SJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmM
+TqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGCg4SFhoeIiYqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpK
+Wmp6ipqqusra6voKGys7S1tre4ubq7vL2+v7CxwsPExcbHyMnPxRAAA7
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_files/common.css
+
+HTML {
+	FONT-SIZE: 90%; COLOR: black; LINE-HEIGHT: 1.25em; FONT-FAMILY: =
+Tahoma,Verdana,Arial, Helvetica,Lucida Grande, sans-serif; =
+BACKGROUND-COLOR: white
+}
+BODY {
+	MARGIN: 0px
+}
+A {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG.drawing {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-RIGHT-WIDTH: 0px
+}
+.u {
+	TEXT-DECORATION: underline
+}
+H1 {
+	FONT-FAMILY: SimHei,Tahoma,Georgia,YouYuan,Arial, Helvetica
+}
+H2 {
+	FONT-FAMILY: SimHei,Tahoma,Georgia,YouYuan,Arial, Helvetica
+}
+H3 {
+	FONT-FAMILY: SimHei,Tahoma,Georgia,YouYuan,Arial, Helvetica
+}
+H4 {
+	FONT-FAMILY: SimHei,Tahoma,Georgia,YouYuan,Arial, Helvetica
+}
+H5 {
+	FONT-FAMILY: SimHei,Tahoma,Georgia,YouYuan,Arial, Helvetica
+}
+H6 {
+	FONT-FAMILY: SimHei,Tahoma,Georgia,YouYuan,Arial, Helvetica
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: =
+1.8em; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 15px; LINE-HEIGHT: 1em; =
+PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+H1 A {
+	TEXT-DECORATION: none
+}
+H1 A:visited {
+	TEXT-DECORATION: none
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; =
+PADDING-BOTTOM: 2px; MARGIN: 1.5em 0px 0px; LINE-HEIGHT: 1.2em; =
+PADDING-TOP: 2px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; =
+PADDING-BOTTOM: 2px; MARGIN: 1.5em 0px 0px; LINE-HEIGHT: 1.2em; =
+PADDING-TOP: 2px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; =
+PADDING-BOTTOM: 2px; MARGIN: 1.5em 0px 0px; LINE-HEIGHT: 1.2em; =
+PADDING-TOP: 2px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; =
+PADDING-BOTTOM: 2px; MARGIN: 1.5em 0px 0px; LINE-HEIGHT: 1.2em; =
+PADDING-TOP: 2px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; =
+PADDING-BOTTOM: 2px; MARGIN: 1.5em 0px 0px; LINE-HEIGHT: 1.2em; =
+PADDING-TOP: 2px
+}
+H2 {
+	FONT-SIZE: 1.6em
+}
+H3 {
+	FONT-SIZE: 1.4em
+}
+H4 {
+	FONT-SIZE: 1.2em
+}
+H5 {
+	FONT-SIZE: 1.1em
+}
+H6 {
+	FONT-SIZE: 1.1em
+}
+H2 {
+	BORDER-BOTTOM: black 0px solid
+}
+H3 {
+	BORDER-BOTTOM: black 0px solid
+}
+DIV.table-of-contents {
+	BORDER-RIGHT: #b8c5d9 3px solid; PADDING-RIGHT: 2px; BORDER-TOP: =
+#b8c5d9 3px solid; PADDING-LEFT: 8px; FLOAT: right; PADDING-BOTTOM: 2px; =
+MARGIN: 0px 0px 0px 5px; BORDER-LEFT: #b8c5d9 3px solid; PADDING-TOP: =
+2px; BORDER-BOTTOM: #b8c5d9 3px solid; BACKGROUND-COLOR: whitesmoke
+}
+P.table-of-contents-heading {
+	COLOR: whitesmoke; BACKGROUND-COLOR: #353
+}
+#TableOfContents {
+	BORDER-RIGHT: #b8c5d9 3px solid; PADDING-RIGHT: 2px; BORDER-TOP: =
+#b8c5d9 3px solid; PADDING-LEFT: 2px; FLOAT: right; PADDING-BOTTOM: 2px; =
+MARGIN: 0px 0px 0px 5px; BORDER-LEFT: #b8c5d9 3px solid; PADDING-TOP: =
+2px; BORDER-BOTTOM: #b8c5d9 3px solid; BACKGROUND-COLOR: whitesmoke
+}
+TABLE DIV #TableOfContents {
+	BORDER-RIGHT: #fff 2px dashed; PADDING-RIGHT: 4px; BORDER-TOP: #fff 2px =
+dashed; PADDING-LEFT: 4px; FLOAT: none; PADDING-BOTTOM: 4px; =
+BORDER-LEFT: #fff 2px dashed; PADDING-TOP: 4px; BORDER-BOTTOM: #fff 2px =
+dashed; BACKGROUND-COLOR: whitesmoke
+}
+.searchresults DT {
+	MARGIN-TOP: 1em; FONT-WEIGHT: normal
+}
+.searchresults DD {
+	FONT-SIZE: 0.85em
+}
+A.cal-emptyday {
+	COLOR: #777777; TEXT-ALIGN: center
+}
+A.cal-usedday {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-ALIGN: center
+}
+TD.cal-workday {
+	TEXT-ALIGN: center
+}
+TD.cal-weekend {
+	TEXT-ALIGN: center
+}
+TD.cal-today {
+	BORDER-RIGHT: 2pt solid; BORDER-TOP: 2pt solid; BORDER-LEFT: 2pt solid; =
+BORDER-BOTTOM: 2pt solid; BACKGROUND-COLOR: #dbba75; TEXT-ALIGN: center
+}
+TD.cal-invalidday {
+	BACKGROUND-COLOR: #cccccc
+}
+A.cal-link {
+	COLOR: #f1f1ed; TEXT-DECORATION: none
+}
+TH.cal-header {
+	COLOR: white; TEXT-ALIGN: center
+}
+TABLE.tip {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; =
+FONT-WEIGHT: normal; FONT-SIZE: small; BORDER-LEFT: black 1px solid; =
+COLOR: black; BORDER-BOTTOM: black 1px solid
+}
+TH.tip {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+TD.tip {
+	TEXT-ALIGN: left
+}
+*[dir=3D'rtl'] TD.tip {
+	TEXT-ALIGN: right
+}
+PRE {
+	BORDER-RIGHT: 1px dashed; PADDING-RIGHT: 4pt; BORDER-TOP: 1px dashed; =
+PADDING-LEFT: 4pt; PADDING-BOTTOM: 4pt; BORDER-LEFT: 1px dashed; =
+PADDING-TOP: 4pt; BORDER-BOTTOM: 1px dashed; FONT-FAMILY: monospace; =
+WORD-WRAP: break-word
+}
+DIV.codearea {
+	BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0px; BORDER-TOP: black =
+1pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 4pt 0px; =
+BORDER-LEFT: black 1pt solid; COLOR: black; PADDING-TOP: 0px; =
+BORDER-BOTTOM: black 1pt solid
+}
+DIV.codearea PRE {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 4pt; PADDING-BOTTOM: 4pt; MARGIN: =
+0px; BORDER-TOP-STYLE: none; PADDING-TOP: 4pt; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A.codenumbers {
+	FONT-SIZE: 0.85em; MARGIN: 0px 4pt
+}
+DIV.codearea PRE SPAN.LineNumber {
+	COLOR: gray
+}
+DIV.codearea PRE SPAN.ID {
+	COLOR: #000000
+}
+DIV.codearea PRE SPAN.Operator {
+	COLOR: #0000c0
+}
+DIV.codearea PRE SPAN.Char {
+	COLOR: #004080
+}
+DIV.codearea PRE SPAN.Comment {
+	COLOR: #008000
+}
+DIV.codearea PRE SPAN.Number {
+	COLOR: #0080c0
+}
+DIV.codearea PRE SPAN.String {
+	COLOR: #004080
+}
+DIV.codearea PRE SPAN.SPChar {
+	COLOR: #0000c0
+}
+DIV.codearea PRE SPAN.ResWord {
+	COLOR: #a00000
+}
+DIV.codearea PRE SPAN.ConsWord {
+	FONT-WEIGHT: bold; COLOR: #008080
+}
+DIV.codearea PRE SPAN.Error {
+	BORDER-RIGHT: #ff0000 1.5pt solid; BORDER-TOP: #ff0000 1.5pt solid; =
+BORDER-LEFT: #ff0000 1.5pt solid; COLOR: #ff8080; BORDER-BOTTOM: #ff0000 =
+1.5pt solid
+}
+DIV.codearea PRE SPAN.ResWord2 {
+	FONT-WEIGHT: bold; COLOR: #0080ff
+}
+DIV.codearea PRE SPAN.Special {
+	COLOR: #0000ff
+}
+DIV.codearea PRE SPAN.Preprc {
+	COLOR: #803999
+}
+.userpref TABLE {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+.userpref TD {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+.rcrss {
+	FLOAT: right; MARGIN: 0px
+}
+[dir=3D'rtl'].recentchanges .rcrss {
+	FLOAT: left
+}
+.recentchanges TABLE {
+	CLEAR: both
+}
+.recentchanges TD {
+	BACKGROUND: white; VERTICAL-ALIGN: top; BORDER-TOP-STYLE: none; =
+BORDER-BOTTOM: black 1pt solid; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none
+}
+.rcdaybreak TD {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+.rcdaybreak TD A {
+	FONT-SIZE: 0.88em
+}
+.rcicon1 {
+	TEXT-ALIGN: center
+}
+.rcicon2 {
+	TEXT-ALIGN: center
+}
+.rcpagelink {
+	WIDTH: 33%
+}
+.rctime {
+	FONT-SIZE: 0.88em; WHITE-SPACE: nowrap
+}
+.rceditor {
+	FONT-SIZE: 0.88em; WHITE-SPACE: nowrap
+}
+.rccomment {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.88em; WIDTH: 66%
+}
+HR {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; HEIGHT: 1pt; BORDER-RIGHT-WIDTH: 0px
+}
+.hr1 {
+	HEIGHT: 2pt
+}
+.hr2 {
+	HEIGHT: 3pt
+}
+.hr3 {
+	HEIGHT: 4pt
+}
+.hr4 {
+	HEIGHT: 5pt
+}
+.hr5 {
+	HEIGHT: 6pt
+}
+.hr6 {
+	HEIGHT: 7pt
+}
+TABLE {
+	MARGIN: 0.5em 0px; BORDER-COLLAPSE: collapse
+}
+TD {
+	BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.25em; BORDER-TOP: black =
+1pt solid; PADDING-LEFT: 0.25em; PADDING-BOTTOM: 0.25em; BORDER-LEFT: =
+black 1pt solid; PADDING-TOP: 0.25em; BORDER-BOTTOM: black 1pt solid
+}
+TD P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0.25em 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0.25em; PADDING-LEFT: 2em; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1.25em; PADDING-BOTTOM: 0px; MARGIN: =
+0.25em 0px 0px 0.25em; PADDING-TOP: 0px
+}
+LI P {
+	MARGIN: 0.15em 0px
+}
+LI.gap {
+	MARGIN-TOP: 0.25em
+}
+DT {
+	MARGIN-TOP: 1.2em; FONT-SIZE: 1.2em; MARGIN-BOTTOM: 0.3em; =
+BORDER-BOTTOM: black 1px solid
+}
+DD {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+DD P {
+	MARGIN: 0.25em 0px
+}
+A:visited {
+	COLOR: black
+}
+A[dir=3D'rtl'].interwiki {
+	PADDING-LEFT: 14px; BACKGROUND: url(../img/moin-inter.png) no-repeat =
+left 50%
+}
+A[dir=3D'ltr'].interwiki {
+	PADDING-RIGHT: 14px; BACKGROUND: url(../img/moin-inter.png) no-repeat =
+right 50%
+}
+SPAN#footlabel {
+	FLOAT: right; COLOR: gray; WRITING-MODE: tb-rl
+}
+DIV.footnotes {
+	BORDER-RIGHT: gray 5px solid; BORDER-TOP: gray 1px solid; BORDER-LEFT: =
+gray 2px solid; WIDTH: 98%
+}
+.footnotes DIV {
+	PADDING-RIGHT: 0.5em; BORDER-TOP: gray 1px dotted; PADDING-LEFT: 0.5em; =
+PADDING-BOTTOM: 0.5em; MARGIN: 1em 0px 0px 1em; BORDER-LEFT: gray 1px =
+solid; WIDTH: 15em; PADDING-TOP: 0.5em
+}
+.footnotes UL {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.footnotes LI {
+	MARGIN: 0px 0.5em
+}
+.info {
+	FONT-SIZE: 0.85em
+}
+#pageinfo {
+	MARGIN-TOP: 2em
+}
+#pagebottom {
+	CLEAR: both
+}
+.warning {
+	COLOR: red
+}
+.error {
+	COLOR: red
+}
+STRONG.highlight {
+	PADDING-RIGHT: 1pt; PADDING-LEFT: 1pt; PADDING-BOTTOM: 1pt; =
+PADDING-TOP: 1pt
+}
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_files/screen.css
+
+@import url( skidoo_test.css );
+@import url( screen-standard.css );
+@import url( screen-orchard-colours.css );
+@import url( screen-woodpecker.css );
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_files/print.css
+
+HTML {
+	FONT-SIZE: 12pt; FONT-FAMILY: Times, serif
+}
+BODY {
+	MARGIN: 1.5cm
+}
+A {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.nonexistent {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.badinterwiki {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+PRE {
+	FONT-SIZE: 10pt
+}
+A.interwiki:unknown {
+	content: attr(title) ":"
+}
+A.badinterwiki:unknown {
+	content: attr(title) ":"
+}
+A.interwiki IMG {
+	DISPLAY: none
+}
+A.badinterwiki IMG {
+	DISPLAY: none
+}
+DIV.footnotes {
+	BORDER-TOP: gray 1px solid; WIDTH: 98%
+}
+DIV.footnotes UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+DIV.footnotes LI {
+	MARGIN: 0px
+}
+#header {
+	DISPLAY: none
+}
+#sidebar {
+	DISPLAY: none
+}
+#footer {
+	DISPLAY: none
+}
+#timings {
+	DISPLAY: none
+}
+#credits {
+	DISPLAY: none
+}
+DIV#subpageQuickIn {
+	DISPLAY: none
+}
+STRONG {
+	FONT-SIZE: 110%
+}
+TABLE UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+0px 10px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+TABLE UL LI {
+	FONT-SIZE: 105%; MARGIN: 0px 0px 0px 5px
+}
+TABLE UL LI A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+TABLE UL UL {
+	LIST-STYLE-TYPE: decimal
+}
+TABLE UL UL LI {
+	FONT-WEIGHT: lighter; MARGIN: 0px 0px 0px 3em; COLOR: gray
+}
+DIV#pagecomment {
+	DISPLAY: none
+}
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/Users/zywu/Desktop/screen.css
+
+@import url( skidoo_test.css );
+@import url( screen-standard.css );
+@import url( screen-orchard-colours.css );
+@import url( screen-woodpecker.css );
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_files/projection.css
+
+@import url( screen.css );
+HTML {
+	LINE-HEIGHT: 1.8em
+}
+BODY {
+	FONT-SIZE: 22pt
+}
+B {
+	FONT-SIZE: 22pt
+}
+EM {
+	FONT-SIZE: 22pt
+}
+A {
+	FONT-SIZE: 22pt
+}
+SPAN {
+	FONT-SIZE: 22pt
+}
+DIV {
+	FONT-SIZE: 22pt
+}
+P {
+	FONT-SIZE: 22pt
+}
+TD {
+	FONT-SIZE: 22pt
+}
+H1 {
+	FONT-SIZE: 28pt
+}
+H2 {
+	FONT-SIZE: 24pt
+}
+H3 {
+	FONT-SIZE: 22pt
+}
+H4 {
+	FONT-SIZE: 20pt
+}
+H5 {
+	FONT-SIZE: 18pt
+}
+H6 {
+	FONT-SIZE: 16pt
+}
+TT {
+	FONT-SIZE: 18pt
+}
+PRE {
+	FONT-SIZE: 18pt
+}
+SUP {
+	FONT-SIZE: 14pt
+}
+SUB {
+	FONT-SIZE: 14pt
+}
+TT.backtick {
+	FONT-SIZE: 115%; COLOR: #930
+}
+.navigation {
+	FONT-SIZE: 16pt; PADDING-BOTTOM: 8pt; PADDING-TOP: 8pt
+}
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_files/common.js
+
+//=0A=
+// MoinMoin commonly used JavaScript functions=0A=
+//=0A=
+=0A=
+// use this instead of assigning to window.onload directly:=0A=
+function addLoadEvent(func) {=0A=
+  // alert("addLoadEvent " + func)=0A=
+  var oldonload =3D window.onload;=0A=
+  if (typeof window.onload !=3D 'function') {=0A=
+    window.onload =3D func;=0A=
+  } else {=0A=
+    window.onload =3D function() {=0A=
+      oldonload();=0A=
+      func();=0A=
+    }=0A=
+  }=0A=
+}=0A=
+=0A=
+function can_use_gui_editor() {=0A=
+    var sAgent =3D navigator.userAgent.toLowerCase();=0A=
+ =0A=
+    if (sAgent.indexOf("msie") !=3D -1 && sAgent.indexOf("mac") =3D=3D =
+-1 &&=0A=
+        sAgent.indexOf("opera") =3D=3D -1 ) {=0A=
+        // Internet Explorer=0A=
+        var sBrowserVersion =3D navigator.appVersion.match(/MSIE =
+(.\..)/)[1];=0A=
+        return ( sBrowserVersion >=3D 5.5 );=0A=
+    } else if (navigator.product =3D=3D "Gecko" && =0A=
+               navigator.productSub >=3D 20030210) {=0A=
+        // Gecko=0A=
+        return true;=0A=
+    }=0A=
+    // else if (sAgent.indexOf("safari") !=3D -1 ) {=0A=
+    //    // Safari - build must be at least 312 (1.3)=0A=
+    //    return (sAgent.match( /safari\/(\d+)/ )[1] >=3D 312 );=0A=
+    // } =0A=
+    else {=0A=
+        // Unknown browser, assume gui editor is not compatible=0A=
+        return false;=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function update_edit_links() {=0A=
+    // Update editlink according if if the browser is compatible=0A=
+    if (can_use_gui_editor() =3D=3D false){=0A=
+        //alert("update_edit_links: can't use gui editor");=0A=
+        return;=0A=
+    }=0A=
+    var editlinks =3D document.getElementsByName("editlink");=0A=
+    for (i =3D 0; i < editlinks.length; i++) {=0A=
+        var link =3D editlinks[i];=0A=
+        href =3D =
+link.href.replace('editor=3Dtextonly','editor=3Dguipossible');=0A=
+        link.href =3D href;=0A=
+        //alert("update_edit_links: modified to guipossible");=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function add_gui_editor_links() {=0A=
+    // Add gui editor link after the text editor link=0A=
+    =0A=
+    // If the variable is not set or browser is not compatible, exit=0A=
+    try {gui_editor_link_href}=0A=
+    catch (e) {=0A=
+        //alert("add_gui_editor_links: gui_editor_link_href not here");=0A=
+        return=0A=
+    }=0A=
+    if (can_use_gui_editor() =3D=3D false){=0A=
+        //alert("add_gui_editor_links: can't use gui_editor");=0A=
+        return;=0A=
+    }=0A=
+    var all =3D document.getElementsByName('texteditlink');=0A=
+    for (i =3D 0; i < all.length; i++) {=0A=
+        var textEditorLink =3D all[i];=0A=
+        // Create a list item with a link=0A=
+        var guiEditorLink =3D document.createElement('a');=0A=
+        guiEditorLink.href =3D gui_editor_link_href;=0A=
+        var text =3D document.createTextNode(gui_editor_link_text);=0A=
+        guiEditorLink.appendChild(text);=0A=
+        var listItem =3D document.createElement('li')=0A=
+        listItem.appendChild(guiEditorLink);=0A=
+        // Insert in the editbar=0A=
+        var editbar =3D textEditorLink.parentNode.parentNode=0A=
+        var nextListItem =3D textEditorLink.parentNode.nextSibling;=0A=
+        editbar.insertBefore(listItem, nextListItem);=0A=
+        //alert("add_gui_editor_links: added gui editor link");=0A=
+    }=0A=
+}=0A=
+ =0A=
+=0A=
+function show_switch2gui() {=0A=
+    // Show switch to gui editor link if the browser is compatible=0A=
+    if (can_use_gui_editor() =3D=3D false) return;=0A=
+    =0A=
+    var switch2gui =3D document.getElementById('switch2gui')=0A=
+    if (switch2gui) {=0A=
+        switch2gui.style.display =3D 'inline';=0A=
+    }=0A=
+}=0A=
+=0A=
+=0A=
+function load() {=0A=
+    // Do not name this "onload", it does not work with IE :-)=0A=
+    // TODO: create separate onload for each type of view and set the=0A=
+    // correct function name in the html. =0A=
+    // e.g <body onlod=3D'editor_onload()'>=0A=
+    =0A=
+    // Page view stuff=0A=
+    update_edit_links();=0A=
+    add_gui_editor_links();=0A=
+    =0A=
+    // Editor stuff=0A=
+    show_switch2gui();=0A=
+}=0A=
+=0A=
+=0A=
+function before_unload(evt) {=0A=
+    // TODO: Better to set this in the editor html, as it does not make=0A=
+    // sense elsehwere.=0A=
+    // confirmleaving is available when editing=0A=
+    try {return confirmleaving();}=0A=
+    catch (e) {}=0A=
+}=0A=
+=0A=
+// Initialize after loading the page=0A=
+addLoadEvent(load)=0A=
+=0A=
+// Catch before unloading the page=0A=
+window.onbeforeunload =3D before_unload=0A=
+=0A=
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/zywu/Desktop/Offscreen%20Rendering-glBmpContext_files/urchin.js
+
+//-- Google Analytics Urchin Module=0A=
+//-- Copyright 2007 Google, All Rights Reserved.=0A=
+=0A=
+//-- Urchin On Demand Settings ONLY=0A=
+var _uacct=3D"";			// set up the Urchin Account=0A=
+var _userv=3D1;			// service mode (0=3Dlocal,1=3Dremote,2=3Dboth)=0A=
+=0A=
+//-- UTM User Settings=0A=
+var _ufsc=3D1;			// set client info flag (1=3Don|0=3Doff)=0A=
+var _udn=3D"auto";		// (auto|none|domain) set the domain name for cookies=0A=
+var _uhash=3D"on";		// (on|off) unique domain hash for cookies=0A=
+var _utimeout=3D"1800";   	// set the inactive session timeout in seconds=0A=
+var _ugifpath=3D"/__utm.gif";	// set the web path to the __utm.gif file=0A=
+var _utsp=3D"|";			// transaction field separator=0A=
+var _uflash=3D1;			// set flash version detect option (1=3Don|0=3Doff)=0A=
+var _utitle=3D1;			// set the document title detect option =
+(1=3Don|0=3Doff)=0A=
+var _ulink=3D0;			// enable linker functionality (1=3Don|0=3Doff)=0A=
+var _uanchor=3D0;			// enable use of anchors for campaign =
+(1=3Don|0=3Doff)=0A=
+var _utcp=3D"/";			// the cookie path for tracking=0A=
+var _usample=3D100;		// The sampling % of visitors to track (1-100).=0A=
+=0A=
+//-- UTM Campaign Tracking Settings=0A=
+var _uctm=3D1;			// set campaign tracking module (1=3Don|0=3Doff)=0A=
+var _ucto=3D"15768000";		// set timeout in seconds (6 month default)=0A=
+var _uccn=3D"utm_campaign";	// name=0A=
+var _ucmd=3D"utm_medium";		// medium (cpc|cpm|link|email|organic)=0A=
+var _ucsr=3D"utm_source";		// source=0A=
+var _uctr=3D"utm_term";		// term/keyword=0A=
+var _ucct=3D"utm_content";	// content=0A=
+var _ucid=3D"utm_id";		// id number=0A=
+var _ucno=3D"utm_nooverride";	// don't override=0A=
+=0A=
+//-- Auto/Organic Sources and Keywords=0A=
+var _uOsr=3Dnew Array();=0A=
+var _uOkw=3Dnew Array();=0A=
+_uOsr[0]=3D"google";	_uOkw[0]=3D"q";=0A=
+_uOsr[1]=3D"yahoo";	_uOkw[1]=3D"p";=0A=
+_uOsr[2]=3D"msn";		_uOkw[2]=3D"q";=0A=
+_uOsr[3]=3D"aol";		_uOkw[3]=3D"query";=0A=
+_uOsr[4]=3D"aol";		_uOkw[4]=3D"encquery";=0A=
+_uOsr[5]=3D"lycos";	_uOkw[5]=3D"query";=0A=
+_uOsr[6]=3D"ask";		_uOkw[6]=3D"q";=0A=
+_uOsr[7]=3D"altavista";	_uOkw[7]=3D"q";=0A=
+_uOsr[8]=3D"netscape";	_uOkw[8]=3D"query";=0A=
+_uOsr[9]=3D"cnn";	_uOkw[9]=3D"query";=0A=
+_uOsr[10]=3D"looksmart";	_uOkw[10]=3D"qt";=0A=
+_uOsr[11]=3D"about";	_uOkw[11]=3D"terms";=0A=
+_uOsr[12]=3D"mamma";	_uOkw[12]=3D"query";=0A=
+_uOsr[13]=3D"alltheweb";	_uOkw[13]=3D"q";=0A=
+_uOsr[14]=3D"gigablast";	_uOkw[14]=3D"q";=0A=
+_uOsr[15]=3D"voila";	_uOkw[15]=3D"rdata";=0A=
+_uOsr[16]=3D"virgilio";	_uOkw[16]=3D"qs";=0A=
+_uOsr[17]=3D"live";	_uOkw[17]=3D"q";=0A=
+_uOsr[18]=3D"baidu";	_uOkw[18]=3D"wd";=0A=
+_uOsr[19]=3D"alice";	_uOkw[19]=3D"qs";=0A=
+_uOsr[20]=3D"yandex";	_uOkw[20]=3D"text";=0A=
+_uOsr[21]=3D"najdi";	_uOkw[21]=3D"q";=0A=
+_uOsr[22]=3D"aol";	_uOkw[22]=3D"q";=0A=
+_uOsr[23]=3D"club-internet"; _uOkw[23]=3D"query";=0A=
+_uOsr[24]=3D"mama";	_uOkw[24]=3D"query";=0A=
+_uOsr[25]=3D"seznam";	_uOkw[25]=3D"q";=0A=
+_uOsr[26]=3D"search";	_uOkw[26]=3D"q";=0A=
+_uOsr[27]=3D"wp";	_uOkw[27]=3D"szukaj";=0A=
+_uOsr[28]=3D"onet";	_uOkw[28]=3D"qt";=0A=
+_uOsr[29]=3D"netsprint";	_uOkw[29]=3D"q";=0A=
+_uOsr[30]=3D"google.interia";	_uOkw[30]=3D"q";=0A=
+_uOsr[31]=3D"szukacz";	_uOkw[31]=3D"q";=0A=
+_uOsr[32]=3D"yam";	_uOkw[32]=3D"k";=0A=
+_uOsr[33]=3D"pchome";	_uOkw[33]=3D"q";=0A=
+_uOsr[34]=3D"kvasir";	_uOkw[34]=3D"searchExpr";=0A=
+_uOsr[35]=3D"sesam";	_uOkw[35]=3D"q";=0A=
+_uOsr[36]=3D"ozu"; _uOkw[36]=3D"q";=0A=
+_uOsr[37]=3D"terra"; _uOkw[37]=3D"query";=0A=
+_uOsr[38]=3D"nostrum"; _uOkw[38]=3D"query";=0A=
+_uOsr[39]=3D"mynet"; _uOkw[39]=3D"q";=0A=
+_uOsr[40]=3D"ekolay"; _uOkw[40]=3D"q";=0A=
+=0A=
+//-- Auto/Organic Keywords to Ignore=0A=
+var _uOno=3Dnew Array();=0A=
+//_uOno[0]=3D"urchin";=0A=
+//_uOno[1]=3D"urchin.com";=0A=
+//_uOno[2]=3D"www.urchin.com";=0A=
+=0A=
+//-- Referral domains to Ignore=0A=
+var _uRno=3Dnew Array();=0A=
+//_uRno[0]=3D".urchin.com";=0A=
+=0A=
+//-- **** Don't modify below this point ***=0A=
+var =
+_uff,_udh,_udt,_ubl=3D0,_udo=3D"",_uu,_ufns=3D0,_uns=3D0,_ur=3D"-",_ufno=3D=
+0,_ust=3D0,_ubd=3Ddocument,_udl=3D_ubd.location,_udlh=3D"",_uwv=3D"1.2";=0A=
+var _ugifpath2=3D"http://www.google-analytics.com/__utm.gif";=0A=
+if (_udl.hash) _udlh=3D_udl.href.substring(_udl.href.indexOf('#'));=0A=
+if (_udl.protocol=3D=3D"https:") =
+_ugifpath2=3D"https://ssl.google-analytics.com/__utm.gif";=0A=
+if (!_utcp || _utcp=3D=3D"") _utcp=3D"/";=0A=
+function urchinTracker(page) {=0A=
+ if (_udl.protocol=3D=3D"file:") return;=0A=
+ if (_uff && (!page || page=3D=3D"")) return;=0A=
+ var a,b,c,xx,v,z,k,x=3D"",s=3D"",f=3D0,nv=3D0;=0A=
+ var nx=3D" expires=3D"+_uNx()+";";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ _udh=3D_uDomain();=0A=
+ if (!_uVG()) return;=0A=
+ _uu=3DMath.round(Math.random()*2147483647);=0A=
+ _udt=3Dnew Date();=0A=
+ _ust=3DMath.round(_udt.getTime()/1000);=0A=
+ a=3Ddc.indexOf("__utma=3D"+_udh+".");=0A=
+ b=3Ddc.indexOf("__utmb=3D"+_udh);=0A=
+ c=3Ddc.indexOf("__utmc=3D"+_udh);=0A=
+ if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ if (_utimeout && _utimeout!=3D"") {=0A=
+  x=3Dnew Date(_udt.getTime()+(_utimeout*1000));=0A=
+  x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ }=0A=
+ if (_ulink) {=0A=
+  if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+  s+=3D_udl.search;=0A=
+  if(s && s!=3D"" && s.indexOf("__utma=3D")>=3D0) {=0A=
+   if (!(_uIN(a=3D_uGC(s,"__utma=3D","&")))) a=3D"-";=0A=
+   if (!(_uIN(b=3D_uGC(s,"__utmb=3D","&")))) b=3D"-";=0A=
+   if (!(_uIN(c=3D_uGC(s,"__utmc=3D","&")))) c=3D"-";=0A=
+   v=3D_uGC(s,"__utmv=3D","&");=0A=
+   z=3D_uGC(s,"__utmz=3D","&");=0A=
+   k=3D_uGC(s,"__utmk=3D","&");=0A=
+   xx=3D_uGC(s,"__utmx=3D","&");=0A=
+   if ((k*1) !=3D ((_uHash(a+b+c+xx+z+v)*1)+(_udh*1))) =
+{_ubl=3D1;a=3D"-";b=3D"-";c=3D"-";xx=3D"-";z=3D"-";v=3D"-";}=0A=
+   if (a!=3D"-" && b!=3D"-" && c!=3D"-") f=3D1;=0A=
+   else if(a!=3D"-") f=3D2;=0A=
+  }=0A=
+ }=0A=
+ if(f=3D=3D1) {=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+c+"; path=3D"+_utcp+";"+_udo;=0A=
+ } else if (f=3D=3D2) {=0A=
+  a=3D_uFixA(s,"&",_ust);=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ } else if (a>=3D0 && b>=3D0 && c>=3D0) {=0A=
+   b =3D _uGC(dc,"__utmb=3D"+_udh,";");=0A=
+   b =3D ("-" =3D=3D b) ? _udh : b;  =0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+ } else {=0A=
+  if (a>=3D0) a=3D_uFixA(_ubd.cookie,";",_ust);=0A=
+  else {=0A=
+   a=3D_udh+"."+_uu+"."+_ust+"."+_ust+"."+_ust+".1";=0A=
+   nv=3D1;=0A=
+  }=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ }=0A=
+ if (_ulink && xx && xx!=3D"" && xx!=3D"-") {=0A=
+   xx=3D_uUES(xx);=0A=
+   if (xx.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmx=3D"+xx+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ if (_ulink && v && v!=3D"" && v!=3D"-") {=0A=
+  v=3D_uUES(v);=0A=
+  if (v.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmv=3D"+v+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ var wc=3Dwindow;=0A=
+ var c=3D_ubd.cookie;=0A=
+ if(nv>0 && wc && wc.gaGlobal && !wc.gaGlobal.from_cookie){=0A=
+  var g=3Dwc.gaGlobal;=0A=
+  var ua=3Dc.split("__utma=3D")[1].split(";")[0].split(".");=0A=
+  if(g.sid)ua[4]=3Dg.sid;=0A=
+  ua[3]=3Dua[4];=0A=
+  if(g.vid){=0A=
+   var v=3Dg.vid.split(".");=0A=
+   ua[1]=3Dv[0];=0A=
+   ua[2]=3Dv[1];=0A=
+  }=0A=
+  _ubd.cookie=3D"__utma=3D"+ua.join(".")+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ _uInfo(page);=0A=
+ _ufns=3D0;=0A=
+ _ufno=3D0;=0A=
+ if (!page || page=3D=3D"") _uff=3D1;=0A=
+}=0A=
+function _uGH() {=0A=
+ var hid;=0A=
+ var wc=3Dwindow;=0A=
+ if (wc && wc.gaGlobal && wc.gaGlobal.hid) {=0A=
+  hid=3Dwc.gaGlobal.hid;=0A=
+ } else {=0A=
+  hid=3DMath.round(Math.random()*0x7fffffff);=0A=
+  if (!wc.gaGlobal) wc.gaGlobal=3D{};=0A=
+  wc.gaGlobal.hid=3Dhid;=0A=
+ }=0A=
+ return hid;=0A=
+}=0A=
+function _uInfo(page) {=0A=
+ var p,s=3D"",dm=3D"",pg=3D_udl.pathname+_udl.search;=0A=
+ if (page && page!=3D"") pg=3D_uES(page,1);=0A=
+ _ur=3D_ubd.referrer;=0A=
+ if (!_ur || _ur=3D=3D"") { _ur=3D"-"; }=0A=
+ else {=0A=
+  dm=3D_ubd.domain;=0A=
+  if(_utcp && _utcp!=3D"/") dm+=3D_utcp;=0A=
+  p=3D_ur.indexOf(dm);=0A=
+  if ((p>=3D0) && (p<=3D8)) { _ur=3D"0"; }=0A=
+  if (_ur.indexOf("[")=3D=3D0 && =
+_ur.lastIndexOf("]")=3D=3D(_ur.length-1)) { _ur=3D"-"; }=0A=
+ }=0A=
+ s+=3D"&utmn=3D"+_uu;=0A=
+ if (_ufsc) s+=3D_uBInfo();=0A=
+ if (_uctm) s+=3D_uCInfo();=0A=
+ if (_utitle && _ubd.title && _ubd.title!=3D"") =
+s+=3D"&utmdt=3D"+_uES(_ubd.title);=0A=
+ if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+ if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+ s+=3D"&utmhid=3D"+_uGH();=0A=
+ s+=3D"&utmr=3D"+_ur;=0A=
+ s+=3D"&utmp=3D"+pg;=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uVoid() { return; }=0A=
+function _uCInfo() {=0A=
+ if (!_ucto || _ucto=3D=3D"") { _ucto=3D"15768000"; }=0A=
+ if (!_uVG()) return;=0A=
+ var =
+c=3D"",t=3D"-",t2=3D"-",t3=3D"-",o=3D0,cs=3D0,cn=3D0,i=3D0,z=3D"-",s=3D""=
+;=0A=
+ if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+ s+=3D_udl.search;=0A=
+ var x=3Dnew Date(_udt.getTime()+(_ucto*1000));=0A=
+ var dc=3D_ubd.cookie;=0A=
+ x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ if (_ulink && !_ubl) {=0A=
+  z=3D_uUES(_uGC(s,"__utmz=3D","&"));=0A=
+  if (z!=3D"-" && z.indexOf(";")=3D=3D-1) { =
+_ubd.cookie=3D"__utmz=3D"+z+"; path=3D"+_utcp+";"+x+_udo; return ""; }=0A=
+ }=0A=
+ z=3Ddc.indexOf("__utmz=3D"+_udh+".");=0A=
+ if (z>-1) { z=3D_uGC(dc,"__utmz=3D"+_udh+".",";"); }=0A=
+ else { z=3D"-"; }=0A=
+ t=3D_uGC(s,_ucid+"=3D","&");=0A=
+ t2=3D_uGC(s,_ucsr+"=3D","&");=0A=
+ t3=3D_uGC(s,"gclid=3D","&");=0A=
+ if ((t!=3D"-" && t!=3D"") || (t2!=3D"-" && t2!=3D"") || (t3!=3D"-" && =
+t3!=3D"")) {=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"utmcid=3D"+_uEC(t);=0A=
+  if (t2!=3D"-" && t2!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmcsr=3D"+_uEC(t2); }=0A=
+  if (t3!=3D"-" && t3!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmgclid=3D"+_uEC(t3); }=0A=
+  t=3D_uGC(s,_uccn+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmccn=3D"+_uEC(t);=0A=
+  else c+=3D"|utmccn=3D(not+set)";=0A=
+  t=3D_uGC(s,_ucmd+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcmd=3D"+_uEC(t);=0A=
+  else  c+=3D"|utmcmd=3D(not+set)";=0A=
+  t=3D_uGC(s,_uctr+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmctr=3D"+_uEC(t);=0A=
+  else { t=3D_uOrg(1); if (t!=3D"-" && t!=3D"") =
+c+=3D"|utmctr=3D"+_uEC(t); }=0A=
+  t=3D_uGC(s,_ucct+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcct=3D"+_uEC(t);=0A=
+  t=3D_uGC(s,_ucno+"=3D","&");=0A=
+  if (t=3D=3D"1") o=3D1;=0A=
+  if (z!=3D"-" && o=3D=3D1) return "";=0A=
+ }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { c=3D_uOrg(); if (z!=3D"-" && =
+_ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { if (_ufns=3D=3D1)  c=3D_uRef(); if =
+(z!=3D"-" && _ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") {=0A=
+  if (z=3D=3D"-" && _ufns=3D=3D1) { =
+c=3D"utmccn=3D(direct)|utmcsr=3D(direct)|utmcmd=3D(none)"; }=0A=
+  if (c=3D=3D"-" || c=3D=3D"") return "";=0A=
+ }=0A=
+ if (z!=3D"-") {=0A=
+  i=3Dz.indexOf(".");=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  t=3Dz.substring(i+1,z.length);=0A=
+  if (t.toLowerCase()=3D=3Dc.toLowerCase()) cs=3D1;=0A=
+  t=3Dz.substring(0,i);=0A=
+  if ((i=3Dt.lastIndexOf(".")) > -1) {=0A=
+   t=3Dt.substring(i+1,t.length);=0A=
+   cn=3D(t*1);=0A=
+  }=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) {=0A=
+  t=3D_uGC(dc,"__utma=3D"+_udh+".",";");=0A=
+  if ((i=3Dt.lastIndexOf(".")) > 9) {=0A=
+   _uns=3Dt.substring(i+1,t.length);=0A=
+   _uns=3D(_uns*1);=0A=
+  }=0A=
+  cn++;=0A=
+  if (_uns=3D=3D0) _uns=3D1;=0A=
+  _ubd.cookie=3D"__utmz=3D"+_udh+"."+_ust+"."+_uns+"."+cn+"."+c+"; =
+path=3D"+_utcp+"; "+x+_udo;=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) return "&utmcn=3D1";=0A=
+ else return "&utmcr=3D1";=0A=
+}=0A=
+function _uRef() {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k,n;=0A=
+ if ((i=3D_ur.indexOf("://"))<0 || _uGCse()) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  k=3Dh.substring(h.indexOf("/"),h.length);=0A=
+  if (k.indexOf("?") > -1) k=3Dk.substring(0,k.indexOf("?"));=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ h=3Dh.toLowerCase();=0A=
+ n=3Dh;=0A=
+ if ((i=3Dn.indexOf(":")) > -1) n=3Dn.substring(0,i);=0A=
+ for (var ii=3D0;ii<_uRno.length;ii++) {=0A=
+  if ((i=3Dn.indexOf(_uRno[ii].toLowerCase())) > -1 && =
+n.length=3D=3D(i+_uRno[ii].length)) { _ufno=3D1; break; }=0A=
+ }=0A=
+ if (h.indexOf("www.")=3D=3D0) h=3Dh.substring(4,h.length);=0A=
+ return =
+"utmccn=3D(referral)|utmcsr=3D"+_uEC(h)+"|"+"utmcct=3D"+_uEC(k)+"|utmcmd=3D=
+referral";=0A=
+}=0A=
+function _uOrg(t) {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k;=0A=
+ if ((i=3D_ur.indexOf("://"))<0 || _uGCse()) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ for (var ii=3D0;ii<_uOsr.length;ii++) {=0A=
+  if (h.toLowerCase().indexOf(_uOsr[ii].toLowerCase()) > -1) {=0A=
+   if ((i=3D_ur.indexOf("?"+_uOkw[ii]+"=3D")) > -1 || =
+(i=3D_ur.indexOf("&"+_uOkw[ii]+"=3D")) > -1) {=0A=
+    k=3D_ur.substring(i+_uOkw[ii].length+2,_ur.length);=0A=
+    if ((i=3Dk.indexOf("&")) > -1) k=3Dk.substring(0,i);=0A=
+    for (var yy=3D0;yy<_uOno.length;yy++) {=0A=
+     if (_uOno[yy].toLowerCase()=3D=3Dk.toLowerCase()) { _ufno=3D1; =
+break; }=0A=
+    }=0A=
+    if (t) return _uEC(k);=0A=
+    else return =
+"utmccn=3D(organic)|utmcsr=3D"+_uEC(_uOsr[ii])+"|"+"utmctr=3D"+_uEC(k)+"|=
+utmcmd=3Dorganic";=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+ return "";=0A=
+}=0A=
+function _uGCse() {=0A=
+ var h,p;=0A=
+ h=3Dp=3D_ur.split("://")[1];=0A=
+ if(h.indexOf("/")>-1) {=0A=
+  h=3Dh.split("/")[0];=0A=
+  p=3Dp.substring(p.indexOf("/")+1,p.length);=0A=
+ }=0A=
+ if(p.indexOf("?")>-1) {=0A=
+  p=3Dp.split("?")[0];=0A=
+ }=0A=
+ if(h.toLowerCase().indexOf("google")>-1) {=0A=
+  if(_ur.indexOf("?q=3D")>-1 || _ur.indexOf("&q=3D")>-1) {=0A=
+   if (p.toLowerCase().indexOf("cse")>-1) {=0A=
+    return true;=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+}=0A=
+function _uBInfo() {=0A=
+ var sr=3D"-",sc=3D"-",ul=3D"-",fl=3D"-",cs=3D"-",je=3D1;=0A=
+ var n=3Dnavigator;=0A=
+ if (self.screen) {=0A=
+  sr=3Dscreen.width+"x"+screen.height;=0A=
+  sc=3Dscreen.colorDepth+"-bit";=0A=
+ } else if (self.java) {=0A=
+  var j=3Djava.awt.Toolkit.getDefaultToolkit();=0A=
+  var s=3Dj.getScreenSize();=0A=
+  sr=3Ds.width+"x"+s.height;=0A=
+ }=0A=
+ if (n.language) { ul=3Dn.language.toLowerCase(); }=0A=
+ else if (n.browserLanguage) { ul=3Dn.browserLanguage.toLowerCase(); }=0A=
+ je=3Dn.javaEnabled()?1:0;=0A=
+ if (_uflash) fl=3D_uFlash();=0A=
+ if (_ubd.characterSet) cs=3D_uES(_ubd.characterSet);=0A=
+ else if (_ubd.charset) cs=3D_uES(_ubd.charset);=0A=
+ return =
+"&utmcs=3D"+cs+"&utmsr=3D"+sr+"&utmsc=3D"+sc+"&utmul=3D"+ul+"&utmje=3D"+j=
+e+"&utmfl=3D"+fl;=0A=
+}=0A=
+function __utmSetTrans() {=0A=
+ var e;=0A=
+ if (_ubd.getElementById) e=3D_ubd.getElementById("utmtrans");=0A=
+ else if (_ubd.utmform && _ubd.utmform.utmtrans) =
+e=3D_ubd.utmform.utmtrans;=0A=
+ if (!e) return;=0A=
+ var l=3De.value.split("UTM:");=0A=
+ var i,i2,c;=0A=
+ if (_userv=3D=3D0 || _userv=3D=3D2) i=3Dnew Array();=0A=
+ if (_userv=3D=3D1 || _userv=3D=3D2) { i2=3Dnew Array(); c=3D_uGCS(); }=0A=
+=0A=
+ for (var ii=3D0;ii<l.length;ii++) {=0A=
+  l[ii]=3D_uTrim(l[ii]);=0A=
+  if (l[ii].charAt(0)!=3D'T' && l[ii].charAt(0)!=3D'I') continue;=0A=
+  var r=3DMath.round(Math.random()*2147483647);=0A=
+  if (!_utsp || _utsp=3D=3D"") _utsp=3D"|";=0A=
+  var f=3Dl[ii].split(_utsp),s=3D"";=0A=
+  if (f[0].charAt(0)=3D=3D'T') {=0A=
+   s=3D"&utmt=3Dtran"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmtst=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmtto=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmttx=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmtsp=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmtci=3D"+_uES(f[6]);=0A=
+   f[7]=3D_uTrim(f[7]); if(f[7]&&f[7]!=3D"") =
+s+=3D"&utmtrg=3D"+_uES(f[7]);=0A=
+   f[8]=3D_uTrim(f[8]); if(f[8]&&f[8]!=3D"") =
+s+=3D"&utmtco=3D"+_uES(f[8]);=0A=
+  } else {=0A=
+   s=3D"&utmt=3Ditem"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmipc=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmipn=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmiva=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmipr=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmiqt=3D"+_uES(f[6]);=0A=
+  }=0A=
+  if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+  if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+=0A=
+  if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+   i[ii]=3Dnew Image(1,1);=0A=
+   i[ii].src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+   i[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+  if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+   i2[ii]=3Dnew Image(1,1);=0A=
+   =
+i2[ii].src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D=
+"+c;=0A=
+   i2[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uFlash() {=0A=
+ var f=3D"-",n=3Dnavigator;=0A=
+ if (n.plugins && n.plugins.length) {=0A=
+  for (var ii=3D0;ii<n.plugins.length;ii++) {=0A=
+   if (n.plugins[ii].name.indexOf('Shockwave Flash')!=3D-1) {=0A=
+    f=3Dn.plugins[ii].description.split('Shockwave Flash ')[1];=0A=
+    break;=0A=
+   }=0A=
+  }=0A=
+ } else {=0A=
+  var fl;=0A=
+  try {=0A=
+   fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");=0A=
+   f =3D fl.GetVariable("$version");=0A=
+  } catch(e) {}=0A=
+  if (f =3D=3D "-") {=0A=
+   try {=0A=
+    fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");=0A=
+    f =3D "WIN 6,0,21,0";=0A=
+    fl.AllowScriptAccess =3D "always";=0A=
+    f =3D fl.GetVariable("$version");=0A=
+   } catch(e) {}=0A=
+  }=0A=
+  if (f =3D=3D "-") {=0A=
+   try {=0A=
+    fl =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash");=0A=
+    f =3D fl.GetVariable("$version");=0A=
+   } catch(e) {}=0A=
+  }=0A=
+  if (f !=3D "-") {=0A=
+   f =3D f.split(" ")[1].split(",");=0A=
+   f =3D f[0] + "." + f[1] + " r" + f[2];=0A=
+  }=0A=
+ }=0A=
+ return f;=0A=
+}=0A=
+function __utmLinkerUrl(l,h) {=0A=
+ var p,k,a=3D"-",b=3D"-",c=3D"-",x=3D"-",z=3D"-",v=3D"-";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ var iq =3D l.indexOf("?");=0A=
+ var ih =3D l.indexOf("#");=0A=
+ var url=3Dl;=0A=
+ if (dc) {=0A=
+  a=3D_uES(_uGC(dc,"__utma=3D"+_udh+".",";"));=0A=
+  b=3D_uES(_uGC(dc,"__utmb=3D"+_udh,";"));=0A=
+  c=3D_uES(_uGC(dc,"__utmc=3D"+_udh,";"));=0A=
+  x=3D_uES(_uGC(dc,"__utmx=3D"+_udh,";"));=0A=
+  z=3D_uES(_uGC(dc,"__utmz=3D"+_udh+".",";"));=0A=
+  v=3D_uES(_uGC(dc,"__utmv=3D"+_udh+".",";"));=0A=
+  k=3D(_uHash(a+b+c+x+z+v)*1)+(_udh*1);=0A=
+  =
+p=3D"__utma=3D"+a+"&__utmb=3D"+b+"&__utmc=3D"+c+"&__utmx=3D"+x+"&__utmz=3D=
+"+z+"&__utmv=3D"+v+"&__utmk=3D"+k;=0A=
+ }=0A=
+ if (p) {=0A=
+  if (h && ih>-1) return;=0A=
+  if (h) { url=3Dl+"#"+p; }=0A=
+  else {=0A=
+   if (iq=3D=3D-1 && ih=3D=3D-1) url=3Dl+"?"+p;=0A=
+   else if (ih=3D=3D-1) url=3Dl+"&"+p;=0A=
+   else if (iq=3D=3D-1) url=3Dl.substring(0,ih-1)+"?"+p+l.substring(ih);=0A=
+   else url=3Dl.substring(0,ih-1)+"&"+p+l.substring(ih);=0A=
+  }=0A=
+ }=0A=
+ return url;=0A=
+}=0A=
+function __utmLinker(l,h) {=0A=
+ if (!_ulink || !l || l=3D=3D"") return;=0A=
+ _udl.href=3D__utmLinkerUrl(l,h);=0A=
+}=0A=
+function __utmLinkPost(f,h) {=0A=
+ if (!_ulink || !f || !f.action) return;=0A=
+ f.action=3D__utmLinkerUrl(f.action, h);=0A=
+ return;=0A=
+}=0A=
+function __utmSetVar(v) {=0A=
+ if (!v || v=3D=3D"") return;=0A=
+ if (!_udo || _udo =3D=3D "") {=0A=
+  _udh=3D_uDomain();=0A=
+  if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ }=0A=
+ if (!_uVG()) return;=0A=
+ var r=3DMath.round(Math.random() * 2147483647);=0A=
+ _ubd.cookie=3D"__utmv=3D"+_udh+"."+_uES(v)+"; path=3D"+_utcp+"; =
+expires=3D"+_uNx()+";"+_udo;=0A=
+ var s=3D"&utmt=3Dvar&utmn=3D"+r;=0A=
+ if (_usample && _usample !=3D 100) s+=3D"&utmsp=3D"+_uES(_usample);=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+}=0A=
+function _uGCS() {=0A=
+ var t,c=3D"",dc=3D_ubd.cookie;=0A=
+ if ((t=3D_uGC(dc,"__utma=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utma=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmx=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmx=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmz=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utmz=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmv=3D"+_udh+".",";"))!=3D"-") =
+c+=3D_uES("__utmv=3D"+t+";");=0A=
+ if (c.charAt(c.length-1)=3D=3D"+") c=3Dc.substring(0,c.length-1);=0A=
+ return c;=0A=
+}=0A=
+function _uGC(l,n,s) {=0A=
+ if (!l || l=3D=3D"" || !n || n=3D=3D"" || !s || s=3D=3D"") return "-";=0A=
+ var i,i2,i3,c=3D"-";=0A=
+ i=3Dl.indexOf(n);=0A=
+ i3=3Dn.indexOf("=3D")+1;=0A=
+ if (i > -1) {=0A=
+  i2=3Dl.indexOf(s,i); if (i2 < 0) { i2=3Dl.length; }=0A=
+  c=3Dl.substring((i+i3),i2);=0A=
+ }=0A=
+ return c;=0A=
+}=0A=
+function _uDomain() {=0A=
+ if (!_udn || _udn=3D=3D"" || _udn=3D=3D"none") { _udn=3D""; return 1; }=0A=
+ if (_udn=3D=3D"auto") {=0A=
+  var d=3D_ubd.domain;=0A=
+  if (d.substring(0,4)=3D=3D"www.") {=0A=
+   d=3Dd.substring(4,d.length);=0A=
+  }=0A=
+  _udn=3Dd;=0A=
+ }=0A=
+ _udn =3D _udn.toLowerCase(); =0A=
+ if (_uhash=3D=3D"off") return 1;=0A=
+ return _uHash(_udn);=0A=
+}=0A=
+function _uHash(d) {=0A=
+ if (!d || d=3D=3D"") return 1;=0A=
+ var h=3D0,g=3D0;=0A=
+ for (var i=3Dd.length-1;i>=3D0;i--) {=0A=
+  var c=3DparseInt(d.charCodeAt(i));=0A=
+  h=3D((h << 6) & 0xfffffff) + c + (c << 14);=0A=
+  if ((g=3Dh & 0xfe00000)!=3D0) h=3D(h ^ (g >> 21));=0A=
+ }=0A=
+ return h;=0A=
+}=0A=
+function _uFixA(c,s,t) {=0A=
+ if (!c || c=3D=3D"" || !s || s=3D=3D"" || !t || t=3D=3D"") return "-";=0A=
+ var a=3D_uGC(c,"__utma=3D"+_udh+".",s);=0A=
+ var lt=3D0,i=3D0;=0A=
+ if ((i=3Da.lastIndexOf(".")) > 9) {=0A=
+  _uns=3Da.substring(i+1,a.length);=0A=
+  _uns=3D(_uns*1)+1;=0A=
+  a=3Da.substring(0,i);=0A=
+  if ((i=3Da.lastIndexOf(".")) > 7) {=0A=
+   lt=3Da.substring(i+1,a.length);=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  if ((i=3Da.lastIndexOf(".")) > 5) {=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  a+=3D"."+lt+"."+t+"."+_uns;=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+function _uTrim(s) {=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  while ((s.charAt(0)=3D=3D' ') || (s.charAt(0)=3D=3D'\n') || =
+(s.charAt(0,1)=3D=3D'\r')) s=3Ds.substring(1,s.length);=0A=
+  while ((s.charAt(s.length-1)=3D=3D' ') || =
+(s.charAt(s.length-1)=3D=3D'\n') || (s.charAt(s.length-1)=3D=3D'\r')) =
+s=3Ds.substring(0,s.length-1);=0A=
+  return s;=0A=
+}=0A=
+function _uEC(s) {=0A=
+  var n=3D"";=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  for (var i=3D0;i<s.length;i++) {if (s.charAt(i)=3D=3D" ") n+=3D"+"; =
+else n+=3Ds.charAt(i);}=0A=
+  return n;=0A=
+}=0A=
+function __utmVisitorCode(f) {=0A=
+ var r=3D0,t=3D0,i=3D0,i2=3D0,m=3D31;=0A=
+ var a=3D_uGC(_ubd.cookie,"__utma=3D"+_udh+".",";");=0A=
+ if ((i=3Da.indexOf(".",0))<0) return;=0A=
+ if ((i2=3Da.indexOf(".",i+1))>0) r=3Da.substring(i+1,i2); else return =
+"";  =0A=
+ if ((i=3Da.indexOf(".",i2+1))>0) t=3Da.substring(i2+1,i); else return =
+"";  =0A=
+ if (f) {=0A=
+  return r;=0A=
+ } else {=0A=
+  var c=3Dnew =
+Array('A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T'=
+,'U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9');=0A=
+  return =
+c[r>>28&m]+c[r>>23&m]+c[r>>18&m]+c[r>>13&m]+"-"+c[r>>8&m]+c[r>>3&m]+c[((r=
+&7)<<2)+(t>>30&3)]+c[t>>25&m]+c[t>>20&m]+"-"+c[t>>15&m]+c[t>>10&m]+c[t>>5=
+&m]+c[t&m];=0A=
+ }=0A=
+}=0A=
+function _uIN(n) {=0A=
+ if (!n) return false;=0A=
+ for (var i=3D0;i<n.length;i++) {=0A=
+  var c=3Dn.charAt(i);=0A=
+  if ((c<"0" || c>"9") && (c!=3D".")) return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uES(s,u) {=0A=
+ if (typeof(encodeURIComponent) =3D=3D 'function') {=0A=
+  if (u) return encodeURI(s);=0A=
+  else return encodeURIComponent(s);=0A=
+ } else {=0A=
+  return escape(s);=0A=
+ }=0A=
+}=0A=
+function _uUES(s) {=0A=
+ if (typeof(decodeURIComponent) =3D=3D 'function') {=0A=
+  return decodeURIComponent(s);=0A=
+ } else {=0A=
+  return unescape(s);=0A=
+ }=0A=
+}=0A=
+function _uVG() {=0A=
+ if((_udn.indexOf("www.google.") =3D=3D 0 || _udn.indexOf(".google.") =
+=3D=3D 0 || _udn.indexOf("google.") =3D=3D 0) && _utcp=3D=3D'/' && =
+_udn.indexOf("google.org")=3D=3D-1) {=0A=
+  return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uSP() {=0A=
+ var s=3D100;=0A=
+ if (_usample) s=3D_usample;=0A=
+ if(s>=3D100 || s<=3D0) return true;=0A=
+ return ((__utmVisitorCode(1)%10000)<(s*100));=0A=
+}=0A=
+function urchinPathCopy(p){=0A=
+ var d=3Ddocument,nx,tx,sx,i,c,cs,t,h,o;=0A=
+ cs=3Dnew Array("a","b","c","v","x","z");=0A=
+ h=3D_uDomain(); if (_udn && _udn!=3D"") o=3D" domain=3D"+_udn+";";=0A=
+ nx=3D_uNx()+";";=0A=
+ tx=3Dnew Date(); tx.setTime(tx.getTime()+(_utimeout*1000));=0A=
+ tx=3Dtx.toGMTString()+";";=0A=
+ sx=3Dnew Date(); sx.setTime(sx.getTime()+(_ucto*1000));=0A=
+ sx=3Dsx.toGMTString()+";";=0A=
+ for (i=3D0;i<6;i++){=0A=
+  t=3D" expires=3D";=0A=
+  if (i=3D=3D1) t+=3Dtx; else if (i=3D=3D2) t=3D""; else if (i=3D=3D5) =
+t+=3Dsx; else t+=3Dnx;=0A=
+  c=3D_uGC(d.cookie,"__utm"+cs[i]+"=3D"+h,";");=0A=
+  if (c!=3D"-") d.cookie=3D"__utm"+cs[i]+"=3D"+c+"; path=3D"+p+";"+t+o;=0A=
+ }=0A=
+}=0A=
+function _uCO() {=0A=
+ if (!_utk || _utk=3D=3D"" || _utk.length<10) return;=0A=
+ var d=3D'www.google.com';=0A=
+ if (_utk.charAt(0)=3D=3D'!') d=3D'analytics.corp.google.com';=0A=
+ _ubd.cookie=3D"GASO=3D"+_utk+"; path=3D"+_utcp+";"+_udo;=0A=
+ var sc=3Ddocument.createElement('script');=0A=
+ sc.type=3D'text/javascript';=0A=
+ sc.id=3D"_gasojs";=0A=
+ =
+sc.src=3D'https://'+d+'/analytics/reporting/overlay_js?gaso=3D'+_utk+'&'+=
+Math.random();=0A=
+ document.getElementsByTagName('head')[0].appendChild(sc);  =0A=
+}=0A=
+function _uGT() {=0A=
+ var h=3Dlocation.hash, a;=0A=
+ if (h && h!=3D"" && h.indexOf("#gaso=3D")=3D=3D0) {=0A=
+  a=3D_uGC(h,"gaso=3D","&");=0A=
+ } else {=0A=
+  a=3D_uGC(_ubd.cookie,"GASO=3D",";");=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+var _utk=3D_uGT();=0A=
+if (_utk && _utk!=3D"" && _utk.length>10 && _utk.indexOf("=3D")=3D=3D-1) =
+{=0A=
+ if (window.addEventListener) {=0A=
+  window.addEventListener('load', _uCO, false); =0A=
+ } else if (window.attachEvent) { =0A=
+  window.attachEvent('onload', _uCO);=0A=
+ }=0A=
+}=0A=
+=0A=
+function _uNx() {=0A=
+  return (new Date((new Date()).getTime()+63072000000)).toGMTString();=0A=
+}=0A=
+
+------=_NextPart_000_0000_01C8DB83.A98CB9F0--
