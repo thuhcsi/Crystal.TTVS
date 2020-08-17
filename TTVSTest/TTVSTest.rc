@@ -129,7 +129,9 @@ BEGIN
     END
     POPUP "TTVS"
     BEGIN
-        MENUITEM "Generate FLV",                ID_TTS_GEN_FLV
+        MENUITEM "Mandarin",                    ID_TTS_MANDARIN
+        MENUITEM "Cantonese",                   ID_TTS_CANTONESE
+        MENUITEM "English",                     ID_TTS_ENGLISH
         MENUITEM SEPARATOR
         MENUITEM "Screen Animation",            ID_TTS_DISP_ANIMATION
         MENUITEM "Pause / Resume",              ID_TTVS_PAUSE

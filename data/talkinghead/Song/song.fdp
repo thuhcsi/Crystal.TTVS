@@ -10,7 +10,7 @@
         <!--FAPU (Facial Animation Parameter Units) for the model-->
         <fapu ES0="35.3143" IRISD0="5.66434" ENS0="25.5803" MNS0="13.9485" MW0="24.9496" />
         <!--Global Translation info for the whole face-->
-        <translation x="0" y="30" z="-2500" />
+        <translation x="0" y="0" z="-2500" />
         <!--Global Rotation info for the whole face-->
         <rotation axis_x="0" axis_y="0" axis_z="0" axis_angle="0" />
     </head>
