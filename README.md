@@ -11,7 +11,7 @@ The avatar model is parameterized according to the MPEG-4 facial animation stand
 * Platform independent framework for both stationary and embedded applications
 
 <p align="center">
-  <img width="860" src="./TTVS/docs/framework.png"/>
+  <img width="700" src="./TTVS/docs/framework.jpg"/>
 </p>
 
 ### Reference
@@ -34,11 +34,11 @@ The engine supports TTVS in (but not limited to) the following languages: Chines
 It is also possible to run the TTVS engine on different platforms, as the following figures illustrate.
 
 <p align="center">
-  <img width="670" src="./TTVS/docs/Crystal-Win.png"/>
+  <img width="500" src="./TTVS/docs/Crystal-Win.jpg"/>
 </p>
 
 <p align="center">
-  <img width="961" src="./TTVS/docs/Crystal-Android.png"/>
+  <img width="500" src="./TTVS/docs/Crystal-Android.jpg"/>
 </p>
 
 ### Support of Expressive Head Animation and Facial Expression
@@ -52,7 +52,7 @@ Six basic expressions of the 3D avatar:
 Head movement on the 3D avatar:
 
 <p align="center">
-  <img width="537" src="./TTVS/docs/headmovement.png"/>
+  <img width="500" src="./TTVS/docs/headmovement.jpg"/>
 </p>
 
 ### Compiling the Projects
@@ -91,6 +91,6 @@ Head movement on the 3D avatar:
    
 ### References
 
-* Motion Pictures Expert Group, ISO/IEC 14496-2:1999/Amd. 1: 2000(E). International Standard, Information Technology ¨C Coding of Audio-Visual Objects. Part 2: Visual; Amendment 1: Visual Extensions. 
-* Balci, K., ¡°Xface: MPEG-4 based Open Source Toolkit for 3D Facial Animation¡±, [in] *Advance Visual Interfaces*, 399-402, 2004.
+* Motion Pictures Expert Group, ISO/IEC 14496-2:1999/Amd. 1: 2000(E). International Standard, Information Technology - Coding of Audio-Visual Objects. Part 2: Visual; Amendment 1: Visual Extensions. 
+* Balci, K., "Xface: MPEG-4 based Open Source Toolkit for 3D Facial Animation", [in] *Advance Visual Interfaces*, 399-402, 2004.
 * [Xface 1.0 open source tools](http://xface.fbk.eu/)
