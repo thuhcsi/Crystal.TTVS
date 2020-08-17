@@ -44,6 +44,7 @@ protected:
     AnimationPlayer *m_pPlayer;
     CString          m_strModelPath;
 	BOOL             m_bDragging;
+    BOOL             m_bMandarin;
     BOOL             m_bCantonese;
     BOOL             m_bEnglish;
 
@@ -57,6 +58,7 @@ public:
     afx_msg BOOL OnEraseBkgnd(CDC* pDC);
 public:
     afx_msg void OnGeneratFLV();
+    afx_msg void OnTTVSMandarin();
     afx_msg void OnTTVSCantonese();
     afx_msg void OnTTVSEnglish();
     afx_msg void OnTTVSAnimation();

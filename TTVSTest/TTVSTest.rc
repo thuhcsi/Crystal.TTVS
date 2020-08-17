@@ -86,6 +86,7 @@ BEGIN
     SEPARATOR
     BUTTON      ID_TTS_ENGLISH
     BUTTON      ID_TTS_CANTONESE
+    BUTTON      ID_TTS_MANDARIN
     SEPARATOR
     BUTTON      ID_TTS_DISP_ANIMATION
     BUTTON      ID_TTVS_PAUSE
@@ -352,14 +353,15 @@ STRINGTABLE
 BEGIN
     ID_TTS_GEN_FLV          "Generating FLV file ...\nGenerate FLV"
     ID_TTS_DISP_ANIMATION   "Display the talking head animation\nDisplay animation"
-    ID_TTS_CANTONESE        "Switch between Cantonese and Putonghua\nSwitch language"
+    ID_TTS_MANDARIN         "Switch Mandarin on or off\nSwitch Mandarin"
+    ID_TTS_CANTONESE        "Switch Cantonese on or off\nSwitch Cantonese"
+    ID_TTS_ENGLISH          "Switch English on or off\nSwitch English"
     ID_TTVS_PAUSE           "Pause or resume the talking head animation\nPause/Resume"
     ID_TTVS_RESUME          "Resume the talking head animation\nResume"
     ID_TTVS_STOP            "Stop the talking head animation\nStop"
     ID_HEADMODEL_ZOOM       "Zoom the model\nZoom"
     ID_HEADMODEL_PAN        "Pan the model\nPan"
     ID_HEADMODEL_ROTATE     "Rotate the model\nRotate"
-    ID_TTS_ENGLISH          "Switch English on or off\nSwitch English"
 END
 
 #endif    // English (United States) resources

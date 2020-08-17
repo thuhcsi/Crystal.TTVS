@@ -31,6 +31,7 @@ BEGIN_MESSAGE_MAP(CTTVSTestView, CView)
     ON_WM_ERASEBKGND()
     ON_COMMAND(ID_TTS_GEN_FLV, &CTTVSTestView::OnGeneratFLV)
     ON_COMMAND(ID_TTS_DISP_ANIMATION, &CTTVSTestView::OnTTVSAnimation)
+    ON_COMMAND(ID_TTS_MANDARIN, &CTTVSTestView::OnTTVSMandarin)
     ON_COMMAND(ID_TTS_CANTONESE, &CTTVSTestView::OnTTVSCantonese)
     ON_COMMAND(ID_TTS_ENGLISH, &CTTVSTestView::OnTTVSEnglish)
     ON_COMMAND(ID_TTVS_PAUSE, &CTTVSTestView::OnTTVSPause)
@@ -51,6 +52,7 @@ CTTVSTestView::CTTVSTestView()
     m_pTalkingHead = NULL;
     m_pPlayer = NULL;
 	m_bDragging = FALSE;
+    m_bMandarin = TRUE;
     m_bCantonese = FALSE;
     m_bEnglish = FALSE;
 }
@@ -235,16 +237,37 @@ void CTTVSTestView::OnTTVSStop()
     m_pPlayer->stop();
 }
 
+void CTTVSTestView::OnTTVSMandarin()
+{
+    // TODO: Add your command handler code here
+    if (!m_bMandarin)
+    {
+        m_bMandarin = TRUE;
+        m_bCantonese = FALSE;
+        m_bEnglish = FALSE;
+    }
+}
+
 void CTTVSTestView::OnTTVSCantonese()
 {
     // TODO: Add your command handler code here
-    m_bCantonese = !m_bCantonese;
+    if (!m_bCantonese)
+    {
+        m_bMandarin = FALSE;
+        m_bCantonese = TRUE;
+        m_bEnglish = FALSE;
+    }
 }
 
 void CTTVSTestView::OnTTVSEnglish()
 {
     // TODO: Add your command handler code here
-    m_bEnglish = !m_bEnglish;
+    if (!m_bEnglish)
+    {
+        m_bMandarin = FALSE;
+        m_bCantonese = FALSE;
+        m_bEnglish = TRUE;
+    }
 }
 
 void CTTVSTestView::OnUpdateCommandUI(CCmdUI *pCmdUI)
@@ -257,6 +280,10 @@ void CTTVSTestView::OnUpdateCommandUI(CCmdUI *pCmdUI)
         break;
     case ID_TTS_DISP_ANIMATION:
         pCmdUI->Enable(m_pTalkingHead->isLoaded() && m_pPlayer->getStatus() == AnimationPlayer::IDLE);
+        break;
+    case ID_TTS_MANDARIN:
+        pCmdUI->Enable(m_pTalkingHead->isLoaded() && m_pPlayer->getStatus() == AnimationPlayer::IDLE);
+        pCmdUI->SetCheck(m_bMandarin);
         break;
     case ID_TTS_CANTONESE:
         pCmdUI->Enable(m_pTalkingHead->isLoaded() && m_pPlayer->getStatus() == AnimationPlayer::IDLE);
